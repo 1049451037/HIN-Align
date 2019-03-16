@@ -7,7 +7,6 @@ import tensorflow as tf
 from utils import *
 from metrics import *
 from models import GCN_Align
-from sklearn.decomposition import PCA
 
 # Set random seed
 seed = 12306
@@ -23,9 +22,9 @@ flags.DEFINE_integer('epochs', 2000, 'Number of epochs to train.')
 flags.DEFINE_float('dropout', 0., 'Dropout rate (1 - keep probability).')
 flags.DEFINE_float('gamma', 3.0, 'Hyper-parameter for margin based loss.')
 flags.DEFINE_integer('k', 5, 'Number of negative samples for each positive seed.')
-flags.DEFINE_float('beta', 0.7, 'Weight for structure embeddings.')
+flags.DEFINE_float('beta', 0.9, 'Weight for structure embeddings.')
 flags.DEFINE_integer('se_dim', 200, 'Dimension for SE.')
-flags.DEFINE_integer('ae_dim', 500, 'Dimension for AE.')
+flags.DEFINE_integer('ae_dim', 100, 'Dimension for AE.')
 flags.DEFINE_integer('seed', 3, 'Proportion of seeds, 3 means 30%')
 flags.DEFINE_float('weight_decay', 1e-5, 'Weight for L2 loss on embedding matrix.')
 
@@ -95,8 +94,7 @@ print("Optimization Finished!")
 # Testing
 feed_dict_ae = construct_feed_dict(ae_input, support, ph_ae)
 feed_dict_se = construct_feed_dict(1.0, support, ph_se)
-pca = PCA(n_components=200)
-vec_ae = pca.fit_transform(sess.run(model_ae.outputs, feed_dict=feed_dict_ae))
+vec_ae = sess.run(model_ae.outputs, feed_dict=feed_dict_ae)
 vec_se = sess.run(model_se.outputs, feed_dict=feed_dict_se)
 print("AE")
 get_hits(vec_ae, test)
