@@ -2,6 +2,7 @@ from __future__ import division
 from __future__ import print_function
 
 import time
+import os
 import tensorflow as tf
 
 from utils import *
@@ -22,14 +23,40 @@ flags.DEFINE_integer('epochs', 2000, 'Number of epochs to train.')
 flags.DEFINE_float('dropout', 0., 'Dropout rate (1 - keep probability).')
 flags.DEFINE_float('gamma', 3.0, 'Hyper-parameter for margin based loss.')
 flags.DEFINE_integer('k', 5, 'Number of negative samples for each positive seed.')
-flags.DEFINE_float('beta', 0.9, 'Weight for structure embeddings.')
+flags.DEFINE_float('beta', 0.9, 'Weight for structure embeddings.(SE+AE)')
+flags.DEFINE_float('beta3', 0.7, 'Weight for structure embeddings.(GCN+TransE)')
 flags.DEFINE_integer('se_dim', 200, 'Dimension for SE.')
 flags.DEFINE_integer('ae_dim', 100, 'Dimension for AE.')
 flags.DEFINE_integer('seed', 3, 'Proportion of seeds, 3 means 30%')
 flags.DEFINE_float('weight_decay', 1e-5, 'Weight for L2 loss on embedding matrix.')
 
+# TransE params
+gcn_data_path = 'data/' + FLAGS.lang + '/'
+gcn_data_converted_path = 'data/' + FLAGS.lang + '/for_jape/'
+jape_results = gcn_data_converted_path + ('0_' + str(FLAGS.seed)) + '/jape_ent_embeddings.npy'
+jape_results_converted = gcn_data_converted_path + ('0_' + str(FLAGS.seed)) + '/jape_ent_embeddings_converted.npy'
+
 # Load data
-adj, ae_input, train, test = load_data(FLAGS.lang)
+adj, ae_input, train, test, ent2id_div, KG = load_data(FLAGS.lang)
+
+# TransE vec
+print("prepare data for jape...")
+mp1, mp2 = gcn_data_to_jape(train, test, ent2id_div[0], ent2id_div[1],
+                            KG[0], KG[1], '0.' + str(FLAGS.seed),
+                            gcn_data_converted_path)
+print("running jape_se...")
+if not os.path.exists(jape_results):
+    runJAPE = os.system('python3 jape_code/se_pos_neg.py ' + gcn_data_converted_path + ' 0.' + str(FLAGS.seed))
+    if runJAPE == 0:
+        print('jape finished.')
+    else:
+        print('some errors occur when co-training.')
+jape_results_to_gcn(mp1, mp2, np.load(jape_results), jape_results_converted)
+print("return jape results finished.")
+TransE_vec = np.load(jape_results_converted)
+print('shape of TransE embedding:', TransE_vec.shape)
+print('TransE')
+get_hits(TransE_vec, test)
 
 # Some preprocessing
 support = [preprocess_adj(adj)]
@@ -101,4 +128,6 @@ get_hits(vec_ae, test)
 print("SE")
 get_hits(vec_se, test)
 print("SE+AE")
-get_combine_hits(vec_se, vec_ae, FLAGS.beta, test)
+GCN_vec = get_combine_hits(vec_se, vec_ae, FLAGS.beta, test)
+print('Result of GCN+TransE')
+EMB_vec = get_combine_hits(GCN_vec, TransE_vec, FLAGS.beta3, test)

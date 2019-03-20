@@ -6,6 +6,7 @@ from scipy.sparse.linalg.eigen.arpack import eigsh
 import sys
 import tensorflow as tf
 import math
+import os
 
 flags = tf.app.flags
 FLAGS = flags.FLAGS
@@ -150,26 +151,30 @@ def get_ae_input(attr):
 
 
 def load_KG(Rs):
+    ent2id_div = [{}, {}]
     ent2id = {}
     e = 0
     rel2id = {}
     r = 0
-    KG = []
-    for fn in Rs:
+    KG = [[], []]
+    for i in range(len(Rs)):
+        fn = Rs[i]
         with open(fn, 'r', encoding='utf-8') as f:
             for line in f:
                 th = line.strip().split('\t')
                 if th[0] not in ent2id:
                     ent2id[th[0]] = e
+                    ent2id_div[i][th[0]] = e
                     e += 1
                 if th[1] not in rel2id:
                     rel2id[th[1]] = r
                     r += 1
                 if th[2] not in ent2id:
                     ent2id[th[2]] = e
+                    ent2id_div[i][th[2]] = e
                     e += 1
-                KG.append((ent2id[th[0]], rel2id[th[1]], ent2id[th[2]]))
-    return ent2id, KG
+                KG[i].append((ent2id[th[0]], rel2id[th[1]], ent2id[th[2]]))
+    return ent2id, ent2id_div, KG
 
 
 def load_data(dataset_str):
@@ -179,7 +184,7 @@ def load_data(dataset_str):
             fns[i] = 'dbp15k/'+dataset_str+'/'+fns[i]
     Rs, As, ill = names
     ill = ill[0]
-    ent2id, KG = load_KG(Rs)
+    ent2id, ent2id_div, KG = load_KG(Rs)
     e = len(ent2id)
     ILL = loadfile(ill, 2, ent2id)
     illL = len(ILL)
@@ -188,6 +193,67 @@ def load_data(dataset_str):
     test = ILL[illL // 10 * FLAGS.seed:]
     attr = loadattr(As, e, ent2id)
     ae_input = get_ae_input(attr)
-    adj = nx.adjacency_matrix(nx.from_dict_of_lists(get_dic_list(e, KG)))
-    return adj, ae_input, train, test
+    adj = nx.adjacency_matrix(nx.from_dict_of_lists(get_dic_list(e, KG[0]+KG[1])))
+    return adj, ae_input, train, test, ent2id_div, KG
 
+
+def jape_results_to_gcn(mp1, mp2, embeddings, saved_filepath):
+    gb_list = []
+    for key, value in mp1.items():
+        gb_list.append([key, value])
+    for key, value in mp2.items():
+        gb_list.append([key, value])
+    gb_np = np.array(sorted(gb_list))
+    assert len(set(gb_np.T[0])) == len(mp1)+len(mp2)
+    np.save(saved_filepath, embeddings[gb_np.T[1]])
+    return
+
+
+def gcn_data_to_jape(merged, align, e1, e2, KG1, KG2, ratio_str, out_path):
+    out_path_truely = out_path+ratio_str.replace('.', '_')+'/'
+    if not os.path.exists(out_path_truely):
+        os.makedirs(out_path_truely)
+    mp1, mp2 = {}, {}
+    n_merged = len(merged)
+    n_align = len(align)
+
+    t = 0
+    for line in merged:
+        mp1[line[0]] = 2*n_align+t
+        mp2[line[1]] = 2*n_align+t
+        t = t+1
+    t = 0
+    for line in align:
+        mp1[line[0]] = t
+        mp2[line[1]] = t+n_align
+        t = t+1
+
+    print("check: ", len(mp1), len(mp2))
+
+    st = n_align*2+n_merged
+    for e in e1.items():
+        if e[1] not in mp1:
+            mp1[e[1]] = st
+            st = st+1
+    st = len(e1)+n_align
+    for e in e2.items():
+        if e[1] not in mp2:
+            mp2[e[1]] = st
+            st = st+1
+
+    print("check: ", len(mp1), len(mp2))
+
+    with open(out_path_truely+'sup_ent_ids', 'w', encoding='utf-8') as f:
+        for i in range(2*n_align, 2*n_align+n_merged):
+            f.write(str(i)+'\t'+str(i)+'\n')
+    open(out_path_truely+'sup_rel_ids', 'w', encoding='utf-8').close()
+    with open(out_path_truely + 'triples_1', 'w', encoding='utf-8') as f:
+        for line in KG1:
+            f.write(str(mp1[line[0]])+'\t'+str(line[1])+'\t'+str(mp1[line[2]])+'\n')
+    with open(out_path_truely + 'triples_2', 'w', encoding='utf-8') as f:
+        for line in KG2:
+            f.write(str(mp2[line[0]])+'\t'+str(line[1])+'\t'+str(mp2[line[2]])+'\n')
+    with open(out_path_truely + 'ref_ent_ids', 'w', encoding='utf-8') as f:
+        for i in range(n_align):
+            f.write(str(i)+'\t'+str(i+n_align)+'\n')
+    return mp1, mp2
