@@ -182,6 +182,11 @@ def ifunc(KG):
     return r2if
 
 
+import numpy as np
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+
 def get_weighted_adj(e, KG):
     r2f = func(KG)
     r2if = ifunc(KG)
@@ -190,20 +195,20 @@ def get_weighted_adj(e, KG):
         if tri[0] == tri[2]:
             continue
         if (tri[0], tri[2]) not in M:
-            M[(tri[0], tri[2])] = max(r2if[tri[1]], 0.8)
+            M[(tri[0], tri[2])] = r2if[tri[1]]
         else:
-            M[(tri[0], tri[2])] += max(r2if[tri[1]], 0.8)
+            M[(tri[0], tri[2])] += r2if[tri[1]]
         if (tri[2], tri[0]) not in M:
-            M[(tri[2], tri[0])] = max(r2f[tri[1]], 0.8)
+            M[(tri[2], tri[0])] = r2f[tri[1]]
         else:
-            M[(tri[2], tri[0])] += max(r2f[tri[1]], 0.8)
+            M[(tri[2], tri[0])] += r2f[tri[1]]
     row = []
     col = []
     data = []
     for key in M:
         row.append(key[1])
         col.append(key[0])
-        data.append(M[key])
+        data.append(sigmoid(M[key]))
     return sp.coo_matrix((data, (row, col)), shape=(e, e))
 
 
