@@ -55,8 +55,8 @@ jape_results_to_gcn(mp1, mp2, np.load(jape_results), jape_results_converted)
 print("return jape results finished.")
 TransE_vec = np.load(jape_results_converted)
 print('shape of TransE embedding:', TransE_vec.shape)
-print('TransE')
-get_hits(TransE_vec, test)
+# print('TransE')
+# get_hits(TransE_vec, test)
 
 # Some preprocessing
 support = [preprocess_adj(adj)]

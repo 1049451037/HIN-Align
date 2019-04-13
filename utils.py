@@ -101,7 +101,7 @@ def loadattr(fns, e, ent2id):
                 if th[0] not in ent2id:
                     continue
                 for i in range(1, 2):
-                    th[i] = th[i].split('/')[-1]
+                    #th[i] = th[i].split('/')[-1]
                     if th[i] not in cnt:
                         cnt[th[i]] = 1
                     else:
@@ -118,7 +118,7 @@ def loadattr(fns, e, ent2id):
                 th = line[:-1].split('\t')
                 if th[0] in ent2id:
                     for i in range(1, 2):
-                        th[i] = th[i].split('/')[-1]
+                        #th[i] = th[i].split('/')[-1]
                         if th[i] in attr2id:
                             M[(ent2id[th[0]], attr2id[th[i]])] = 1.0
     row = []
