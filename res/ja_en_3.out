@@ -1,0 +1,2254 @@
+neg param 0.1 split
+ents: 15000 + 17693 = 19814
+ents: 15000 + 17738 = 19780
+all ents: 35094
+all rels: 1299 1153 2452
+all triples: 77214 + 93484 = 170698
+To align: 10500
+0/200, relation_loss = 424306.357, time = 1.773 s
+1/200, relation_loss = 349438.603, time = 1.684 s
+2/200, relation_loss = 308260.340, time = 1.681 s
+3/200, relation_loss = 278451.180, time = 1.619 s
+4/200, relation_loss = 254993.783, time = 1.574 s
+5/200, relation_loss = 235855.145, time = 1.725 s
+6/200, relation_loss = 219774.404, time = 1.607 s
+7/200, relation_loss = 206080.414, time = 1.609 s
+8/200, relation_loss = 194138.397, time = 1.656 s
+9/200, relation_loss = 183699.904, time = 1.608 s
+10/200, relation_loss = 174461.450, time = 1.605 s
+11/200, relation_loss = 166134.129, time = 1.693 s
+12/200, relation_loss = 158603.451, time = 1.646 s
+13/200, relation_loss = 151885.832, time = 1.699 s
+14/200, relation_loss = 145710.341, time = 1.721 s
+15/200, relation_loss = 140056.581, time = 1.662 s
+16/200, relation_loss = 134947.598, time = 1.570 s
+17/200, relation_loss = 130277.651, time = 1.662 s
+18/200, relation_loss = 125825.616, time = 1.681 s
+19/200, relation_loss = 121738.709, time = 1.712 s
+20/200, relation_loss = 117970.153, time = 1.682 s
+21/200, relation_loss = 114432.617, time = 1.768 s
+22/200, relation_loss = 111134.262, time = 1.672 s
+23/200, relation_loss = 108003.434, time = 1.613 s
+24/200, relation_loss = 105153.812, time = 1.596 s
+25/200, relation_loss = 102420.160, time = 1.622 s
+26/200, relation_loss = 99906.914, time = 1.713 s
+27/200, relation_loss = 97554.278, time = 1.639 s
+28/200, relation_loss = 95254.287, time = 1.634 s
+29/200, relation_loss = 93079.596, time = 1.625 s
+30/200, relation_loss = 91076.108, time = 1.575 s
+31/200, relation_loss = 89179.530, time = 1.601 s
+32/200, relation_loss = 87396.121, time = 1.706 s
+33/200, relation_loss = 85698.289, time = 1.640 s
+34/200, relation_loss = 84019.745, time = 1.615 s
+35/200, relation_loss = 82418.428, time = 1.724 s
+36/200, relation_loss = 80934.257, time = 1.660 s
+37/200, relation_loss = 79533.967, time = 1.616 s
+38/200, relation_loss = 78250.633, time = 1.576 s
+39/200, relation_loss = 76901.467, time = 1.622 s
+40/200, relation_loss = 75682.993, time = 1.667 s
+41/200, relation_loss = 74525.616, time = 1.607 s
+42/200, relation_loss = 73396.237, time = 1.564 s
+43/200, relation_loss = 72315.764, time = 1.665 s
+44/200, relation_loss = 71300.007, time = 1.653 s
+45/200, relation_loss = 70335.194, time = 3.124 s
+46/200, relation_loss = 69359.569, time = 1.633 s
+47/200, relation_loss = 68401.468, time = 1.535 s
+48/200, relation_loss = 67561.572, time = 1.505 s
+49/200, relation_loss = 66684.557, time = 1.507 s
+50/200, relation_loss = 65857.525, time = 1.512 s
+51/200, relation_loss = 65066.607, time = 1.508 s
+52/200, relation_loss = 64312.867, time = 1.640 s
+53/200, relation_loss = 63624.043, time = 1.514 s
+54/200, relation_loss = 62888.878, time = 1.596 s
+55/200, relation_loss = 62197.998, time = 1.616 s
+56/200, relation_loss = 61524.792, time = 1.512 s
+57/200, relation_loss = 60871.001, time = 1.563 s
+58/200, relation_loss = 60286.804, time = 1.553 s
+59/200, relation_loss = 59658.001, time = 1.487 s
+60/200, relation_loss = 59087.810, time = 1.487 s
+61/200, relation_loss = 58504.441, time = 1.487 s
+62/200, relation_loss = 57968.052, time = 1.503 s
+63/200, relation_loss = 57426.244, time = 1.511 s
+64/200, relation_loss = 56910.715, time = 1.486 s
+65/200, relation_loss = 56383.198, time = 1.487 s
+66/200, relation_loss = 55879.882, time = 1.485 s
+67/200, relation_loss = 55409.595, time = 1.493 s
+68/200, relation_loss = 54946.256, time = 1.492 s
+69/200, relation_loss = 54485.362, time = 1.536 s
+70/200, relation_loss = 54078.208, time = 1.489 s
+71/200, relation_loss = 53667.107, time = 1.493 s
+72/200, relation_loss = 53234.491, time = 1.501 s
+73/200, relation_loss = 52888.047, time = 1.491 s
+74/200, relation_loss = 52498.548, time = 1.488 s
+75/200, relation_loss = 52055.392, time = 1.512 s
+76/200, relation_loss = 51720.976, time = 1.493 s
+77/200, relation_loss = 51322.911, time = 1.707 s
+78/200, relation_loss = 50970.460, time = 1.824 s
+79/200, relation_loss = 50631.789, time = 1.806 s
+80/200, relation_loss = 50307.255, time = 1.793 s
+81/200, relation_loss = 49942.748, time = 1.577 s
+82/200, relation_loss = 49607.791, time = 1.495 s
+83/200, relation_loss = 49331.950, time = 1.501 s
+84/200, relation_loss = 49025.536, time = 1.510 s
+85/200, relation_loss = 48733.569, time = 1.488 s
+86/200, relation_loss = 48402.706, time = 1.515 s
+87/200, relation_loss = 48109.550, time = 1.494 s
+88/200, relation_loss = 47912.166, time = 1.500 s
+89/200, relation_loss = 47532.996, time = 1.500 s
+90/200, relation_loss = 47304.114, time = 1.494 s
+91/200, relation_loss = 47066.896, time = 1.501 s
+92/200, relation_loss = 46809.709, time = 1.487 s
+93/200, relation_loss = 46551.452, time = 1.498 s
+94/200, relation_loss = 46250.101, time = 1.494 s
+95/200, relation_loss = 46034.558, time = 1.490 s
+96/200, relation_loss = 45849.843, time = 1.490 s
+97/200, relation_loss = 45632.365, time = 1.495 s
+98/200, relation_loss = 45372.173, time = 1.491 s
+99/200, relation_loss = 45158.418, time = 1.493 s
+100/200, relation_loss = 44850.498, time = 1.489 s
+101/200, relation_loss = 44719.769, time = 1.501 s
+102/200, relation_loss = 44487.297, time = 1.487 s
+103/200, relation_loss = 44280.869, time = 1.495 s
+104/200, relation_loss = 44045.385, time = 1.489 s
+105/200, relation_loss = 43870.206, time = 1.490 s
+106/200, relation_loss = 43681.162, time = 1.489 s
+107/200, relation_loss = 43501.255, time = 1.493 s
+108/200, relation_loss = 43290.469, time = 1.490 s
+109/200, relation_loss = 43112.938, time = 1.489 s
+110/200, relation_loss = 42897.973, time = 1.494 s
+111/200, relation_loss = 42733.018, time = 1.492 s
+112/200, relation_loss = 42566.296, time = 1.488 s
+113/200, relation_loss = 42316.730, time = 1.496 s
+114/200, relation_loss = 42201.247, time = 1.490 s
+115/200, relation_loss = 42110.380, time = 1.499 s
+116/200, relation_loss = 41914.434, time = 1.492 s
+117/200, relation_loss = 41700.588, time = 1.497 s
+118/200, relation_loss = 41560.743, time = 1.489 s
+119/200, relation_loss = 41403.800, time = 1.491 s
+120/200, relation_loss = 41221.458, time = 1.494 s
+121/200, relation_loss = 41096.969, time = 1.493 s
+122/200, relation_loss = 40979.875, time = 1.492 s
+123/200, relation_loss = 40802.290, time = 1.502 s
+124/200, relation_loss = 40674.358, time = 1.491 s
+125/200, relation_loss = 40507.093, time = 1.491 s
+126/200, relation_loss = 40357.862, time = 1.492 s
+127/200, relation_loss = 40262.740, time = 1.547 s
+128/200, relation_loss = 40116.887, time = 1.515 s
+129/200, relation_loss = 39950.329, time = 1.505 s
+130/200, relation_loss = 39825.069, time = 1.507 s
+131/200, relation_loss = 39713.136, time = 1.505 s
+132/200, relation_loss = 39555.359, time = 1.503 s
+133/200, relation_loss = 39458.927, time = 1.502 s
+134/200, relation_loss = 39355.588, time = 1.502 s
+135/200, relation_loss = 39210.807, time = 1.507 s
+136/200, relation_loss = 39029.608, time = 1.505 s
+137/200, relation_loss = 38949.265, time = 1.504 s
+138/200, relation_loss = 38884.032, time = 1.503 s
+139/200, relation_loss = 38729.118, time = 1.506 s
+140/200, relation_loss = 38627.283, time = 1.505 s
+141/200, relation_loss = 38516.423, time = 1.516 s
+142/200, relation_loss = 38438.817, time = 1.507 s
+143/200, relation_loss = 38286.353, time = 1.534 s
+144/200, relation_loss = 38185.134, time = 1.505 s
+145/200, relation_loss = 38058.767, time = 1.506 s
+146/200, relation_loss = 37962.309, time = 1.509 s
+147/200, relation_loss = 37890.206, time = 1.508 s
+148/200, relation_loss = 37774.066, time = 1.502 s
+149/200, relation_loss = 37646.249, time = 1.505 s
+150/200, relation_loss = 37526.590, time = 1.517 s
+151/200, relation_loss = 37438.715, time = 1.506 s
+152/200, relation_loss = 37349.258, time = 1.500 s
+153/200, relation_loss = 37246.381, time = 1.514 s
+154/200, relation_loss = 37194.623, time = 1.528 s
+155/200, relation_loss = 37089.451, time = 1.495 s
+156/200, relation_loss = 37008.619, time = 1.494 s
+157/200, relation_loss = 36865.543, time = 1.495 s
+158/200, relation_loss = 36824.163, time = 1.495 s
+159/200, relation_loss = 36694.502, time = 1.500 s
+160/200, relation_loss = 36684.304, time = 1.493 s
+161/200, relation_loss = 36561.456, time = 1.497 s
+162/200, relation_loss = 36417.434, time = 1.495 s
+163/200, relation_loss = 36378.018, time = 1.498 s
+164/200, relation_loss = 36320.117, time = 1.498 s
+165/200, relation_loss = 36214.004, time = 1.498 s
+166/200, relation_loss = 36112.426, time = 1.497 s
+167/200, relation_loss = 36043.500, time = 1.500 s
+168/200, relation_loss = 35926.454, time = 1.497 s
+169/200, relation_loss = 35911.210, time = 1.501 s
+170/200, relation_loss = 35862.425, time = 1.496 s
+171/200, relation_loss = 35770.629, time = 1.496 s
+172/200, relation_loss = 35733.068, time = 1.495 s
+173/200, relation_loss = 35625.905, time = 1.496 s
+174/200, relation_loss = 35529.146, time = 1.497 s
+175/200, relation_loss = 35468.391, time = 1.494 s
+176/200, relation_loss = 35379.785, time = 1.494 s
+177/200, relation_loss = 35288.114, time = 1.493 s
+178/200, relation_loss = 35158.864, time = 1.490 s
+179/200, relation_loss = 35194.026, time = 1.496 s
+180/200, relation_loss = 35077.022, time = 1.494 s
+181/200, relation_loss = 34951.212, time = 1.491 s
+182/200, relation_loss = 35033.759, time = 1.485 s
+183/200, relation_loss = 34890.562, time = 1.491 s
+184/200, relation_loss = 34836.967, time = 1.495 s
+185/200, relation_loss = 34751.040, time = 1.491 s
+186/200, relation_loss = 34699.195, time = 1.495 s
+187/200, relation_loss = 34647.842, time = 1.492 s
+188/200, relation_loss = 34558.847, time = 2.903 s
+189/200, relation_loss = 34509.010, time = 1.494 s
+190/200, relation_loss = 34506.464, time = 1.493 s
+191/200, relation_loss = 34354.129, time = 1.521 s
+192/200, relation_loss = 34319.640, time = 1.518 s
+193/200, relation_loss = 34310.688, time = 1.497 s
+194/200, relation_loss = 34177.026, time = 1.497 s
+195/200, relation_loss = 34151.392, time = 1.532 s
+196/200, relation_loss = 34123.889, time = 1.492 s
+197/200, relation_loss = 34012.634, time = 1.488 s
+198/200, relation_loss = 33996.282, time = 1.496 s
+199/200, relation_loss = 33901.830, time = 1.495 s
+prepare data for jape...
+check:  15000 15000
+check:  19814 19780
+running jape_se...
+jape finished.
+return jape results finished.
+shape of TransE embedding: (39594, 200)
+Epoch: 0001 AE_train_loss= 4.31636 SE_train_loss= 2.70717
+Epoch: 0002 AE_train_loss= 19.55050 SE_train_loss= 2.62951
+Epoch: 0003 AE_train_loss= 15.10504 SE_train_loss= 1.20174
+Epoch: 0004 AE_train_loss= 12.71636 SE_train_loss= 0.49965
+Epoch: 0005 AE_train_loss= 11.13016 SE_train_loss= 0.23521
+Epoch: 0006 AE_train_loss= 9.98987 SE_train_loss= 0.13709
+Epoch: 0007 AE_train_loss= 9.11137 SE_train_loss= 0.09104
+Epoch: 0008 AE_train_loss= 8.40096 SE_train_loss= 0.06461
+Epoch: 0009 AE_train_loss= 7.82078 SE_train_loss= 0.04783
+Epoch: 0010 AE_train_loss= 7.33037 SE_train_loss= 0.03638
+Epoch: 0011 AE_train_loss= 6.97974 SE_train_loss= 0.08372
+Epoch: 0012 AE_train_loss= 6.59743 SE_train_loss= 0.04804
+Epoch: 0013 AE_train_loss= 6.26398 SE_train_loss= 0.03047
+Epoch: 0014 AE_train_loss= 5.96637 SE_train_loss= 0.02187
+Epoch: 0015 AE_train_loss= 5.69828 SE_train_loss= 0.01666
+Epoch: 0016 AE_train_loss= 5.45308 SE_train_loss= 0.01311
+Epoch: 0017 AE_train_loss= 5.22803 SE_train_loss= 0.01076
+Epoch: 0018 AE_train_loss= 5.02154 SE_train_loss= 0.00902
+Epoch: 0019 AE_train_loss= 4.83210 SE_train_loss= 0.00771
+Epoch: 0020 AE_train_loss= 4.65659 SE_train_loss= 0.00672
+Epoch: 0021 AE_train_loss= 4.51657 SE_train_loss= 0.03070
+Epoch: 0022 AE_train_loss= 4.36346 SE_train_loss= 0.01902
+Epoch: 0023 AE_train_loss= 4.22075 SE_train_loss= 0.01340
+Epoch: 0024 AE_train_loss= 4.08792 SE_train_loss= 0.01040
+Epoch: 0025 AE_train_loss= 3.96474 SE_train_loss= 0.00844
+Epoch: 0026 AE_train_loss= 3.84813 SE_train_loss= 0.00708
+Epoch: 0027 AE_train_loss= 3.73732 SE_train_loss= 0.00611
+Epoch: 0028 AE_train_loss= 3.63165 SE_train_loss= 0.00535
+Epoch: 0029 AE_train_loss= 3.53126 SE_train_loss= 0.00473
+Epoch: 0030 AE_train_loss= 3.43502 SE_train_loss= 0.00425
+Epoch: 0031 AE_train_loss= 3.32536 SE_train_loss= 0.01958
+Epoch: 0032 AE_train_loss= 3.23330 SE_train_loss= 0.01225
+Epoch: 0033 AE_train_loss= 3.14441 SE_train_loss= 0.00894
+Epoch: 0034 AE_train_loss= 3.05840 SE_train_loss= 0.00706
+Epoch: 0035 AE_train_loss= 2.97494 SE_train_loss= 0.00593
+Epoch: 0036 AE_train_loss= 2.89377 SE_train_loss= 0.00508
+Epoch: 0037 AE_train_loss= 2.81539 SE_train_loss= 0.00444
+Epoch: 0038 AE_train_loss= 2.73979 SE_train_loss= 0.00396
+Epoch: 0039 AE_train_loss= 2.66668 SE_train_loss= 0.00357
+Epoch: 0040 AE_train_loss= 2.59599 SE_train_loss= 0.00328
+Epoch: 0041 AE_train_loss= 2.60291 SE_train_loss= 0.01484
+Epoch: 0042 AE_train_loss= 2.53056 SE_train_loss= 0.00892
+Epoch: 0043 AE_train_loss= 2.45961 SE_train_loss= 0.00624
+Epoch: 0044 AE_train_loss= 2.39174 SE_train_loss= 0.00483
+Epoch: 0045 AE_train_loss= 2.32769 SE_train_loss= 0.00390
+Epoch: 0046 AE_train_loss= 2.26695 SE_train_loss= 0.00325
+Epoch: 0047 AE_train_loss= 2.20909 SE_train_loss= 0.00276
+Epoch: 0048 AE_train_loss= 2.15387 SE_train_loss= 0.00240
+Epoch: 0049 AE_train_loss= 2.10086 SE_train_loss= 0.00213
+Epoch: 0050 AE_train_loss= 2.05035 SE_train_loss= 0.00193
+Epoch: 0051 AE_train_loss= 1.98846 SE_train_loss= 0.01350
+Epoch: 0052 AE_train_loss= 1.94011 SE_train_loss= 0.00858
+Epoch: 0053 AE_train_loss= 1.89385 SE_train_loss= 0.00642
+Epoch: 0054 AE_train_loss= 1.84953 SE_train_loss= 0.00520
+Epoch: 0055 AE_train_loss= 1.80677 SE_train_loss= 0.00441
+Epoch: 0056 AE_train_loss= 1.76556 SE_train_loss= 0.00383
+Epoch: 0057 AE_train_loss= 1.72571 SE_train_loss= 0.00338
+Epoch: 0058 AE_train_loss= 1.68722 SE_train_loss= 0.00302
+Epoch: 0059 AE_train_loss= 1.64993 SE_train_loss= 0.00273
+Epoch: 0060 AE_train_loss= 1.61381 SE_train_loss= 0.00248
+Epoch: 0061 AE_train_loss= 1.58092 SE_train_loss= 0.01154
+Epoch: 0062 AE_train_loss= 1.54635 SE_train_loss= 0.00763
+Epoch: 0063 AE_train_loss= 1.51341 SE_train_loss= 0.00584
+Epoch: 0064 AE_train_loss= 1.48186 SE_train_loss= 0.00480
+Epoch: 0065 AE_train_loss= 1.45145 SE_train_loss= 0.00410
+Epoch: 0066 AE_train_loss= 1.42216 SE_train_loss= 0.00362
+Epoch: 0067 AE_train_loss= 1.39401 SE_train_loss= 0.00325
+Epoch: 0068 AE_train_loss= 1.36692 SE_train_loss= 0.00295
+Epoch: 0069 AE_train_loss= 1.34079 SE_train_loss= 0.00272
+Epoch: 0070 AE_train_loss= 1.31558 SE_train_loss= 0.00253
+Epoch: 0071 AE_train_loss= 1.28323 SE_train_loss= 0.01001
+Epoch: 0072 AE_train_loss= 1.25872 SE_train_loss= 0.00634
+Epoch: 0073 AE_train_loss= 1.23519 SE_train_loss= 0.00476
+Epoch: 0074 AE_train_loss= 1.21251 SE_train_loss= 0.00386
+Epoch: 0075 AE_train_loss= 1.19063 SE_train_loss= 0.00327
+Epoch: 0076 AE_train_loss= 1.16945 SE_train_loss= 0.00284
+Epoch: 0077 AE_train_loss= 1.14897 SE_train_loss= 0.00253
+Epoch: 0078 AE_train_loss= 1.12914 SE_train_loss= 0.00227
+Epoch: 0079 AE_train_loss= 1.10995 SE_train_loss= 0.00206
+Epoch: 0080 AE_train_loss= 1.09144 SE_train_loss= 0.00190
+Epoch: 0081 AE_train_loss= 1.10159 SE_train_loss= 0.00868
+Epoch: 0082 AE_train_loss= 1.08296 SE_train_loss= 0.00572
+Epoch: 0083 AE_train_loss= 1.06514 SE_train_loss= 0.00443
+Epoch: 0084 AE_train_loss= 1.04803 SE_train_loss= 0.00367
+Epoch: 0085 AE_train_loss= 1.03151 SE_train_loss= 0.00315
+Epoch: 0086 AE_train_loss= 1.01556 SE_train_loss= 0.00276
+Epoch: 0087 AE_train_loss= 1.00017 SE_train_loss= 0.00245
+Epoch: 0088 AE_train_loss= 0.98515 SE_train_loss= 0.00221
+Epoch: 0089 AE_train_loss= 0.97038 SE_train_loss= 0.00199
+Epoch: 0090 AE_train_loss= 0.95610 SE_train_loss= 0.00182
+Epoch: 0091 AE_train_loss= 0.94956 SE_train_loss= 0.00780
+Epoch: 0092 AE_train_loss= 0.93574 SE_train_loss= 0.00505
+Epoch: 0093 AE_train_loss= 0.92262 SE_train_loss= 0.00385
+Epoch: 0094 AE_train_loss= 0.90996 SE_train_loss= 0.00312
+Epoch: 0095 AE_train_loss= 0.89779 SE_train_loss= 0.00262
+Epoch: 0096 AE_train_loss= 0.88601 SE_train_loss= 0.00223
+Epoch: 0097 AE_train_loss= 0.87459 SE_train_loss= 0.00196
+Epoch: 0098 AE_train_loss= 0.86348 SE_train_loss= 0.00174
+Epoch: 0099 AE_train_loss= 0.85269 SE_train_loss= 0.00158
+Epoch: 0100 AE_train_loss= 0.84223 SE_train_loss= 0.00143
+Epoch: 0101 AE_train_loss= 0.84235 SE_train_loss= 0.00890
+Epoch: 0102 AE_train_loss= 0.83158 SE_train_loss= 0.00576
+Epoch: 0103 AE_train_loss= 0.82140 SE_train_loss= 0.00434
+Epoch: 0104 AE_train_loss= 0.81159 SE_train_loss= 0.00353
+Epoch: 0105 AE_train_loss= 0.80214 SE_train_loss= 0.00301
+Epoch: 0106 AE_train_loss= 0.79307 SE_train_loss= 0.00265
+Epoch: 0107 AE_train_loss= 0.78427 SE_train_loss= 0.00237
+Epoch: 0108 AE_train_loss= 0.77579 SE_train_loss= 0.00214
+Epoch: 0109 AE_train_loss= 0.76760 SE_train_loss= 0.00196
+Epoch: 0110 AE_train_loss= 0.75962 SE_train_loss= 0.00181
+Epoch: 0111 AE_train_loss= 0.77314 SE_train_loss= 0.00742
+Epoch: 0112 AE_train_loss= 0.76462 SE_train_loss= 0.00510
+Epoch: 0113 AE_train_loss= 0.75651 SE_train_loss= 0.00409
+Epoch: 0114 AE_train_loss= 0.74870 SE_train_loss= 0.00349
+Epoch: 0115 AE_train_loss= 0.74115 SE_train_loss= 0.00307
+Epoch: 0116 AE_train_loss= 0.73380 SE_train_loss= 0.00275
+Epoch: 0117 AE_train_loss= 0.72666 SE_train_loss= 0.00248
+Epoch: 0118 AE_train_loss= 0.71969 SE_train_loss= 0.00227
+Epoch: 0119 AE_train_loss= 0.71293 SE_train_loss= 0.00212
+Epoch: 0120 AE_train_loss= 0.70635 SE_train_loss= 0.00198
+Epoch: 0121 AE_train_loss= 0.70652 SE_train_loss= 0.00651
+Epoch: 0122 AE_train_loss= 0.69965 SE_train_loss= 0.00428
+Epoch: 0123 AE_train_loss= 0.69305 SE_train_loss= 0.00333
+Epoch: 0124 AE_train_loss= 0.68667 SE_train_loss= 0.00276
+Epoch: 0125 AE_train_loss= 0.68052 SE_train_loss= 0.00236
+Epoch: 0126 AE_train_loss= 0.67455 SE_train_loss= 0.00207
+Epoch: 0127 AE_train_loss= 0.66876 SE_train_loss= 0.00184
+Epoch: 0128 AE_train_loss= 0.66309 SE_train_loss= 0.00166
+Epoch: 0129 AE_train_loss= 0.65756 SE_train_loss= 0.00151
+Epoch: 0130 AE_train_loss= 0.65217 SE_train_loss= 0.00139
+Epoch: 0131 AE_train_loss= 0.65488 SE_train_loss= 0.00614
+Epoch: 0132 AE_train_loss= 0.64896 SE_train_loss= 0.00378
+Epoch: 0133 AE_train_loss= 0.64334 SE_train_loss= 0.00281
+Epoch: 0134 AE_train_loss= 0.63791 SE_train_loss= 0.00227
+Epoch: 0135 AE_train_loss= 0.63263 SE_train_loss= 0.00191
+Epoch: 0136 AE_train_loss= 0.62752 SE_train_loss= 0.00165
+Epoch: 0137 AE_train_loss= 0.62254 SE_train_loss= 0.00145
+Epoch: 0138 AE_train_loss= 0.61769 SE_train_loss= 0.00131
+Epoch: 0139 AE_train_loss= 0.61298 SE_train_loss= 0.00120
+Epoch: 0140 AE_train_loss= 0.60835 SE_train_loss= 0.00110
+Epoch: 0141 AE_train_loss= 0.59859 SE_train_loss= 0.00562
+Epoch: 0142 AE_train_loss= 0.59381 SE_train_loss= 0.00349
+Epoch: 0143 AE_train_loss= 0.58925 SE_train_loss= 0.00259
+Epoch: 0144 AE_train_loss= 0.58485 SE_train_loss= 0.00208
+Epoch: 0145 AE_train_loss= 0.58055 SE_train_loss= 0.00173
+Epoch: 0146 AE_train_loss= 0.57637 SE_train_loss= 0.00149
+Epoch: 0147 AE_train_loss= 0.57229 SE_train_loss= 0.00129
+Epoch: 0148 AE_train_loss= 0.56835 SE_train_loss= 0.00117
+Epoch: 0149 AE_train_loss= 0.56446 SE_train_loss= 0.00107
+Epoch: 0150 AE_train_loss= 0.56068 SE_train_loss= 0.00099
+Epoch: 0151 AE_train_loss= 0.54656 SE_train_loss= 0.00620
+Epoch: 0152 AE_train_loss= 0.54241 SE_train_loss= 0.00427
+Epoch: 0153 AE_train_loss= 0.53844 SE_train_loss= 0.00341
+Epoch: 0154 AE_train_loss= 0.53460 SE_train_loss= 0.00287
+Epoch: 0155 AE_train_loss= 0.53088 SE_train_loss= 0.00251
+Epoch: 0156 AE_train_loss= 0.52726 SE_train_loss= 0.00226
+Epoch: 0157 AE_train_loss= 0.52373 SE_train_loss= 0.00207
+Epoch: 0158 AE_train_loss= 0.52026 SE_train_loss= 0.00192
+Epoch: 0159 AE_train_loss= 0.51689 SE_train_loss= 0.00177
+Epoch: 0160 AE_train_loss= 0.51361 SE_train_loss= 0.00166
+Epoch: 0161 AE_train_loss= 0.53800 SE_train_loss= 0.00663
+Epoch: 0162 AE_train_loss= 0.53433 SE_train_loss= 0.00452
+Epoch: 0163 AE_train_loss= 0.53083 SE_train_loss= 0.00361
+Epoch: 0164 AE_train_loss= 0.52746 SE_train_loss= 0.00310
+Epoch: 0165 AE_train_loss= 0.52416 SE_train_loss= 0.00275
+Epoch: 0166 AE_train_loss= 0.52095 SE_train_loss= 0.00251
+Epoch: 0167 AE_train_loss= 0.51781 SE_train_loss= 0.00233
+Epoch: 0168 AE_train_loss= 0.51476 SE_train_loss= 0.00218
+Epoch: 0169 AE_train_loss= 0.51178 SE_train_loss= 0.00206
+Epoch: 0170 AE_train_loss= 0.50884 SE_train_loss= 0.00195
+Epoch: 0171 AE_train_loss= 0.49901 SE_train_loss= 0.00551
+Epoch: 0172 AE_train_loss= 0.49566 SE_train_loss= 0.00371
+Epoch: 0173 AE_train_loss= 0.49248 SE_train_loss= 0.00291
+Epoch: 0174 AE_train_loss= 0.48942 SE_train_loss= 0.00246
+Epoch: 0175 AE_train_loss= 0.48646 SE_train_loss= 0.00214
+Epoch: 0176 AE_train_loss= 0.48357 SE_train_loss= 0.00190
+Epoch: 0177 AE_train_loss= 0.48077 SE_train_loss= 0.00172
+Epoch: 0178 AE_train_loss= 0.47804 SE_train_loss= 0.00158
+Epoch: 0179 AE_train_loss= 0.47535 SE_train_loss= 0.00146
+Epoch: 0180 AE_train_loss= 0.47271 SE_train_loss= 0.00136
+Epoch: 0181 AE_train_loss= 0.47058 SE_train_loss= 0.00626
+Epoch: 0182 AE_train_loss= 0.46754 SE_train_loss= 0.00429
+Epoch: 0183 AE_train_loss= 0.46467 SE_train_loss= 0.00338
+Epoch: 0184 AE_train_loss= 0.46192 SE_train_loss= 0.00283
+Epoch: 0185 AE_train_loss= 0.45925 SE_train_loss= 0.00245
+Epoch: 0186 AE_train_loss= 0.45664 SE_train_loss= 0.00217
+Epoch: 0187 AE_train_loss= 0.45410 SE_train_loss= 0.00195
+Epoch: 0188 AE_train_loss= 0.45164 SE_train_loss= 0.00177
+Epoch: 0189 AE_train_loss= 0.44922 SE_train_loss= 0.00163
+Epoch: 0190 AE_train_loss= 0.44685 SE_train_loss= 0.00152
+Epoch: 0191 AE_train_loss= 0.47017 SE_train_loss= 0.00595
+Epoch: 0192 AE_train_loss= 0.46735 SE_train_loss= 0.00402
+Epoch: 0193 AE_train_loss= 0.46470 SE_train_loss= 0.00317
+Epoch: 0194 AE_train_loss= 0.46215 SE_train_loss= 0.00271
+Epoch: 0195 AE_train_loss= 0.45971 SE_train_loss= 0.00238
+Epoch: 0196 AE_train_loss= 0.45733 SE_train_loss= 0.00214
+Epoch: 0197 AE_train_loss= 0.45500 SE_train_loss= 0.00196
+Epoch: 0198 AE_train_loss= 0.45275 SE_train_loss= 0.00180
+Epoch: 0199 AE_train_loss= 0.45053 SE_train_loss= 0.00166
+Epoch: 0200 AE_train_loss= 0.44837 SE_train_loss= 0.00155
+Epoch: 0201 AE_train_loss= 0.45462 SE_train_loss= 0.00499
+Epoch: 0202 AE_train_loss= 0.45204 SE_train_loss= 0.00323
+Epoch: 0203 AE_train_loss= 0.44962 SE_train_loss= 0.00256
+Epoch: 0204 AE_train_loss= 0.44729 SE_train_loss= 0.00218
+Epoch: 0205 AE_train_loss= 0.44501 SE_train_loss= 0.00192
+Epoch: 0206 AE_train_loss= 0.44281 SE_train_loss= 0.00172
+Epoch: 0207 AE_train_loss= 0.44065 SE_train_loss= 0.00155
+Epoch: 0208 AE_train_loss= 0.43856 SE_train_loss= 0.00142
+Epoch: 0209 AE_train_loss= 0.43649 SE_train_loss= 0.00132
+Epoch: 0210 AE_train_loss= 0.43449 SE_train_loss= 0.00123
+Epoch: 0211 AE_train_loss= 0.42359 SE_train_loss= 0.00498
+Epoch: 0212 AE_train_loss= 0.42129 SE_train_loss= 0.00331
+Epoch: 0213 AE_train_loss= 0.41917 SE_train_loss= 0.00254
+Epoch: 0214 AE_train_loss= 0.41711 SE_train_loss= 0.00211
+Epoch: 0215 AE_train_loss= 0.41511 SE_train_loss= 0.00183
+Epoch: 0216 AE_train_loss= 0.41317 SE_train_loss= 0.00164
+Epoch: 0217 AE_train_loss= 0.41128 SE_train_loss= 0.00151
+Epoch: 0218 AE_train_loss= 0.40942 SE_train_loss= 0.00140
+Epoch: 0219 AE_train_loss= 0.40759 SE_train_loss= 0.00130
+Epoch: 0220 AE_train_loss= 0.40580 SE_train_loss= 0.00123
+Epoch: 0221 AE_train_loss= 0.41704 SE_train_loss= 0.00509
+Epoch: 0222 AE_train_loss= 0.41484 SE_train_loss= 0.00350
+Epoch: 0223 AE_train_loss= 0.41276 SE_train_loss= 0.00276
+Epoch: 0224 AE_train_loss= 0.41076 SE_train_loss= 0.00231
+Epoch: 0225 AE_train_loss= 0.40882 SE_train_loss= 0.00200
+Epoch: 0226 AE_train_loss= 0.40696 SE_train_loss= 0.00175
+Epoch: 0227 AE_train_loss= 0.40512 SE_train_loss= 0.00158
+Epoch: 0228 AE_train_loss= 0.40331 SE_train_loss= 0.00144
+Epoch: 0229 AE_train_loss= 0.40156 SE_train_loss= 0.00133
+Epoch: 0230 AE_train_loss= 0.39983 SE_train_loss= 0.00123
+Epoch: 0231 AE_train_loss= 0.39749 SE_train_loss= 0.00462
+Epoch: 0232 AE_train_loss= 0.39551 SE_train_loss= 0.00318
+Epoch: 0233 AE_train_loss= 0.39366 SE_train_loss= 0.00254
+Epoch: 0234 AE_train_loss= 0.39189 SE_train_loss= 0.00216
+Epoch: 0235 AE_train_loss= 0.39017 SE_train_loss= 0.00190
+Epoch: 0236 AE_train_loss= 0.38850 SE_train_loss= 0.00171
+Epoch: 0237 AE_train_loss= 0.38686 SE_train_loss= 0.00156
+Epoch: 0238 AE_train_loss= 0.38524 SE_train_loss= 0.00144
+Epoch: 0239 AE_train_loss= 0.38366 SE_train_loss= 0.00132
+Epoch: 0240 AE_train_loss= 0.38211 SE_train_loss= 0.00122
+Epoch: 0241 AE_train_loss= 0.37656 SE_train_loss= 0.00434
+Epoch: 0242 AE_train_loss= 0.37472 SE_train_loss= 0.00294
+Epoch: 0243 AE_train_loss= 0.37299 SE_train_loss= 0.00231
+Epoch: 0244 AE_train_loss= 0.37132 SE_train_loss= 0.00194
+Epoch: 0245 AE_train_loss= 0.36971 SE_train_loss= 0.00171
+Epoch: 0246 AE_train_loss= 0.36817 SE_train_loss= 0.00154
+Epoch: 0247 AE_train_loss= 0.36665 SE_train_loss= 0.00142
+Epoch: 0248 AE_train_loss= 0.36518 SE_train_loss= 0.00133
+Epoch: 0249 AE_train_loss= 0.36373 SE_train_loss= 0.00125
+Epoch: 0250 AE_train_loss= 0.36232 SE_train_loss= 0.00118
+Epoch: 0251 AE_train_loss= 0.37970 SE_train_loss= 0.00452
+Epoch: 0252 AE_train_loss= 0.37791 SE_train_loss= 0.00305
+Epoch: 0253 AE_train_loss= 0.37628 SE_train_loss= 0.00241
+Epoch: 0254 AE_train_loss= 0.37473 SE_train_loss= 0.00205
+Epoch: 0255 AE_train_loss= 0.37320 SE_train_loss= 0.00181
+Epoch: 0256 AE_train_loss= 0.37173 SE_train_loss= 0.00162
+Epoch: 0257 AE_train_loss= 0.37029 SE_train_loss= 0.00148
+Epoch: 0258 AE_train_loss= 0.36888 SE_train_loss= 0.00136
+Epoch: 0259 AE_train_loss= 0.36750 SE_train_loss= 0.00128
+Epoch: 0260 AE_train_loss= 0.36615 SE_train_loss= 0.00120
+Epoch: 0261 AE_train_loss= 0.36436 SE_train_loss= 0.00435
+Epoch: 0262 AE_train_loss= 0.36258 SE_train_loss= 0.00278
+Epoch: 0263 AE_train_loss= 0.36100 SE_train_loss= 0.00208
+Epoch: 0264 AE_train_loss= 0.35951 SE_train_loss= 0.00168
+Epoch: 0265 AE_train_loss= 0.35808 SE_train_loss= 0.00143
+Epoch: 0266 AE_train_loss= 0.35670 SE_train_loss= 0.00126
+Epoch: 0267 AE_train_loss= 0.35534 SE_train_loss= 0.00113
+Epoch: 0268 AE_train_loss= 0.35402 SE_train_loss= 0.00104
+Epoch: 0269 AE_train_loss= 0.35272 SE_train_loss= 0.00096
+Epoch: 0270 AE_train_loss= 0.35146 SE_train_loss= 0.00090
+Epoch: 0271 AE_train_loss= 0.36453 SE_train_loss= 0.00481
+Epoch: 0272 AE_train_loss= 0.36285 SE_train_loss= 0.00323
+Epoch: 0273 AE_train_loss= 0.36131 SE_train_loss= 0.00250
+Epoch: 0274 AE_train_loss= 0.35986 SE_train_loss= 0.00206
+Epoch: 0275 AE_train_loss= 0.35846 SE_train_loss= 0.00174
+Epoch: 0276 AE_train_loss= 0.35710 SE_train_loss= 0.00151
+Epoch: 0277 AE_train_loss= 0.35579 SE_train_loss= 0.00133
+Epoch: 0278 AE_train_loss= 0.35451 SE_train_loss= 0.00119
+Epoch: 0279 AE_train_loss= 0.35325 SE_train_loss= 0.00109
+Epoch: 0280 AE_train_loss= 0.35202 SE_train_loss= 0.00101
+Epoch: 0281 AE_train_loss= 0.35955 SE_train_loss= 0.00501
+Epoch: 0282 AE_train_loss= 0.35794 SE_train_loss= 0.00343
+Epoch: 0283 AE_train_loss= 0.35643 SE_train_loss= 0.00274
+Epoch: 0284 AE_train_loss= 0.35501 SE_train_loss= 0.00234
+Epoch: 0285 AE_train_loss= 0.35364 SE_train_loss= 0.00207
+Epoch: 0286 AE_train_loss= 0.35230 SE_train_loss= 0.00186
+Epoch: 0287 AE_train_loss= 0.35101 SE_train_loss= 0.00172
+Epoch: 0288 AE_train_loss= 0.34974 SE_train_loss= 0.00160
+Epoch: 0289 AE_train_loss= 0.34851 SE_train_loss= 0.00151
+Epoch: 0290 AE_train_loss= 0.34729 SE_train_loss= 0.00143
+Epoch: 0291 AE_train_loss= 0.33270 SE_train_loss= 0.00444
+Epoch: 0292 AE_train_loss= 0.33127 SE_train_loss= 0.00306
+Epoch: 0293 AE_train_loss= 0.32995 SE_train_loss= 0.00246
+Epoch: 0294 AE_train_loss= 0.32869 SE_train_loss= 0.00207
+Epoch: 0295 AE_train_loss= 0.32747 SE_train_loss= 0.00181
+Epoch: 0296 AE_train_loss= 0.32629 SE_train_loss= 0.00160
+Epoch: 0297 AE_train_loss= 0.32513 SE_train_loss= 0.00145
+Epoch: 0298 AE_train_loss= 0.32401 SE_train_loss= 0.00131
+Epoch: 0299 AE_train_loss= 0.32291 SE_train_loss= 0.00121
+Epoch: 0300 AE_train_loss= 0.32185 SE_train_loss= 0.00113
+Epoch: 0301 AE_train_loss= 0.33984 SE_train_loss= 0.00439
+Epoch: 0302 AE_train_loss= 0.33834 SE_train_loss= 0.00301
+Epoch: 0303 AE_train_loss= 0.33700 SE_train_loss= 0.00240
+Epoch: 0304 AE_train_loss= 0.33576 SE_train_loss= 0.00207
+Epoch: 0305 AE_train_loss= 0.33456 SE_train_loss= 0.00185
+Epoch: 0306 AE_train_loss= 0.33340 SE_train_loss= 0.00168
+Epoch: 0307 AE_train_loss= 0.33227 SE_train_loss= 0.00154
+Epoch: 0308 AE_train_loss= 0.33120 SE_train_loss= 0.00141
+Epoch: 0309 AE_train_loss= 0.33013 SE_train_loss= 0.00131
+Epoch: 0310 AE_train_loss= 0.32910 SE_train_loss= 0.00122
+Epoch: 0311 AE_train_loss= 0.33345 SE_train_loss= 0.00460
+Epoch: 0312 AE_train_loss= 0.33208 SE_train_loss= 0.00301
+Epoch: 0313 AE_train_loss= 0.33082 SE_train_loss= 0.00230
+Epoch: 0314 AE_train_loss= 0.32963 SE_train_loss= 0.00189
+Epoch: 0315 AE_train_loss= 0.32848 SE_train_loss= 0.00161
+Epoch: 0316 AE_train_loss= 0.32738 SE_train_loss= 0.00140
+Epoch: 0317 AE_train_loss= 0.32630 SE_train_loss= 0.00124
+Epoch: 0318 AE_train_loss= 0.32526 SE_train_loss= 0.00111
+Epoch: 0319 AE_train_loss= 0.32423 SE_train_loss= 0.00100
+Epoch: 0320 AE_train_loss= 0.32323 SE_train_loss= 0.00091
+Epoch: 0321 AE_train_loss= 0.32072 SE_train_loss= 0.00386
+Epoch: 0322 AE_train_loss= 0.31921 SE_train_loss= 0.00258
+Epoch: 0323 AE_train_loss= 0.31792 SE_train_loss= 0.00205
+Epoch: 0324 AE_train_loss= 0.31671 SE_train_loss= 0.00175
+Epoch: 0325 AE_train_loss= 0.31555 SE_train_loss= 0.00153
+Epoch: 0326 AE_train_loss= 0.31444 SE_train_loss= 0.00136
+Epoch: 0327 AE_train_loss= 0.31337 SE_train_loss= 0.00123
+Epoch: 0328 AE_train_loss= 0.31233 SE_train_loss= 0.00112
+Epoch: 0329 AE_train_loss= 0.31130 SE_train_loss= 0.00104
+Epoch: 0330 AE_train_loss= 0.31031 SE_train_loss= 0.00097
+Epoch: 0331 AE_train_loss= 0.31623 SE_train_loss= 0.00383
+Epoch: 0332 AE_train_loss= 0.31488 SE_train_loss= 0.00261
+Epoch: 0333 AE_train_loss= 0.31366 SE_train_loss= 0.00207
+Epoch: 0334 AE_train_loss= 0.31250 SE_train_loss= 0.00174
+Epoch: 0335 AE_train_loss= 0.31139 SE_train_loss= 0.00150
+Epoch: 0336 AE_train_loss= 0.31034 SE_train_loss= 0.00132
+Epoch: 0337 AE_train_loss= 0.30932 SE_train_loss= 0.00119
+Epoch: 0338 AE_train_loss= 0.30832 SE_train_loss= 0.00108
+Epoch: 0339 AE_train_loss= 0.30736 SE_train_loss= 0.00100
+Epoch: 0340 AE_train_loss= 0.30640 SE_train_loss= 0.00092
+Epoch: 0341 AE_train_loss= 0.30962 SE_train_loss= 0.00415
+Epoch: 0342 AE_train_loss= 0.30831 SE_train_loss= 0.00277
+Epoch: 0343 AE_train_loss= 0.30717 SE_train_loss= 0.00219
+Epoch: 0344 AE_train_loss= 0.30609 SE_train_loss= 0.00185
+Epoch: 0345 AE_train_loss= 0.30506 SE_train_loss= 0.00162
+Epoch: 0346 AE_train_loss= 0.30407 SE_train_loss= 0.00145
+Epoch: 0347 AE_train_loss= 0.30312 SE_train_loss= 0.00131
+Epoch: 0348 AE_train_loss= 0.30219 SE_train_loss= 0.00120
+Epoch: 0349 AE_train_loss= 0.30129 SE_train_loss= 0.00112
+Epoch: 0350 AE_train_loss= 0.30041 SE_train_loss= 0.00106
+Epoch: 0351 AE_train_loss= 0.31007 SE_train_loss= 0.00426
+Epoch: 0352 AE_train_loss= 0.30886 SE_train_loss= 0.00289
+Epoch: 0353 AE_train_loss= 0.30777 SE_train_loss= 0.00224
+Epoch: 0354 AE_train_loss= 0.30674 SE_train_loss= 0.00186
+Epoch: 0355 AE_train_loss= 0.30576 SE_train_loss= 0.00162
+Epoch: 0356 AE_train_loss= 0.30480 SE_train_loss= 0.00145
+Epoch: 0357 AE_train_loss= 0.30388 SE_train_loss= 0.00132
+Epoch: 0358 AE_train_loss= 0.30299 SE_train_loss= 0.00123
+Epoch: 0359 AE_train_loss= 0.30211 SE_train_loss= 0.00116
+Epoch: 0360 AE_train_loss= 0.30124 SE_train_loss= 0.00110
+Epoch: 0361 AE_train_loss= 0.28624 SE_train_loss= 0.00368
+Epoch: 0362 AE_train_loss= 0.28512 SE_train_loss= 0.00245
+Epoch: 0363 AE_train_loss= 0.28412 SE_train_loss= 0.00195
+Epoch: 0364 AE_train_loss= 0.28316 SE_train_loss= 0.00169
+Epoch: 0365 AE_train_loss= 0.28225 SE_train_loss= 0.00151
+Epoch: 0366 AE_train_loss= 0.28136 SE_train_loss= 0.00137
+Epoch: 0367 AE_train_loss= 0.28050 SE_train_loss= 0.00126
+Epoch: 0368 AE_train_loss= 0.27967 SE_train_loss= 0.00117
+Epoch: 0369 AE_train_loss= 0.27886 SE_train_loss= 0.00110
+Epoch: 0370 AE_train_loss= 0.27807 SE_train_loss= 0.00104
+Epoch: 0371 AE_train_loss= 0.30484 SE_train_loss= 0.00427
+Epoch: 0372 AE_train_loss= 0.30369 SE_train_loss= 0.00311
+Epoch: 0373 AE_train_loss= 0.30264 SE_train_loss= 0.00260
+Epoch: 0374 AE_train_loss= 0.30165 SE_train_loss= 0.00229
+Epoch: 0375 AE_train_loss= 0.30071 SE_train_loss= 0.00207
+Epoch: 0376 AE_train_loss= 0.29978 SE_train_loss= 0.00191
+Epoch: 0377 AE_train_loss= 0.29889 SE_train_loss= 0.00178
+Epoch: 0378 AE_train_loss= 0.29802 SE_train_loss= 0.00167
+Epoch: 0379 AE_train_loss= 0.29717 SE_train_loss= 0.00159
+Epoch: 0380 AE_train_loss= 0.29634 SE_train_loss= 0.00152
+Epoch: 0381 AE_train_loss= 0.27457 SE_train_loss= 0.00369
+Epoch: 0382 AE_train_loss= 0.27346 SE_train_loss= 0.00253
+Epoch: 0383 AE_train_loss= 0.27247 SE_train_loss= 0.00203
+Epoch: 0384 AE_train_loss= 0.27155 SE_train_loss= 0.00174
+Epoch: 0385 AE_train_loss= 0.27067 SE_train_loss= 0.00156
+Epoch: 0386 AE_train_loss= 0.26985 SE_train_loss= 0.00142
+Epoch: 0387 AE_train_loss= 0.26903 SE_train_loss= 0.00131
+Epoch: 0388 AE_train_loss= 0.26825 SE_train_loss= 0.00123
+Epoch: 0389 AE_train_loss= 0.26749 SE_train_loss= 0.00116
+Epoch: 0390 AE_train_loss= 0.26675 SE_train_loss= 0.00111
+Epoch: 0391 AE_train_loss= 0.30495 SE_train_loss= 0.00416
+Epoch: 0392 AE_train_loss= 0.30378 SE_train_loss= 0.00297
+Epoch: 0393 AE_train_loss= 0.30276 SE_train_loss= 0.00240
+Epoch: 0394 AE_train_loss= 0.30180 SE_train_loss= 0.00204
+Epoch: 0395 AE_train_loss= 0.30087 SE_train_loss= 0.00181
+Epoch: 0396 AE_train_loss= 0.30000 SE_train_loss= 0.00164
+Epoch: 0397 AE_train_loss= 0.29913 SE_train_loss= 0.00150
+Epoch: 0398 AE_train_loss= 0.29831 SE_train_loss= 0.00139
+Epoch: 0399 AE_train_loss= 0.29749 SE_train_loss= 0.00130
+Epoch: 0400 AE_train_loss= 0.29670 SE_train_loss= 0.00122
+Epoch: 0401 AE_train_loss= 0.28331 SE_train_loss= 0.00365
+Epoch: 0402 AE_train_loss= 0.28227 SE_train_loss= 0.00248
+Epoch: 0403 AE_train_loss= 0.28135 SE_train_loss= 0.00195
+Epoch: 0404 AE_train_loss= 0.28048 SE_train_loss= 0.00164
+Epoch: 0405 AE_train_loss= 0.27966 SE_train_loss= 0.00143
+Epoch: 0406 AE_train_loss= 0.27886 SE_train_loss= 0.00127
+Epoch: 0407 AE_train_loss= 0.27810 SE_train_loss= 0.00115
+Epoch: 0408 AE_train_loss= 0.27735 SE_train_loss= 0.00106
+Epoch: 0409 AE_train_loss= 0.27662 SE_train_loss= 0.00098
+Epoch: 0410 AE_train_loss= 0.27591 SE_train_loss= 0.00091
+Epoch: 0411 AE_train_loss= 0.27502 SE_train_loss= 0.00329
+Epoch: 0412 AE_train_loss= 0.27394 SE_train_loss= 0.00230
+Epoch: 0413 AE_train_loss= 0.27295 SE_train_loss= 0.00188
+Epoch: 0414 AE_train_loss= 0.27204 SE_train_loss= 0.00161
+Epoch: 0415 AE_train_loss= 0.27118 SE_train_loss= 0.00142
+Epoch: 0416 AE_train_loss= 0.27035 SE_train_loss= 0.00126
+Epoch: 0417 AE_train_loss= 0.26955 SE_train_loss= 0.00114
+Epoch: 0418 AE_train_loss= 0.26877 SE_train_loss= 0.00105
+Epoch: 0419 AE_train_loss= 0.26800 SE_train_loss= 0.00097
+Epoch: 0420 AE_train_loss= 0.26725 SE_train_loss= 0.00091
+Epoch: 0421 AE_train_loss= 0.26976 SE_train_loss= 0.00350
+Epoch: 0422 AE_train_loss= 0.26871 SE_train_loss= 0.00237
+Epoch: 0423 AE_train_loss= 0.26777 SE_train_loss= 0.00187
+Epoch: 0424 AE_train_loss= 0.26689 SE_train_loss= 0.00157
+Epoch: 0425 AE_train_loss= 0.26606 SE_train_loss= 0.00135
+Epoch: 0426 AE_train_loss= 0.26527 SE_train_loss= 0.00119
+Epoch: 0427 AE_train_loss= 0.26450 SE_train_loss= 0.00107
+Epoch: 0428 AE_train_loss= 0.26375 SE_train_loss= 0.00097
+Epoch: 0429 AE_train_loss= 0.26301 SE_train_loss= 0.00089
+Epoch: 0430 AE_train_loss= 0.26230 SE_train_loss= 0.00081
+Epoch: 0431 AE_train_loss= 0.26432 SE_train_loss= 0.00360
+Epoch: 0432 AE_train_loss= 0.26326 SE_train_loss= 0.00243
+Epoch: 0433 AE_train_loss= 0.26232 SE_train_loss= 0.00190
+Epoch: 0434 AE_train_loss= 0.26145 SE_train_loss= 0.00157
+Epoch: 0435 AE_train_loss= 0.26063 SE_train_loss= 0.00133
+Epoch: 0436 AE_train_loss= 0.25984 SE_train_loss= 0.00117
+Epoch: 0437 AE_train_loss= 0.25909 SE_train_loss= 0.00104
+Epoch: 0438 AE_train_loss= 0.25837 SE_train_loss= 0.00094
+Epoch: 0439 AE_train_loss= 0.25765 SE_train_loss= 0.00086
+Epoch: 0440 AE_train_loss= 0.25697 SE_train_loss= 0.00079
+Epoch: 0441 AE_train_loss= 0.24876 SE_train_loss= 0.00309
+Epoch: 0442 AE_train_loss= 0.24776 SE_train_loss= 0.00195
+Epoch: 0443 AE_train_loss= 0.24687 SE_train_loss= 0.00146
+Epoch: 0444 AE_train_loss= 0.24606 SE_train_loss= 0.00118
+Epoch: 0445 AE_train_loss= 0.24527 SE_train_loss= 0.00099
+Epoch: 0446 AE_train_loss= 0.24452 SE_train_loss= 0.00086
+Epoch: 0447 AE_train_loss= 0.24381 SE_train_loss= 0.00076
+Epoch: 0448 AE_train_loss= 0.24311 SE_train_loss= 0.00069
+Epoch: 0449 AE_train_loss= 0.24244 SE_train_loss= 0.00063
+Epoch: 0450 AE_train_loss= 0.24179 SE_train_loss= 0.00057
+Epoch: 0451 AE_train_loss= 0.27158 SE_train_loss= 0.00297
+Epoch: 0452 AE_train_loss= 0.27055 SE_train_loss= 0.00190
+Epoch: 0453 AE_train_loss= 0.26966 SE_train_loss= 0.00145
+Epoch: 0454 AE_train_loss= 0.26884 SE_train_loss= 0.00118
+Epoch: 0455 AE_train_loss= 0.26808 SE_train_loss= 0.00099
+Epoch: 0456 AE_train_loss= 0.26735 SE_train_loss= 0.00086
+Epoch: 0457 AE_train_loss= 0.26664 SE_train_loss= 0.00075
+Epoch: 0458 AE_train_loss= 0.26595 SE_train_loss= 0.00066
+Epoch: 0459 AE_train_loss= 0.26528 SE_train_loss= 0.00059
+Epoch: 0460 AE_train_loss= 0.26463 SE_train_loss= 0.00054
+Epoch: 0461 AE_train_loss= 0.24821 SE_train_loss= 0.00354
+Epoch: 0462 AE_train_loss= 0.24729 SE_train_loss= 0.00248
+Epoch: 0463 AE_train_loss= 0.24650 SE_train_loss= 0.00206
+Epoch: 0464 AE_train_loss= 0.24576 SE_train_loss= 0.00182
+Epoch: 0465 AE_train_loss= 0.24505 SE_train_loss= 0.00164
+Epoch: 0466 AE_train_loss= 0.24438 SE_train_loss= 0.00151
+Epoch: 0467 AE_train_loss= 0.24374 SE_train_loss= 0.00140
+Epoch: 0468 AE_train_loss= 0.24311 SE_train_loss= 0.00131
+Epoch: 0469 AE_train_loss= 0.24251 SE_train_loss= 0.00124
+Epoch: 0470 AE_train_loss= 0.24191 SE_train_loss= 0.00118
+Epoch: 0471 AE_train_loss= 0.25724 SE_train_loss= 0.00357
+Epoch: 0472 AE_train_loss= 0.25621 SE_train_loss= 0.00248
+Epoch: 0473 AE_train_loss= 0.25532 SE_train_loss= 0.00198
+Epoch: 0474 AE_train_loss= 0.25450 SE_train_loss= 0.00171
+Epoch: 0475 AE_train_loss= 0.25371 SE_train_loss= 0.00153
+Epoch: 0476 AE_train_loss= 0.25296 SE_train_loss= 0.00140
+Epoch: 0477 AE_train_loss= 0.25224 SE_train_loss= 0.00130
+Epoch: 0478 AE_train_loss= 0.25155 SE_train_loss= 0.00122
+Epoch: 0479 AE_train_loss= 0.25088 SE_train_loss= 0.00116
+Epoch: 0480 AE_train_loss= 0.25025 SE_train_loss= 0.00111
+Epoch: 0481 AE_train_loss= 0.25928 SE_train_loss= 0.00339
+Epoch: 0482 AE_train_loss= 0.25838 SE_train_loss= 0.00223
+Epoch: 0483 AE_train_loss= 0.25757 SE_train_loss= 0.00173
+Epoch: 0484 AE_train_loss= 0.25680 SE_train_loss= 0.00141
+Epoch: 0485 AE_train_loss= 0.25606 SE_train_loss= 0.00120
+Epoch: 0486 AE_train_loss= 0.25538 SE_train_loss= 0.00105
+Epoch: 0487 AE_train_loss= 0.25472 SE_train_loss= 0.00093
+Epoch: 0488 AE_train_loss= 0.25408 SE_train_loss= 0.00084
+Epoch: 0489 AE_train_loss= 0.25345 SE_train_loss= 0.00077
+Epoch: 0490 AE_train_loss= 0.25284 SE_train_loss= 0.00071
+Epoch: 0491 AE_train_loss= 0.25147 SE_train_loss= 0.00403
+Epoch: 0492 AE_train_loss= 0.25055 SE_train_loss= 0.00278
+Epoch: 0493 AE_train_loss= 0.24974 SE_train_loss= 0.00222
+Epoch: 0494 AE_train_loss= 0.24899 SE_train_loss= 0.00186
+Epoch: 0495 AE_train_loss= 0.24829 SE_train_loss= 0.00159
+Epoch: 0496 AE_train_loss= 0.24761 SE_train_loss= 0.00139
+Epoch: 0497 AE_train_loss= 0.24696 SE_train_loss= 0.00122
+Epoch: 0498 AE_train_loss= 0.24632 SE_train_loss= 0.00108
+Epoch: 0499 AE_train_loss= 0.24572 SE_train_loss= 0.00097
+Epoch: 0500 AE_train_loss= 0.24512 SE_train_loss= 0.00089
+Epoch: 0501 AE_train_loss= 0.24564 SE_train_loss= 0.00317
+Epoch: 0502 AE_train_loss= 0.24472 SE_train_loss= 0.00210
+Epoch: 0503 AE_train_loss= 0.24393 SE_train_loss= 0.00163
+Epoch: 0504 AE_train_loss= 0.24321 SE_train_loss= 0.00137
+Epoch: 0505 AE_train_loss= 0.24255 SE_train_loss= 0.00119
+Epoch: 0506 AE_train_loss= 0.24191 SE_train_loss= 0.00106
+Epoch: 0507 AE_train_loss= 0.24128 SE_train_loss= 0.00096
+Epoch: 0508 AE_train_loss= 0.24070 SE_train_loss= 0.00089
+Epoch: 0509 AE_train_loss= 0.24012 SE_train_loss= 0.00083
+Epoch: 0510 AE_train_loss= 0.23955 SE_train_loss= 0.00078
+Epoch: 0511 AE_train_loss= 0.24268 SE_train_loss= 0.00286
+Epoch: 0512 AE_train_loss= 0.24188 SE_train_loss= 0.00196
+Epoch: 0513 AE_train_loss= 0.24115 SE_train_loss= 0.00154
+Epoch: 0514 AE_train_loss= 0.24047 SE_train_loss= 0.00130
+Epoch: 0515 AE_train_loss= 0.23982 SE_train_loss= 0.00113
+Epoch: 0516 AE_train_loss= 0.23919 SE_train_loss= 0.00101
+Epoch: 0517 AE_train_loss= 0.23859 SE_train_loss= 0.00092
+Epoch: 0518 AE_train_loss= 0.23801 SE_train_loss= 0.00083
+Epoch: 0519 AE_train_loss= 0.23744 SE_train_loss= 0.00076
+Epoch: 0520 AE_train_loss= 0.23688 SE_train_loss= 0.00070
+Epoch: 0521 AE_train_loss= 0.22688 SE_train_loss= 0.00341
+Epoch: 0522 AE_train_loss= 0.22610 SE_train_loss= 0.00238
+Epoch: 0523 AE_train_loss= 0.22540 SE_train_loss= 0.00188
+Epoch: 0524 AE_train_loss= 0.22475 SE_train_loss= 0.00159
+Epoch: 0525 AE_train_loss= 0.22413 SE_train_loss= 0.00138
+Epoch: 0526 AE_train_loss= 0.22355 SE_train_loss= 0.00122
+Epoch: 0527 AE_train_loss= 0.22299 SE_train_loss= 0.00111
+Epoch: 0528 AE_train_loss= 0.22244 SE_train_loss= 0.00100
+Epoch: 0529 AE_train_loss= 0.22191 SE_train_loss= 0.00092
+Epoch: 0530 AE_train_loss= 0.22140 SE_train_loss= 0.00086
+Epoch: 0531 AE_train_loss= 0.23927 SE_train_loss= 0.00323
+Epoch: 0532 AE_train_loss= 0.23852 SE_train_loss= 0.00220
+Epoch: 0533 AE_train_loss= 0.23785 SE_train_loss= 0.00174
+Epoch: 0534 AE_train_loss= 0.23723 SE_train_loss= 0.00149
+Epoch: 0535 AE_train_loss= 0.23663 SE_train_loss= 0.00132
+Epoch: 0536 AE_train_loss= 0.23605 SE_train_loss= 0.00118
+Epoch: 0537 AE_train_loss= 0.23550 SE_train_loss= 0.00107
+Epoch: 0538 AE_train_loss= 0.23496 SE_train_loss= 0.00099
+Epoch: 0539 AE_train_loss= 0.23443 SE_train_loss= 0.00091
+Epoch: 0540 AE_train_loss= 0.23391 SE_train_loss= 0.00085
+Epoch: 0541 AE_train_loss= 0.23441 SE_train_loss= 0.00320
+Epoch: 0542 AE_train_loss= 0.23356 SE_train_loss= 0.00218
+Epoch: 0543 AE_train_loss= 0.23283 SE_train_loss= 0.00178
+Epoch: 0544 AE_train_loss= 0.23217 SE_train_loss= 0.00150
+Epoch: 0545 AE_train_loss= 0.23156 SE_train_loss= 0.00131
+Epoch: 0546 AE_train_loss= 0.23097 SE_train_loss= 0.00116
+Epoch: 0547 AE_train_loss= 0.23041 SE_train_loss= 0.00105
+Epoch: 0548 AE_train_loss= 0.22986 SE_train_loss= 0.00097
+Epoch: 0549 AE_train_loss= 0.22934 SE_train_loss= 0.00090
+Epoch: 0550 AE_train_loss= 0.22882 SE_train_loss= 0.00084
+Epoch: 0551 AE_train_loss= 0.23679 SE_train_loss= 0.00368
+Epoch: 0552 AE_train_loss= 0.23598 SE_train_loss= 0.00263
+Epoch: 0553 AE_train_loss= 0.23526 SE_train_loss= 0.00219
+Epoch: 0554 AE_train_loss= 0.23459 SE_train_loss= 0.00191
+Epoch: 0555 AE_train_loss= 0.23397 SE_train_loss= 0.00171
+Epoch: 0556 AE_train_loss= 0.23337 SE_train_loss= 0.00155
+Epoch: 0557 AE_train_loss= 0.23280 SE_train_loss= 0.00143
+Epoch: 0558 AE_train_loss= 0.23224 SE_train_loss= 0.00133
+Epoch: 0559 AE_train_loss= 0.23169 SE_train_loss= 0.00124
+Epoch: 0560 AE_train_loss= 0.23117 SE_train_loss= 0.00116
+Epoch: 0561 AE_train_loss= 0.22989 SE_train_loss= 0.00363
+Epoch: 0562 AE_train_loss= 0.22909 SE_train_loss= 0.00252
+Epoch: 0563 AE_train_loss= 0.22841 SE_train_loss= 0.00203
+Epoch: 0564 AE_train_loss= 0.22777 SE_train_loss= 0.00173
+Epoch: 0565 AE_train_loss= 0.22716 SE_train_loss= 0.00153
+Epoch: 0566 AE_train_loss= 0.22659 SE_train_loss= 0.00138
+Epoch: 0567 AE_train_loss= 0.22605 SE_train_loss= 0.00126
+Epoch: 0568 AE_train_loss= 0.22551 SE_train_loss= 0.00115
+Epoch: 0569 AE_train_loss= 0.22499 SE_train_loss= 0.00106
+Epoch: 0570 AE_train_loss= 0.22448 SE_train_loss= 0.00097
+Epoch: 0571 AE_train_loss= 0.22254 SE_train_loss= 0.00283
+Epoch: 0572 AE_train_loss= 0.22176 SE_train_loss= 0.00189
+Epoch: 0573 AE_train_loss= 0.22110 SE_train_loss= 0.00150
+Epoch: 0574 AE_train_loss= 0.22047 SE_train_loss= 0.00124
+Epoch: 0575 AE_train_loss= 0.21990 SE_train_loss= 0.00105
+Epoch: 0576 AE_train_loss= 0.21936 SE_train_loss= 0.00092
+Epoch: 0577 AE_train_loss= 0.21883 SE_train_loss= 0.00082
+Epoch: 0578 AE_train_loss= 0.21832 SE_train_loss= 0.00075
+Epoch: 0579 AE_train_loss= 0.21782 SE_train_loss= 0.00069
+Epoch: 0580 AE_train_loss= 0.21734 SE_train_loss= 0.00064
+Epoch: 0581 AE_train_loss= 0.23070 SE_train_loss= 0.00326
+Epoch: 0582 AE_train_loss= 0.22990 SE_train_loss= 0.00225
+Epoch: 0583 AE_train_loss= 0.22918 SE_train_loss= 0.00178
+Epoch: 0584 AE_train_loss= 0.22853 SE_train_loss= 0.00152
+Epoch: 0585 AE_train_loss= 0.22793 SE_train_loss= 0.00133
+Epoch: 0586 AE_train_loss= 0.22736 SE_train_loss= 0.00119
+Epoch: 0587 AE_train_loss= 0.22682 SE_train_loss= 0.00108
+Epoch: 0588 AE_train_loss= 0.22629 SE_train_loss= 0.00099
+Epoch: 0589 AE_train_loss= 0.22578 SE_train_loss= 0.00092
+Epoch: 0590 AE_train_loss= 0.22529 SE_train_loss= 0.00086
+Epoch: 0591 AE_train_loss= 0.20889 SE_train_loss= 0.00346
+Epoch: 0592 AE_train_loss= 0.20816 SE_train_loss= 0.00232
+Epoch: 0593 AE_train_loss= 0.20755 SE_train_loss= 0.00178
+Epoch: 0594 AE_train_loss= 0.20700 SE_train_loss= 0.00149
+Epoch: 0595 AE_train_loss= 0.20648 SE_train_loss= 0.00130
+Epoch: 0596 AE_train_loss= 0.20599 SE_train_loss= 0.00116
+Epoch: 0597 AE_train_loss= 0.20553 SE_train_loss= 0.00103
+Epoch: 0598 AE_train_loss= 0.20507 SE_train_loss= 0.00093
+Epoch: 0599 AE_train_loss= 0.20464 SE_train_loss= 0.00085
+Epoch: 0600 AE_train_loss= 0.20421 SE_train_loss= 0.00079
+Epoch: 0601 AE_train_loss= 0.21825 SE_train_loss= 0.00354
+Epoch: 0602 AE_train_loss= 0.21753 SE_train_loss= 0.00242
+Epoch: 0603 AE_train_loss= 0.21690 SE_train_loss= 0.00189
+Epoch: 0604 AE_train_loss= 0.21633 SE_train_loss= 0.00156
+Epoch: 0605 AE_train_loss= 0.21579 SE_train_loss= 0.00135
+Epoch: 0606 AE_train_loss= 0.21527 SE_train_loss= 0.00119
+Epoch: 0607 AE_train_loss= 0.21475 SE_train_loss= 0.00107
+Epoch: 0608 AE_train_loss= 0.21426 SE_train_loss= 0.00097
+Epoch: 0609 AE_train_loss= 0.21377 SE_train_loss= 0.00088
+Epoch: 0610 AE_train_loss= 0.21331 SE_train_loss= 0.00081
+Epoch: 0611 AE_train_loss= 0.21736 SE_train_loss= 0.00314
+Epoch: 0612 AE_train_loss= 0.21666 SE_train_loss= 0.00211
+Epoch: 0613 AE_train_loss= 0.21604 SE_train_loss= 0.00163
+Epoch: 0614 AE_train_loss= 0.21546 SE_train_loss= 0.00136
+Epoch: 0615 AE_train_loss= 0.21491 SE_train_loss= 0.00118
+Epoch: 0616 AE_train_loss= 0.21439 SE_train_loss= 0.00105
+Epoch: 0617 AE_train_loss= 0.21389 SE_train_loss= 0.00095
+Epoch: 0618 AE_train_loss= 0.21339 SE_train_loss= 0.00087
+Epoch: 0619 AE_train_loss= 0.21293 SE_train_loss= 0.00080
+Epoch: 0620 AE_train_loss= 0.21246 SE_train_loss= 0.00074
+Epoch: 0621 AE_train_loss= 0.21498 SE_train_loss= 0.00300
+Epoch: 0622 AE_train_loss= 0.21427 SE_train_loss= 0.00204
+Epoch: 0623 AE_train_loss= 0.21365 SE_train_loss= 0.00158
+Epoch: 0624 AE_train_loss= 0.21307 SE_train_loss= 0.00131
+Epoch: 0625 AE_train_loss= 0.21252 SE_train_loss= 0.00112
+Epoch: 0626 AE_train_loss= 0.21199 SE_train_loss= 0.00098
+Epoch: 0627 AE_train_loss= 0.21150 SE_train_loss= 0.00088
+Epoch: 0628 AE_train_loss= 0.21102 SE_train_loss= 0.00081
+Epoch: 0629 AE_train_loss= 0.21056 SE_train_loss= 0.00074
+Epoch: 0630 AE_train_loss= 0.21011 SE_train_loss= 0.00068
+Epoch: 0631 AE_train_loss= 0.20921 SE_train_loss= 0.00365
+Epoch: 0632 AE_train_loss= 0.20846 SE_train_loss= 0.00263
+Epoch: 0633 AE_train_loss= 0.20780 SE_train_loss= 0.00217
+Epoch: 0634 AE_train_loss= 0.20720 SE_train_loss= 0.00187
+Epoch: 0635 AE_train_loss= 0.20664 SE_train_loss= 0.00167
+Epoch: 0636 AE_train_loss= 0.20611 SE_train_loss= 0.00152
+Epoch: 0637 AE_train_loss= 0.20562 SE_train_loss= 0.00142
+Epoch: 0638 AE_train_loss= 0.20515 SE_train_loss= 0.00133
+Epoch: 0639 AE_train_loss= 0.20469 SE_train_loss= 0.00126
+Epoch: 0640 AE_train_loss= 0.20426 SE_train_loss= 0.00119
+Epoch: 0641 AE_train_loss= 0.20798 SE_train_loss= 0.00323
+Epoch: 0642 AE_train_loss= 0.20725 SE_train_loss= 0.00219
+Epoch: 0643 AE_train_loss= 0.20662 SE_train_loss= 0.00172
+Epoch: 0644 AE_train_loss= 0.20603 SE_train_loss= 0.00145
+Epoch: 0645 AE_train_loss= 0.20550 SE_train_loss= 0.00128
+Epoch: 0646 AE_train_loss= 0.20499 SE_train_loss= 0.00115
+Epoch: 0647 AE_train_loss= 0.20451 SE_train_loss= 0.00105
+Epoch: 0648 AE_train_loss= 0.20404 SE_train_loss= 0.00097
+Epoch: 0649 AE_train_loss= 0.20359 SE_train_loss= 0.00090
+Epoch: 0650 AE_train_loss= 0.20315 SE_train_loss= 0.00084
+Epoch: 0651 AE_train_loss= 0.21160 SE_train_loss= 0.00293
+Epoch: 0652 AE_train_loss= 0.21083 SE_train_loss= 0.00200
+Epoch: 0653 AE_train_loss= 0.21021 SE_train_loss= 0.00162
+Epoch: 0654 AE_train_loss= 0.20962 SE_train_loss= 0.00141
+Epoch: 0655 AE_train_loss= 0.20906 SE_train_loss= 0.00128
+Epoch: 0656 AE_train_loss= 0.20854 SE_train_loss= 0.00117
+Epoch: 0657 AE_train_loss= 0.20803 SE_train_loss= 0.00108
+Epoch: 0658 AE_train_loss= 0.20755 SE_train_loss= 0.00101
+Epoch: 0659 AE_train_loss= 0.20708 SE_train_loss= 0.00096
+Epoch: 0660 AE_train_loss= 0.20662 SE_train_loss= 0.00090
+Epoch: 0661 AE_train_loss= 0.20839 SE_train_loss= 0.00284
+Epoch: 0662 AE_train_loss= 0.20764 SE_train_loss= 0.00189
+Epoch: 0663 AE_train_loss= 0.20699 SE_train_loss= 0.00151
+Epoch: 0664 AE_train_loss= 0.20640 SE_train_loss= 0.00130
+Epoch: 0665 AE_train_loss= 0.20585 SE_train_loss= 0.00115
+Epoch: 0666 AE_train_loss= 0.20532 SE_train_loss= 0.00104
+Epoch: 0667 AE_train_loss= 0.20483 SE_train_loss= 0.00095
+Epoch: 0668 AE_train_loss= 0.20436 SE_train_loss= 0.00088
+Epoch: 0669 AE_train_loss= 0.20390 SE_train_loss= 0.00083
+Epoch: 0670 AE_train_loss= 0.20345 SE_train_loss= 0.00078
+Epoch: 0671 AE_train_loss= 0.20154 SE_train_loss= 0.00305
+Epoch: 0672 AE_train_loss= 0.20087 SE_train_loss= 0.00220
+Epoch: 0673 AE_train_loss= 0.20032 SE_train_loss= 0.00180
+Epoch: 0674 AE_train_loss= 0.19982 SE_train_loss= 0.00157
+Epoch: 0675 AE_train_loss= 0.19934 SE_train_loss= 0.00141
+Epoch: 0676 AE_train_loss= 0.19888 SE_train_loss= 0.00130
+Epoch: 0677 AE_train_loss= 0.19844 SE_train_loss= 0.00121
+Epoch: 0678 AE_train_loss= 0.19802 SE_train_loss= 0.00114
+Epoch: 0679 AE_train_loss= 0.19761 SE_train_loss= 0.00109
+Epoch: 0680 AE_train_loss= 0.19721 SE_train_loss= 0.00104
+Epoch: 0681 AE_train_loss= 0.19777 SE_train_loss= 0.00272
+Epoch: 0682 AE_train_loss= 0.19708 SE_train_loss= 0.00185
+Epoch: 0683 AE_train_loss= 0.19651 SE_train_loss= 0.00145
+Epoch: 0684 AE_train_loss= 0.19600 SE_train_loss= 0.00120
+Epoch: 0685 AE_train_loss= 0.19554 SE_train_loss= 0.00102
+Epoch: 0686 AE_train_loss= 0.19510 SE_train_loss= 0.00088
+Epoch: 0687 AE_train_loss= 0.19469 SE_train_loss= 0.00077
+Epoch: 0688 AE_train_loss= 0.19429 SE_train_loss= 0.00067
+Epoch: 0689 AE_train_loss= 0.19391 SE_train_loss= 0.00060
+Epoch: 0690 AE_train_loss= 0.19355 SE_train_loss= 0.00055
+Epoch: 0691 AE_train_loss= 0.20594 SE_train_loss= 0.00270
+Epoch: 0692 AE_train_loss= 0.20524 SE_train_loss= 0.00182
+Epoch: 0693 AE_train_loss= 0.20464 SE_train_loss= 0.00148
+Epoch: 0694 AE_train_loss= 0.20409 SE_train_loss= 0.00126
+Epoch: 0695 AE_train_loss= 0.20359 SE_train_loss= 0.00110
+Epoch: 0696 AE_train_loss= 0.20312 SE_train_loss= 0.00097
+Epoch: 0697 AE_train_loss= 0.20267 SE_train_loss= 0.00087
+Epoch: 0698 AE_train_loss= 0.20223 SE_train_loss= 0.00078
+Epoch: 0699 AE_train_loss= 0.20181 SE_train_loss= 0.00072
+Epoch: 0700 AE_train_loss= 0.20139 SE_train_loss= 0.00065
+Epoch: 0701 AE_train_loss= 0.20284 SE_train_loss= 0.00264
+Epoch: 0702 AE_train_loss= 0.20216 SE_train_loss= 0.00180
+Epoch: 0703 AE_train_loss= 0.20158 SE_train_loss= 0.00145
+Epoch: 0704 AE_train_loss= 0.20103 SE_train_loss= 0.00121
+Epoch: 0705 AE_train_loss= 0.20053 SE_train_loss= 0.00104
+Epoch: 0706 AE_train_loss= 0.20005 SE_train_loss= 0.00092
+Epoch: 0707 AE_train_loss= 0.19958 SE_train_loss= 0.00082
+Epoch: 0708 AE_train_loss= 0.19913 SE_train_loss= 0.00075
+Epoch: 0709 AE_train_loss= 0.19870 SE_train_loss= 0.00069
+Epoch: 0710 AE_train_loss= 0.19827 SE_train_loss= 0.00063
+Epoch: 0711 AE_train_loss= 0.19892 SE_train_loss= 0.00295
+Epoch: 0712 AE_train_loss= 0.19826 SE_train_loss= 0.00195
+Epoch: 0713 AE_train_loss= 0.19768 SE_train_loss= 0.00152
+Epoch: 0714 AE_train_loss= 0.19717 SE_train_loss= 0.00126
+Epoch: 0715 AE_train_loss= 0.19669 SE_train_loss= 0.00107
+Epoch: 0716 AE_train_loss= 0.19623 SE_train_loss= 0.00093
+Epoch: 0717 AE_train_loss= 0.19579 SE_train_loss= 0.00082
+Epoch: 0718 AE_train_loss= 0.19537 SE_train_loss= 0.00074
+Epoch: 0719 AE_train_loss= 0.19495 SE_train_loss= 0.00067
+Epoch: 0720 AE_train_loss= 0.19455 SE_train_loss= 0.00061
+Epoch: 0721 AE_train_loss= 0.19611 SE_train_loss= 0.00246
+Epoch: 0722 AE_train_loss= 0.19543 SE_train_loss= 0.00166
+Epoch: 0723 AE_train_loss= 0.19484 SE_train_loss= 0.00129
+Epoch: 0724 AE_train_loss= 0.19431 SE_train_loss= 0.00105
+Epoch: 0725 AE_train_loss= 0.19380 SE_train_loss= 0.00087
+Epoch: 0726 AE_train_loss= 0.19332 SE_train_loss= 0.00075
+Epoch: 0727 AE_train_loss= 0.19285 SE_train_loss= 0.00066
+Epoch: 0728 AE_train_loss= 0.19241 SE_train_loss= 0.00059
+Epoch: 0729 AE_train_loss= 0.19199 SE_train_loss= 0.00054
+Epoch: 0730 AE_train_loss= 0.19158 SE_train_loss= 0.00049
+Epoch: 0731 AE_train_loss= 0.20163 SE_train_loss= 0.00307
+Epoch: 0732 AE_train_loss= 0.20098 SE_train_loss= 0.00213
+Epoch: 0733 AE_train_loss= 0.20041 SE_train_loss= 0.00175
+Epoch: 0734 AE_train_loss= 0.19989 SE_train_loss= 0.00153
+Epoch: 0735 AE_train_loss= 0.19939 SE_train_loss= 0.00137
+Epoch: 0736 AE_train_loss= 0.19892 SE_train_loss= 0.00126
+Epoch: 0737 AE_train_loss= 0.19846 SE_train_loss= 0.00117
+Epoch: 0738 AE_train_loss= 0.19802 SE_train_loss= 0.00111
+Epoch: 0739 AE_train_loss= 0.19760 SE_train_loss= 0.00105
+Epoch: 0740 AE_train_loss= 0.19719 SE_train_loss= 0.00101
+Epoch: 0741 AE_train_loss= 0.20851 SE_train_loss= 0.00285
+Epoch: 0742 AE_train_loss= 0.20777 SE_train_loss= 0.00187
+Epoch: 0743 AE_train_loss= 0.20715 SE_train_loss= 0.00148
+Epoch: 0744 AE_train_loss= 0.20658 SE_train_loss= 0.00125
+Epoch: 0745 AE_train_loss= 0.20605 SE_train_loss= 0.00109
+Epoch: 0746 AE_train_loss= 0.20555 SE_train_loss= 0.00097
+Epoch: 0747 AE_train_loss= 0.20507 SE_train_loss= 0.00088
+Epoch: 0748 AE_train_loss= 0.20460 SE_train_loss= 0.00081
+Epoch: 0749 AE_train_loss= 0.20416 SE_train_loss= 0.00074
+Epoch: 0750 AE_train_loss= 0.20374 SE_train_loss= 0.00069
+Epoch: 0751 AE_train_loss= 0.19441 SE_train_loss= 0.00226
+Epoch: 0752 AE_train_loss= 0.19375 SE_train_loss= 0.00152
+Epoch: 0753 AE_train_loss= 0.19322 SE_train_loss= 0.00121
+Epoch: 0754 AE_train_loss= 0.19273 SE_train_loss= 0.00101
+Epoch: 0755 AE_train_loss= 0.19227 SE_train_loss= 0.00088
+Epoch: 0756 AE_train_loss= 0.19183 SE_train_loss= 0.00078
+Epoch: 0757 AE_train_loss= 0.19141 SE_train_loss= 0.00072
+Epoch: 0758 AE_train_loss= 0.19100 SE_train_loss= 0.00066
+Epoch: 0759 AE_train_loss= 0.19060 SE_train_loss= 0.00062
+Epoch: 0760 AE_train_loss= 0.19022 SE_train_loss= 0.00058
+Epoch: 0761 AE_train_loss= 0.18640 SE_train_loss= 0.00273
+Epoch: 0762 AE_train_loss= 0.18574 SE_train_loss= 0.00187
+Epoch: 0763 AE_train_loss= 0.18518 SE_train_loss= 0.00149
+Epoch: 0764 AE_train_loss= 0.18467 SE_train_loss= 0.00126
+Epoch: 0765 AE_train_loss= 0.18419 SE_train_loss= 0.00110
+Epoch: 0766 AE_train_loss= 0.18375 SE_train_loss= 0.00098
+Epoch: 0767 AE_train_loss= 0.18331 SE_train_loss= 0.00089
+Epoch: 0768 AE_train_loss= 0.18291 SE_train_loss= 0.00082
+Epoch: 0769 AE_train_loss= 0.18252 SE_train_loss= 0.00076
+Epoch: 0770 AE_train_loss= 0.18215 SE_train_loss= 0.00072
+Epoch: 0771 AE_train_loss= 0.19087 SE_train_loss= 0.00304
+Epoch: 0772 AE_train_loss= 0.19023 SE_train_loss= 0.00209
+Epoch: 0773 AE_train_loss= 0.18968 SE_train_loss= 0.00170
+Epoch: 0774 AE_train_loss= 0.18917 SE_train_loss= 0.00145
+Epoch: 0775 AE_train_loss= 0.18869 SE_train_loss= 0.00127
+Epoch: 0776 AE_train_loss= 0.18823 SE_train_loss= 0.00115
+Epoch: 0777 AE_train_loss= 0.18780 SE_train_loss= 0.00105
+Epoch: 0778 AE_train_loss= 0.18739 SE_train_loss= 0.00096
+Epoch: 0779 AE_train_loss= 0.18698 SE_train_loss= 0.00090
+Epoch: 0780 AE_train_loss= 0.18659 SE_train_loss= 0.00084
+Epoch: 0781 AE_train_loss= 0.19162 SE_train_loss= 0.00235
+Epoch: 0782 AE_train_loss= 0.19097 SE_train_loss= 0.00148
+Epoch: 0783 AE_train_loss= 0.19041 SE_train_loss= 0.00115
+Epoch: 0784 AE_train_loss= 0.18990 SE_train_loss= 0.00095
+Epoch: 0785 AE_train_loss= 0.18944 SE_train_loss= 0.00081
+Epoch: 0786 AE_train_loss= 0.18900 SE_train_loss= 0.00070
+Epoch: 0787 AE_train_loss= 0.18858 SE_train_loss= 0.00061
+Epoch: 0788 AE_train_loss= 0.18819 SE_train_loss= 0.00053
+Epoch: 0789 AE_train_loss= 0.18781 SE_train_loss= 0.00047
+Epoch: 0790 AE_train_loss= 0.18745 SE_train_loss= 0.00043
+Epoch: 0791 AE_train_loss= 0.18781 SE_train_loss= 0.00253
+Epoch: 0792 AE_train_loss= 0.18717 SE_train_loss= 0.00175
+Epoch: 0793 AE_train_loss= 0.18664 SE_train_loss= 0.00141
+Epoch: 0794 AE_train_loss= 0.18615 SE_train_loss= 0.00120
+Epoch: 0795 AE_train_loss= 0.18569 SE_train_loss= 0.00105
+Epoch: 0796 AE_train_loss= 0.18525 SE_train_loss= 0.00094
+Epoch: 0797 AE_train_loss= 0.18484 SE_train_loss= 0.00084
+Epoch: 0798 AE_train_loss= 0.18444 SE_train_loss= 0.00075
+Epoch: 0799 AE_train_loss= 0.18405 SE_train_loss= 0.00069
+Epoch: 0800 AE_train_loss= 0.18368 SE_train_loss= 0.00064
+Epoch: 0801 AE_train_loss= 0.18496 SE_train_loss= 0.00279
+Epoch: 0802 AE_train_loss= 0.18436 SE_train_loss= 0.00198
+Epoch: 0803 AE_train_loss= 0.18382 SE_train_loss= 0.00158
+Epoch: 0804 AE_train_loss= 0.18332 SE_train_loss= 0.00134
+Epoch: 0805 AE_train_loss= 0.18284 SE_train_loss= 0.00118
+Epoch: 0806 AE_train_loss= 0.18238 SE_train_loss= 0.00108
+Epoch: 0807 AE_train_loss= 0.18195 SE_train_loss= 0.00099
+Epoch: 0808 AE_train_loss= 0.18153 SE_train_loss= 0.00092
+Epoch: 0809 AE_train_loss= 0.18113 SE_train_loss= 0.00087
+Epoch: 0810 AE_train_loss= 0.18075 SE_train_loss= 0.00082
+Epoch: 0811 AE_train_loss= 0.19042 SE_train_loss= 0.00266
+Epoch: 0812 AE_train_loss= 0.18972 SE_train_loss= 0.00185
+Epoch: 0813 AE_train_loss= 0.18913 SE_train_loss= 0.00152
+Epoch: 0814 AE_train_loss= 0.18860 SE_train_loss= 0.00133
+Epoch: 0815 AE_train_loss= 0.18810 SE_train_loss= 0.00118
+Epoch: 0816 AE_train_loss= 0.18762 SE_train_loss= 0.00106
+Epoch: 0817 AE_train_loss= 0.18716 SE_train_loss= 0.00097
+Epoch: 0818 AE_train_loss= 0.18674 SE_train_loss= 0.00089
+Epoch: 0819 AE_train_loss= 0.18633 SE_train_loss= 0.00083
+Epoch: 0820 AE_train_loss= 0.18594 SE_train_loss= 0.00078
+Epoch: 0821 AE_train_loss= 0.18790 SE_train_loss= 0.00235
+Epoch: 0822 AE_train_loss= 0.18730 SE_train_loss= 0.00166
+Epoch: 0823 AE_train_loss= 0.18677 SE_train_loss= 0.00134
+Epoch: 0824 AE_train_loss= 0.18629 SE_train_loss= 0.00116
+Epoch: 0825 AE_train_loss= 0.18585 SE_train_loss= 0.00104
+Epoch: 0826 AE_train_loss= 0.18542 SE_train_loss= 0.00095
+Epoch: 0827 AE_train_loss= 0.18501 SE_train_loss= 0.00088
+Epoch: 0828 AE_train_loss= 0.18461 SE_train_loss= 0.00082
+Epoch: 0829 AE_train_loss= 0.18424 SE_train_loss= 0.00077
+Epoch: 0830 AE_train_loss= 0.18387 SE_train_loss= 0.00072
+Epoch: 0831 AE_train_loss= 0.18188 SE_train_loss= 0.00266
+Epoch: 0832 AE_train_loss= 0.18123 SE_train_loss= 0.00174
+Epoch: 0833 AE_train_loss= 0.18068 SE_train_loss= 0.00136
+Epoch: 0834 AE_train_loss= 0.18017 SE_train_loss= 0.00114
+Epoch: 0835 AE_train_loss= 0.17971 SE_train_loss= 0.00099
+Epoch: 0836 AE_train_loss= 0.17927 SE_train_loss= 0.00087
+Epoch: 0837 AE_train_loss= 0.17885 SE_train_loss= 0.00079
+Epoch: 0838 AE_train_loss= 0.17845 SE_train_loss= 0.00072
+Epoch: 0839 AE_train_loss= 0.17806 SE_train_loss= 0.00067
+Epoch: 0840 AE_train_loss= 0.17770 SE_train_loss= 0.00063
+Epoch: 0841 AE_train_loss= 0.18230 SE_train_loss= 0.00239
+Epoch: 0842 AE_train_loss= 0.18164 SE_train_loss= 0.00161
+Epoch: 0843 AE_train_loss= 0.18107 SE_train_loss= 0.00126
+Epoch: 0844 AE_train_loss= 0.18055 SE_train_loss= 0.00105
+Epoch: 0845 AE_train_loss= 0.18008 SE_train_loss= 0.00092
+Epoch: 0846 AE_train_loss= 0.17963 SE_train_loss= 0.00082
+Epoch: 0847 AE_train_loss= 0.17922 SE_train_loss= 0.00072
+Epoch: 0848 AE_train_loss= 0.17882 SE_train_loss= 0.00064
+Epoch: 0849 AE_train_loss= 0.17843 SE_train_loss= 0.00057
+Epoch: 0850 AE_train_loss= 0.17806 SE_train_loss= 0.00052
+Epoch: 0851 AE_train_loss= 0.18164 SE_train_loss= 0.00304
+Epoch: 0852 AE_train_loss= 0.18088 SE_train_loss= 0.00217
+Epoch: 0853 AE_train_loss= 0.18031 SE_train_loss= 0.00176
+Epoch: 0854 AE_train_loss= 0.17981 SE_train_loss= 0.00150
+Epoch: 0855 AE_train_loss= 0.17936 SE_train_loss= 0.00131
+Epoch: 0856 AE_train_loss= 0.17894 SE_train_loss= 0.00116
+Epoch: 0857 AE_train_loss= 0.17853 SE_train_loss= 0.00105
+Epoch: 0858 AE_train_loss= 0.17814 SE_train_loss= 0.00097
+Epoch: 0859 AE_train_loss= 0.17776 SE_train_loss= 0.00090
+Epoch: 0860 AE_train_loss= 0.17740 SE_train_loss= 0.00085
+Epoch: 0861 AE_train_loss= 0.18274 SE_train_loss= 0.00299
+Epoch: 0862 AE_train_loss= 0.18214 SE_train_loss= 0.00214
+Epoch: 0863 AE_train_loss= 0.18160 SE_train_loss= 0.00175
+Epoch: 0864 AE_train_loss= 0.18112 SE_train_loss= 0.00150
+Epoch: 0865 AE_train_loss= 0.18066 SE_train_loss= 0.00131
+Epoch: 0866 AE_train_loss= 0.18022 SE_train_loss= 0.00117
+Epoch: 0867 AE_train_loss= 0.17980 SE_train_loss= 0.00106
+Epoch: 0868 AE_train_loss= 0.17939 SE_train_loss= 0.00097
+Epoch: 0869 AE_train_loss= 0.17901 SE_train_loss= 0.00089
+Epoch: 0870 AE_train_loss= 0.17864 SE_train_loss= 0.00084
+Epoch: 0871 AE_train_loss= 0.17279 SE_train_loss= 0.00213
+Epoch: 0872 AE_train_loss= 0.17213 SE_train_loss= 0.00148
+Epoch: 0873 AE_train_loss= 0.17158 SE_train_loss= 0.00122
+Epoch: 0874 AE_train_loss= 0.17108 SE_train_loss= 0.00105
+Epoch: 0875 AE_train_loss= 0.17062 SE_train_loss= 0.00093
+Epoch: 0876 AE_train_loss= 0.17020 SE_train_loss= 0.00084
+Epoch: 0877 AE_train_loss= 0.16980 SE_train_loss= 0.00077
+Epoch: 0878 AE_train_loss= 0.16941 SE_train_loss= 0.00071
+Epoch: 0879 AE_train_loss= 0.16904 SE_train_loss= 0.00067
+Epoch: 0880 AE_train_loss= 0.16869 SE_train_loss= 0.00064
+Epoch: 0881 AE_train_loss= 0.17750 SE_train_loss= 0.00296
+Epoch: 0882 AE_train_loss= 0.17688 SE_train_loss= 0.00196
+Epoch: 0883 AE_train_loss= 0.17636 SE_train_loss= 0.00155
+Epoch: 0884 AE_train_loss= 0.17590 SE_train_loss= 0.00131
+Epoch: 0885 AE_train_loss= 0.17546 SE_train_loss= 0.00114
+Epoch: 0886 AE_train_loss= 0.17505 SE_train_loss= 0.00102
+Epoch: 0887 AE_train_loss= 0.17466 SE_train_loss= 0.00093
+Epoch: 0888 AE_train_loss= 0.17429 SE_train_loss= 0.00086
+Epoch: 0889 AE_train_loss= 0.17394 SE_train_loss= 0.00081
+Epoch: 0890 AE_train_loss= 0.17359 SE_train_loss= 0.00075
+Epoch: 0891 AE_train_loss= 0.17505 SE_train_loss= 0.00233
+Epoch: 0892 AE_train_loss= 0.17448 SE_train_loss= 0.00154
+Epoch: 0893 AE_train_loss= 0.17399 SE_train_loss= 0.00119
+Epoch: 0894 AE_train_loss= 0.17356 SE_train_loss= 0.00097
+Epoch: 0895 AE_train_loss= 0.17315 SE_train_loss= 0.00082
+Epoch: 0896 AE_train_loss= 0.17277 SE_train_loss= 0.00070
+Epoch: 0897 AE_train_loss= 0.17241 SE_train_loss= 0.00063
+Epoch: 0898 AE_train_loss= 0.17206 SE_train_loss= 0.00058
+Epoch: 0899 AE_train_loss= 0.17172 SE_train_loss= 0.00054
+Epoch: 0900 AE_train_loss= 0.17138 SE_train_loss= 0.00051
+Epoch: 0901 AE_train_loss= 0.17038 SE_train_loss= 0.00201
+Epoch: 0902 AE_train_loss= 0.16971 SE_train_loss= 0.00130
+Epoch: 0903 AE_train_loss= 0.16917 SE_train_loss= 0.00098
+Epoch: 0904 AE_train_loss= 0.16870 SE_train_loss= 0.00078
+Epoch: 0905 AE_train_loss= 0.16828 SE_train_loss= 0.00066
+Epoch: 0906 AE_train_loss= 0.16788 SE_train_loss= 0.00057
+Epoch: 0907 AE_train_loss= 0.16750 SE_train_loss= 0.00052
+Epoch: 0908 AE_train_loss= 0.16713 SE_train_loss= 0.00048
+Epoch: 0909 AE_train_loss= 0.16678 SE_train_loss= 0.00045
+Epoch: 0910 AE_train_loss= 0.16644 SE_train_loss= 0.00042
+Epoch: 0911 AE_train_loss= 0.17126 SE_train_loss= 0.00270
+Epoch: 0912 AE_train_loss= 0.17070 SE_train_loss= 0.00185
+Epoch: 0913 AE_train_loss= 0.17021 SE_train_loss= 0.00146
+Epoch: 0914 AE_train_loss= 0.16976 SE_train_loss= 0.00122
+Epoch: 0915 AE_train_loss= 0.16933 SE_train_loss= 0.00106
+Epoch: 0916 AE_train_loss= 0.16892 SE_train_loss= 0.00094
+Epoch: 0917 AE_train_loss= 0.16853 SE_train_loss= 0.00085
+Epoch: 0918 AE_train_loss= 0.16815 SE_train_loss= 0.00077
+Epoch: 0919 AE_train_loss= 0.16778 SE_train_loss= 0.00071
+Epoch: 0920 AE_train_loss= 0.16742 SE_train_loss= 0.00066
+Epoch: 0921 AE_train_loss= 0.18036 SE_train_loss= 0.00136
+Epoch: 0922 AE_train_loss= 0.17966 SE_train_loss= 0.00074
+Epoch: 0923 AE_train_loss= 0.17908 SE_train_loss= 0.00052
+Epoch: 0924 AE_train_loss= 0.17859 SE_train_loss= 0.00039
+Epoch: 0925 AE_train_loss= 0.17812 SE_train_loss= 0.00032
+Epoch: 0926 AE_train_loss= 0.17769 SE_train_loss= 0.00028
+Epoch: 0927 AE_train_loss= 0.17729 SE_train_loss= 0.00024
+Epoch: 0928 AE_train_loss= 0.17690 SE_train_loss= 0.00020
+Epoch: 0929 AE_train_loss= 0.17652 SE_train_loss= 0.00018
+Epoch: 0930 AE_train_loss= 0.17616 SE_train_loss= 0.00016
+Epoch: 0931 AE_train_loss= 0.16610 SE_train_loss= 0.00278
+Epoch: 0932 AE_train_loss= 0.16540 SE_train_loss= 0.00197
+Epoch: 0933 AE_train_loss= 0.16485 SE_train_loss= 0.00158
+Epoch: 0934 AE_train_loss= 0.16436 SE_train_loss= 0.00136
+Epoch: 0935 AE_train_loss= 0.16391 SE_train_loss= 0.00121
+Epoch: 0936 AE_train_loss= 0.16350 SE_train_loss= 0.00109
+Epoch: 0937 AE_train_loss= 0.16310 SE_train_loss= 0.00100
+Epoch: 0938 AE_train_loss= 0.16273 SE_train_loss= 0.00092
+Epoch: 0939 AE_train_loss= 0.16237 SE_train_loss= 0.00085
+Epoch: 0940 AE_train_loss= 0.16203 SE_train_loss= 0.00080
+Epoch: 0941 AE_train_loss= 0.16824 SE_train_loss= 0.00274
+Epoch: 0942 AE_train_loss= 0.16756 SE_train_loss= 0.00192
+Epoch: 0943 AE_train_loss= 0.16700 SE_train_loss= 0.00155
+Epoch: 0944 AE_train_loss= 0.16650 SE_train_loss= 0.00133
+Epoch: 0945 AE_train_loss= 0.16603 SE_train_loss= 0.00116
+Epoch: 0946 AE_train_loss= 0.16559 SE_train_loss= 0.00105
+Epoch: 0947 AE_train_loss= 0.16517 SE_train_loss= 0.00095
+Epoch: 0948 AE_train_loss= 0.16476 SE_train_loss= 0.00088
+Epoch: 0949 AE_train_loss= 0.16438 SE_train_loss= 0.00081
+Epoch: 0950 AE_train_loss= 0.16402 SE_train_loss= 0.00076
+Epoch: 0951 AE_train_loss= 0.16630 SE_train_loss= 0.00237
+Epoch: 0952 AE_train_loss= 0.16572 SE_train_loss= 0.00160
+Epoch: 0953 AE_train_loss= 0.16524 SE_train_loss= 0.00132
+Epoch: 0954 AE_train_loss= 0.16480 SE_train_loss= 0.00115
+Epoch: 0955 AE_train_loss= 0.16440 SE_train_loss= 0.00104
+Epoch: 0956 AE_train_loss= 0.16402 SE_train_loss= 0.00095
+Epoch: 0957 AE_train_loss= 0.16365 SE_train_loss= 0.00089
+Epoch: 0958 AE_train_loss= 0.16330 SE_train_loss= 0.00084
+Epoch: 0959 AE_train_loss= 0.16298 SE_train_loss= 0.00079
+Epoch: 0960 AE_train_loss= 0.16265 SE_train_loss= 0.00075
+Epoch: 0961 AE_train_loss= 0.16471 SE_train_loss= 0.00256
+Epoch: 0962 AE_train_loss= 0.16408 SE_train_loss= 0.00170
+Epoch: 0963 AE_train_loss= 0.16356 SE_train_loss= 0.00134
+Epoch: 0964 AE_train_loss= 0.16311 SE_train_loss= 0.00112
+Epoch: 0965 AE_train_loss= 0.16270 SE_train_loss= 0.00096
+Epoch: 0966 AE_train_loss= 0.16231 SE_train_loss= 0.00086
+Epoch: 0967 AE_train_loss= 0.16195 SE_train_loss= 0.00079
+Epoch: 0968 AE_train_loss= 0.16159 SE_train_loss= 0.00073
+Epoch: 0969 AE_train_loss= 0.16125 SE_train_loss= 0.00068
+Epoch: 0970 AE_train_loss= 0.16093 SE_train_loss= 0.00064
+Epoch: 0971 AE_train_loss= 0.16375 SE_train_loss= 0.00234
+Epoch: 0972 AE_train_loss= 0.16309 SE_train_loss= 0.00162
+Epoch: 0973 AE_train_loss= 0.16258 SE_train_loss= 0.00134
+Epoch: 0974 AE_train_loss= 0.16212 SE_train_loss= 0.00117
+Epoch: 0975 AE_train_loss= 0.16170 SE_train_loss= 0.00105
+Epoch: 0976 AE_train_loss= 0.16131 SE_train_loss= 0.00096
+Epoch: 0977 AE_train_loss= 0.16093 SE_train_loss= 0.00088
+Epoch: 0978 AE_train_loss= 0.16058 SE_train_loss= 0.00083
+Epoch: 0979 AE_train_loss= 0.16023 SE_train_loss= 0.00078
+Epoch: 0980 AE_train_loss= 0.15991 SE_train_loss= 0.00074
+Epoch: 0981 AE_train_loss= 0.16808 SE_train_loss= 0.00259
+Epoch: 0982 AE_train_loss= 0.16751 SE_train_loss= 0.00187
+Epoch: 0983 AE_train_loss= 0.16704 SE_train_loss= 0.00152
+Epoch: 0984 AE_train_loss= 0.16659 SE_train_loss= 0.00130
+Epoch: 0985 AE_train_loss= 0.16618 SE_train_loss= 0.00115
+Epoch: 0986 AE_train_loss= 0.16579 SE_train_loss= 0.00104
+Epoch: 0987 AE_train_loss= 0.16543 SE_train_loss= 0.00097
+Epoch: 0988 AE_train_loss= 0.16508 SE_train_loss= 0.00091
+Epoch: 0989 AE_train_loss= 0.16474 SE_train_loss= 0.00086
+Epoch: 0990 AE_train_loss= 0.16441 SE_train_loss= 0.00081
+Epoch: 0991 AE_train_loss= 0.16494 SE_train_loss= 0.00271
+Epoch: 0992 AE_train_loss= 0.16436 SE_train_loss= 0.00183
+Epoch: 0993 AE_train_loss= 0.16388 SE_train_loss= 0.00146
+Epoch: 0994 AE_train_loss= 0.16345 SE_train_loss= 0.00122
+Epoch: 0995 AE_train_loss= 0.16304 SE_train_loss= 0.00104
+Epoch: 0996 AE_train_loss= 0.16265 SE_train_loss= 0.00090
+Epoch: 0997 AE_train_loss= 0.16229 SE_train_loss= 0.00080
+Epoch: 0998 AE_train_loss= 0.16194 SE_train_loss= 0.00073
+Epoch: 0999 AE_train_loss= 0.16159 SE_train_loss= 0.00067
+Epoch: 1000 AE_train_loss= 0.16127 SE_train_loss= 0.00062
+Epoch: 1001 AE_train_loss= 0.16120 SE_train_loss= 0.00224
+Epoch: 1002 AE_train_loss= 0.16061 SE_train_loss= 0.00160
+Epoch: 1003 AE_train_loss= 0.16012 SE_train_loss= 0.00131
+Epoch: 1004 AE_train_loss= 0.15970 SE_train_loss= 0.00110
+Epoch: 1005 AE_train_loss= 0.15930 SE_train_loss= 0.00097
+Epoch: 1006 AE_train_loss= 0.15892 SE_train_loss= 0.00085
+Epoch: 1007 AE_train_loss= 0.15857 SE_train_loss= 0.00077
+Epoch: 1008 AE_train_loss= 0.15822 SE_train_loss= 0.00070
+Epoch: 1009 AE_train_loss= 0.15790 SE_train_loss= 0.00065
+Epoch: 1010 AE_train_loss= 0.15760 SE_train_loss= 0.00061
+Epoch: 1011 AE_train_loss= 0.16369 SE_train_loss= 0.00290
+Epoch: 1012 AE_train_loss= 0.16309 SE_train_loss= 0.00214
+Epoch: 1013 AE_train_loss= 0.16261 SE_train_loss= 0.00174
+Epoch: 1014 AE_train_loss= 0.16218 SE_train_loss= 0.00149
+Epoch: 1015 AE_train_loss= 0.16179 SE_train_loss= 0.00133
+Epoch: 1016 AE_train_loss= 0.16141 SE_train_loss= 0.00121
+Epoch: 1017 AE_train_loss= 0.16106 SE_train_loss= 0.00112
+Epoch: 1018 AE_train_loss= 0.16073 SE_train_loss= 0.00104
+Epoch: 1019 AE_train_loss= 0.16042 SE_train_loss= 0.00098
+Epoch: 1020 AE_train_loss= 0.16009 SE_train_loss= 0.00093
+Epoch: 1021 AE_train_loss= 0.16243 SE_train_loss= 0.00157
+Epoch: 1022 AE_train_loss= 0.16181 SE_train_loss= 0.00096
+Epoch: 1023 AE_train_loss= 0.16134 SE_train_loss= 0.00070
+Epoch: 1024 AE_train_loss= 0.16092 SE_train_loss= 0.00056
+Epoch: 1025 AE_train_loss= 0.16052 SE_train_loss= 0.00047
+Epoch: 1026 AE_train_loss= 0.16015 SE_train_loss= 0.00041
+Epoch: 1027 AE_train_loss= 0.15980 SE_train_loss= 0.00036
+Epoch: 1028 AE_train_loss= 0.15947 SE_train_loss= 0.00033
+Epoch: 1029 AE_train_loss= 0.15914 SE_train_loss= 0.00030
+Epoch: 1030 AE_train_loss= 0.15883 SE_train_loss= 0.00027
+Epoch: 1031 AE_train_loss= 0.16211 SE_train_loss= 0.00244
+Epoch: 1032 AE_train_loss= 0.16151 SE_train_loss= 0.00174
+Epoch: 1033 AE_train_loss= 0.16101 SE_train_loss= 0.00140
+Epoch: 1034 AE_train_loss= 0.16058 SE_train_loss= 0.00119
+Epoch: 1035 AE_train_loss= 0.16019 SE_train_loss= 0.00103
+Epoch: 1036 AE_train_loss= 0.15983 SE_train_loss= 0.00091
+Epoch: 1037 AE_train_loss= 0.15948 SE_train_loss= 0.00082
+Epoch: 1038 AE_train_loss= 0.15914 SE_train_loss= 0.00074
+Epoch: 1039 AE_train_loss= 0.15882 SE_train_loss= 0.00068
+Epoch: 1040 AE_train_loss= 0.15852 SE_train_loss= 0.00063
+Epoch: 1041 AE_train_loss= 0.16018 SE_train_loss= 0.00217
+Epoch: 1042 AE_train_loss= 0.15965 SE_train_loss= 0.00153
+Epoch: 1043 AE_train_loss= 0.15921 SE_train_loss= 0.00123
+Epoch: 1044 AE_train_loss= 0.15882 SE_train_loss= 0.00106
+Epoch: 1045 AE_train_loss= 0.15846 SE_train_loss= 0.00094
+Epoch: 1046 AE_train_loss= 0.15812 SE_train_loss= 0.00085
+Epoch: 1047 AE_train_loss= 0.15780 SE_train_loss= 0.00077
+Epoch: 1048 AE_train_loss= 0.15750 SE_train_loss= 0.00071
+Epoch: 1049 AE_train_loss= 0.15720 SE_train_loss= 0.00066
+Epoch: 1050 AE_train_loss= 0.15692 SE_train_loss= 0.00062
+Epoch: 1051 AE_train_loss= 0.15910 SE_train_loss= 0.00209
+Epoch: 1052 AE_train_loss= 0.15847 SE_train_loss= 0.00142
+Epoch: 1053 AE_train_loss= 0.15799 SE_train_loss= 0.00116
+Epoch: 1054 AE_train_loss= 0.15755 SE_train_loss= 0.00101
+Epoch: 1055 AE_train_loss= 0.15715 SE_train_loss= 0.00092
+Epoch: 1056 AE_train_loss= 0.15677 SE_train_loss= 0.00085
+Epoch: 1057 AE_train_loss= 0.15642 SE_train_loss= 0.00080
+Epoch: 1058 AE_train_loss= 0.15608 SE_train_loss= 0.00075
+Epoch: 1059 AE_train_loss= 0.15576 SE_train_loss= 0.00072
+Epoch: 1060 AE_train_loss= 0.15545 SE_train_loss= 0.00069
+Epoch: 1061 AE_train_loss= 0.15477 SE_train_loss= 0.00188
+Epoch: 1062 AE_train_loss= 0.15419 SE_train_loss= 0.00119
+Epoch: 1063 AE_train_loss= 0.15371 SE_train_loss= 0.00089
+Epoch: 1064 AE_train_loss= 0.15328 SE_train_loss= 0.00071
+Epoch: 1065 AE_train_loss= 0.15289 SE_train_loss= 0.00059
+Epoch: 1066 AE_train_loss= 0.15253 SE_train_loss= 0.00051
+Epoch: 1067 AE_train_loss= 0.15218 SE_train_loss= 0.00044
+Epoch: 1068 AE_train_loss= 0.15186 SE_train_loss= 0.00038
+Epoch: 1069 AE_train_loss= 0.15154 SE_train_loss= 0.00034
+Epoch: 1070 AE_train_loss= 0.15124 SE_train_loss= 0.00030
+Epoch: 1071 AE_train_loss= 0.15887 SE_train_loss= 0.00233
+Epoch: 1072 AE_train_loss= 0.15839 SE_train_loss= 0.00155
+Epoch: 1073 AE_train_loss= 0.15796 SE_train_loss= 0.00122
+Epoch: 1074 AE_train_loss= 0.15757 SE_train_loss= 0.00101
+Epoch: 1075 AE_train_loss= 0.15721 SE_train_loss= 0.00088
+Epoch: 1076 AE_train_loss= 0.15687 SE_train_loss= 0.00079
+Epoch: 1077 AE_train_loss= 0.15654 SE_train_loss= 0.00070
+Epoch: 1078 AE_train_loss= 0.15622 SE_train_loss= 0.00064
+Epoch: 1079 AE_train_loss= 0.15591 SE_train_loss= 0.00059
+Epoch: 1080 AE_train_loss= 0.15561 SE_train_loss= 0.00055
+Epoch: 1081 AE_train_loss= 0.15603 SE_train_loss= 0.00262
+Epoch: 1082 AE_train_loss= 0.15545 SE_train_loss= 0.00184
+Epoch: 1083 AE_train_loss= 0.15497 SE_train_loss= 0.00146
+Epoch: 1084 AE_train_loss= 0.15456 SE_train_loss= 0.00122
+Epoch: 1085 AE_train_loss= 0.15417 SE_train_loss= 0.00106
+Epoch: 1086 AE_train_loss= 0.15382 SE_train_loss= 0.00094
+Epoch: 1087 AE_train_loss= 0.15348 SE_train_loss= 0.00085
+Epoch: 1088 AE_train_loss= 0.15317 SE_train_loss= 0.00078
+Epoch: 1089 AE_train_loss= 0.15286 SE_train_loss= 0.00071
+Epoch: 1090 AE_train_loss= 0.15257 SE_train_loss= 0.00065
+Epoch: 1091 AE_train_loss= 0.15068 SE_train_loss= 0.00231
+Epoch: 1092 AE_train_loss= 0.15018 SE_train_loss= 0.00161
+Epoch: 1093 AE_train_loss= 0.14975 SE_train_loss= 0.00131
+Epoch: 1094 AE_train_loss= 0.14937 SE_train_loss= 0.00113
+Epoch: 1095 AE_train_loss= 0.14901 SE_train_loss= 0.00099
+Epoch: 1096 AE_train_loss= 0.14868 SE_train_loss= 0.00088
+Epoch: 1097 AE_train_loss= 0.14836 SE_train_loss= 0.00079
+Epoch: 1098 AE_train_loss= 0.14806 SE_train_loss= 0.00073
+Epoch: 1099 AE_train_loss= 0.14775 SE_train_loss= 0.00068
+Epoch: 1100 AE_train_loss= 0.14746 SE_train_loss= 0.00064
+Epoch: 1101 AE_train_loss= 0.15463 SE_train_loss= 0.00248
+Epoch: 1102 AE_train_loss= 0.15404 SE_train_loss= 0.00165
+Epoch: 1103 AE_train_loss= 0.15356 SE_train_loss= 0.00130
+Epoch: 1104 AE_train_loss= 0.15313 SE_train_loss= 0.00109
+Epoch: 1105 AE_train_loss= 0.15273 SE_train_loss= 0.00094
+Epoch: 1106 AE_train_loss= 0.15235 SE_train_loss= 0.00083
+Epoch: 1107 AE_train_loss= 0.15200 SE_train_loss= 0.00075
+Epoch: 1108 AE_train_loss= 0.15166 SE_train_loss= 0.00070
+Epoch: 1109 AE_train_loss= 0.15134 SE_train_loss= 0.00065
+Epoch: 1110 AE_train_loss= 0.15103 SE_train_loss= 0.00061
+Epoch: 1111 AE_train_loss= 0.14623 SE_train_loss= 0.00214
+Epoch: 1112 AE_train_loss= 0.14565 SE_train_loss= 0.00145
+Epoch: 1113 AE_train_loss= 0.14517 SE_train_loss= 0.00115
+Epoch: 1114 AE_train_loss= 0.14477 SE_train_loss= 0.00098
+Epoch: 1115 AE_train_loss= 0.14439 SE_train_loss= 0.00087
+Epoch: 1116 AE_train_loss= 0.14404 SE_train_loss= 0.00078
+Epoch: 1117 AE_train_loss= 0.14371 SE_train_loss= 0.00071
+Epoch: 1118 AE_train_loss= 0.14339 SE_train_loss= 0.00064
+Epoch: 1119 AE_train_loss= 0.14309 SE_train_loss= 0.00059
+Epoch: 1120 AE_train_loss= 0.14281 SE_train_loss= 0.00055
+Epoch: 1121 AE_train_loss= 0.15085 SE_train_loss= 0.00193
+Epoch: 1122 AE_train_loss= 0.15033 SE_train_loss= 0.00126
+Epoch: 1123 AE_train_loss= 0.14990 SE_train_loss= 0.00097
+Epoch: 1124 AE_train_loss= 0.14952 SE_train_loss= 0.00080
+Epoch: 1125 AE_train_loss= 0.14917 SE_train_loss= 0.00069
+Epoch: 1126 AE_train_loss= 0.14885 SE_train_loss= 0.00061
+Epoch: 1127 AE_train_loss= 0.14853 SE_train_loss= 0.00055
+Epoch: 1128 AE_train_loss= 0.14823 SE_train_loss= 0.00050
+Epoch: 1129 AE_train_loss= 0.14794 SE_train_loss= 0.00047
+Epoch: 1130 AE_train_loss= 0.14767 SE_train_loss= 0.00044
+Epoch: 1131 AE_train_loss= 0.15250 SE_train_loss= 0.00208
+Epoch: 1132 AE_train_loss= 0.15193 SE_train_loss= 0.00146
+Epoch: 1133 AE_train_loss= 0.15147 SE_train_loss= 0.00117
+Epoch: 1134 AE_train_loss= 0.15106 SE_train_loss= 0.00099
+Epoch: 1135 AE_train_loss= 0.15069 SE_train_loss= 0.00088
+Epoch: 1136 AE_train_loss= 0.15034 SE_train_loss= 0.00079
+Epoch: 1137 AE_train_loss= 0.15000 SE_train_loss= 0.00072
+Epoch: 1138 AE_train_loss= 0.14968 SE_train_loss= 0.00067
+Epoch: 1139 AE_train_loss= 0.14938 SE_train_loss= 0.00062
+Epoch: 1140 AE_train_loss= 0.14908 SE_train_loss= 0.00058
+Epoch: 1141 AE_train_loss= 0.15303 SE_train_loss= 0.00235
+Epoch: 1142 AE_train_loss= 0.15249 SE_train_loss= 0.00166
+Epoch: 1143 AE_train_loss= 0.15204 SE_train_loss= 0.00135
+Epoch: 1144 AE_train_loss= 0.15164 SE_train_loss= 0.00115
+Epoch: 1145 AE_train_loss= 0.15127 SE_train_loss= 0.00100
+Epoch: 1146 AE_train_loss= 0.15093 SE_train_loss= 0.00089
+Epoch: 1147 AE_train_loss= 0.15059 SE_train_loss= 0.00080
+Epoch: 1148 AE_train_loss= 0.15027 SE_train_loss= 0.00072
+Epoch: 1149 AE_train_loss= 0.14996 SE_train_loss= 0.00066
+Epoch: 1150 AE_train_loss= 0.14967 SE_train_loss= 0.00061
+Epoch: 1151 AE_train_loss= 0.15078 SE_train_loss= 0.00231
+Epoch: 1152 AE_train_loss= 0.15024 SE_train_loss= 0.00163
+Epoch: 1153 AE_train_loss= 0.14981 SE_train_loss= 0.00132
+Epoch: 1154 AE_train_loss= 0.14942 SE_train_loss= 0.00114
+Epoch: 1155 AE_train_loss= 0.14907 SE_train_loss= 0.00102
+Epoch: 1156 AE_train_loss= 0.14874 SE_train_loss= 0.00092
+Epoch: 1157 AE_train_loss= 0.14843 SE_train_loss= 0.00085
+Epoch: 1158 AE_train_loss= 0.14812 SE_train_loss= 0.00079
+Epoch: 1159 AE_train_loss= 0.14783 SE_train_loss= 0.00073
+Epoch: 1160 AE_train_loss= 0.14754 SE_train_loss= 0.00069
+Epoch: 1161 AE_train_loss= 0.15124 SE_train_loss= 0.00197
+Epoch: 1162 AE_train_loss= 0.15064 SE_train_loss= 0.00129
+Epoch: 1163 AE_train_loss= 0.15016 SE_train_loss= 0.00098
+Epoch: 1164 AE_train_loss= 0.14974 SE_train_loss= 0.00077
+Epoch: 1165 AE_train_loss= 0.14936 SE_train_loss= 0.00064
+Epoch: 1166 AE_train_loss= 0.14902 SE_train_loss= 0.00055
+Epoch: 1167 AE_train_loss= 0.14867 SE_train_loss= 0.00049
+Epoch: 1168 AE_train_loss= 0.14836 SE_train_loss= 0.00044
+Epoch: 1169 AE_train_loss= 0.14806 SE_train_loss= 0.00041
+Epoch: 1170 AE_train_loss= 0.14779 SE_train_loss= 0.00037
+Epoch: 1171 AE_train_loss= 0.14567 SE_train_loss= 0.00218
+Epoch: 1172 AE_train_loss= 0.14508 SE_train_loss= 0.00149
+Epoch: 1173 AE_train_loss= 0.14461 SE_train_loss= 0.00119
+Epoch: 1174 AE_train_loss= 0.14421 SE_train_loss= 0.00100
+Epoch: 1175 AE_train_loss= 0.14384 SE_train_loss= 0.00087
+Epoch: 1176 AE_train_loss= 0.14351 SE_train_loss= 0.00077
+Epoch: 1177 AE_train_loss= 0.14318 SE_train_loss= 0.00070
+Epoch: 1178 AE_train_loss= 0.14288 SE_train_loss= 0.00064
+Epoch: 1179 AE_train_loss= 0.14258 SE_train_loss= 0.00059
+Epoch: 1180 AE_train_loss= 0.14229 SE_train_loss= 0.00055
+Epoch: 1181 AE_train_loss= 0.14793 SE_train_loss= 0.00225
+Epoch: 1182 AE_train_loss= 0.14737 SE_train_loss= 0.00155
+Epoch: 1183 AE_train_loss= 0.14693 SE_train_loss= 0.00119
+Epoch: 1184 AE_train_loss= 0.14655 SE_train_loss= 0.00098
+Epoch: 1185 AE_train_loss= 0.14620 SE_train_loss= 0.00083
+Epoch: 1186 AE_train_loss= 0.14587 SE_train_loss= 0.00073
+Epoch: 1187 AE_train_loss= 0.14556 SE_train_loss= 0.00065
+Epoch: 1188 AE_train_loss= 0.14527 SE_train_loss= 0.00059
+Epoch: 1189 AE_train_loss= 0.14499 SE_train_loss= 0.00053
+Epoch: 1190 AE_train_loss= 0.14472 SE_train_loss= 0.00048
+Epoch: 1191 AE_train_loss= 0.14391 SE_train_loss= 0.00223
+Epoch: 1192 AE_train_loss= 0.14339 SE_train_loss= 0.00154
+Epoch: 1193 AE_train_loss= 0.14297 SE_train_loss= 0.00123
+Epoch: 1194 AE_train_loss= 0.14259 SE_train_loss= 0.00105
+Epoch: 1195 AE_train_loss= 0.14224 SE_train_loss= 0.00095
+Epoch: 1196 AE_train_loss= 0.14190 SE_train_loss= 0.00087
+Epoch: 1197 AE_train_loss= 0.14158 SE_train_loss= 0.00080
+Epoch: 1198 AE_train_loss= 0.14129 SE_train_loss= 0.00074
+Epoch: 1199 AE_train_loss= 0.14101 SE_train_loss= 0.00069
+Epoch: 1200 AE_train_loss= 0.14073 SE_train_loss= 0.00065
+Epoch: 1201 AE_train_loss= 0.14480 SE_train_loss= 0.00236
+Epoch: 1202 AE_train_loss= 0.14436 SE_train_loss= 0.00161
+Epoch: 1203 AE_train_loss= 0.14398 SE_train_loss= 0.00127
+Epoch: 1204 AE_train_loss= 0.14362 SE_train_loss= 0.00107
+Epoch: 1205 AE_train_loss= 0.14329 SE_train_loss= 0.00091
+Epoch: 1206 AE_train_loss= 0.14297 SE_train_loss= 0.00080
+Epoch: 1207 AE_train_loss= 0.14268 SE_train_loss= 0.00073
+Epoch: 1208 AE_train_loss= 0.14240 SE_train_loss= 0.00066
+Epoch: 1209 AE_train_loss= 0.14213 SE_train_loss= 0.00061
+Epoch: 1210 AE_train_loss= 0.14186 SE_train_loss= 0.00056
+Epoch: 1211 AE_train_loss= 0.15219 SE_train_loss= 0.00233
+Epoch: 1212 AE_train_loss= 0.15163 SE_train_loss= 0.00174
+Epoch: 1213 AE_train_loss= 0.15118 SE_train_loss= 0.00147
+Epoch: 1214 AE_train_loss= 0.15078 SE_train_loss= 0.00128
+Epoch: 1215 AE_train_loss= 0.15041 SE_train_loss= 0.00115
+Epoch: 1216 AE_train_loss= 0.15006 SE_train_loss= 0.00105
+Epoch: 1217 AE_train_loss= 0.14974 SE_train_loss= 0.00097
+Epoch: 1218 AE_train_loss= 0.14943 SE_train_loss= 0.00090
+Epoch: 1219 AE_train_loss= 0.14914 SE_train_loss= 0.00084
+Epoch: 1220 AE_train_loss= 0.14886 SE_train_loss= 0.00079
+Epoch: 1221 AE_train_loss= 0.14460 SE_train_loss= 0.00248
+Epoch: 1222 AE_train_loss= 0.14408 SE_train_loss= 0.00169
+Epoch: 1223 AE_train_loss= 0.14365 SE_train_loss= 0.00133
+Epoch: 1224 AE_train_loss= 0.14326 SE_train_loss= 0.00111
+Epoch: 1225 AE_train_loss= 0.14291 SE_train_loss= 0.00095
+Epoch: 1226 AE_train_loss= 0.14257 SE_train_loss= 0.00083
+Epoch: 1227 AE_train_loss= 0.14225 SE_train_loss= 0.00074
+Epoch: 1228 AE_train_loss= 0.14195 SE_train_loss= 0.00067
+Epoch: 1229 AE_train_loss= 0.14166 SE_train_loss= 0.00061
+Epoch: 1230 AE_train_loss= 0.14138 SE_train_loss= 0.00056
+Epoch: 1231 AE_train_loss= 0.14946 SE_train_loss= 0.00205
+Epoch: 1232 AE_train_loss= 0.14896 SE_train_loss= 0.00137
+Epoch: 1233 AE_train_loss= 0.14853 SE_train_loss= 0.00107
+Epoch: 1234 AE_train_loss= 0.14814 SE_train_loss= 0.00089
+Epoch: 1235 AE_train_loss= 0.14778 SE_train_loss= 0.00076
+Epoch: 1236 AE_train_loss= 0.14744 SE_train_loss= 0.00066
+Epoch: 1237 AE_train_loss= 0.14713 SE_train_loss= 0.00057
+Epoch: 1238 AE_train_loss= 0.14683 SE_train_loss= 0.00050
+Epoch: 1239 AE_train_loss= 0.14654 SE_train_loss= 0.00044
+Epoch: 1240 AE_train_loss= 0.14626 SE_train_loss= 0.00038
+Epoch: 1241 AE_train_loss= 0.14208 SE_train_loss= 0.00221
+Epoch: 1242 AE_train_loss= 0.14151 SE_train_loss= 0.00151
+Epoch: 1243 AE_train_loss= 0.14104 SE_train_loss= 0.00115
+Epoch: 1244 AE_train_loss= 0.14061 SE_train_loss= 0.00093
+Epoch: 1245 AE_train_loss= 0.14023 SE_train_loss= 0.00079
+Epoch: 1246 AE_train_loss= 0.13988 SE_train_loss= 0.00068
+Epoch: 1247 AE_train_loss= 0.13955 SE_train_loss= 0.00061
+Epoch: 1248 AE_train_loss= 0.13924 SE_train_loss= 0.00055
+Epoch: 1249 AE_train_loss= 0.13893 SE_train_loss= 0.00049
+Epoch: 1250 AE_train_loss= 0.13864 SE_train_loss= 0.00045
+Epoch: 1251 AE_train_loss= 0.13842 SE_train_loss= 0.00230
+Epoch: 1252 AE_train_loss= 0.13789 SE_train_loss= 0.00162
+Epoch: 1253 AE_train_loss= 0.13745 SE_train_loss= 0.00131
+Epoch: 1254 AE_train_loss= 0.13707 SE_train_loss= 0.00112
+Epoch: 1255 AE_train_loss= 0.13672 SE_train_loss= 0.00100
+Epoch: 1256 AE_train_loss= 0.13639 SE_train_loss= 0.00092
+Epoch: 1257 AE_train_loss= 0.13608 SE_train_loss= 0.00086
+Epoch: 1258 AE_train_loss= 0.13578 SE_train_loss= 0.00080
+Epoch: 1259 AE_train_loss= 0.13549 SE_train_loss= 0.00075
+Epoch: 1260 AE_train_loss= 0.13522 SE_train_loss= 0.00071
+Epoch: 1261 AE_train_loss= 0.13509 SE_train_loss= 0.00211
+Epoch: 1262 AE_train_loss= 0.13460 SE_train_loss= 0.00142
+Epoch: 1263 AE_train_loss= 0.13419 SE_train_loss= 0.00114
+Epoch: 1264 AE_train_loss= 0.13382 SE_train_loss= 0.00098
+Epoch: 1265 AE_train_loss= 0.13349 SE_train_loss= 0.00088
+Epoch: 1266 AE_train_loss= 0.13318 SE_train_loss= 0.00079
+Epoch: 1267 AE_train_loss= 0.13288 SE_train_loss= 0.00072
+Epoch: 1268 AE_train_loss= 0.13259 SE_train_loss= 0.00066
+Epoch: 1269 AE_train_loss= 0.13232 SE_train_loss= 0.00062
+Epoch: 1270 AE_train_loss= 0.13205 SE_train_loss= 0.00058
+Epoch: 1271 AE_train_loss= 0.14393 SE_train_loss= 0.00240
+Epoch: 1272 AE_train_loss= 0.14345 SE_train_loss= 0.00163
+Epoch: 1273 AE_train_loss= 0.14304 SE_train_loss= 0.00129
+Epoch: 1274 AE_train_loss= 0.14267 SE_train_loss= 0.00111
+Epoch: 1275 AE_train_loss= 0.14233 SE_train_loss= 0.00099
+Epoch: 1276 AE_train_loss= 0.14202 SE_train_loss= 0.00090
+Epoch: 1277 AE_train_loss= 0.14172 SE_train_loss= 0.00084
+Epoch: 1278 AE_train_loss= 0.14144 SE_train_loss= 0.00078
+Epoch: 1279 AE_train_loss= 0.14116 SE_train_loss= 0.00074
+Epoch: 1280 AE_train_loss= 0.14090 SE_train_loss= 0.00070
+Epoch: 1281 AE_train_loss= 0.14052 SE_train_loss= 0.00219
+Epoch: 1282 AE_train_loss= 0.14002 SE_train_loss= 0.00149
+Epoch: 1283 AE_train_loss= 0.13961 SE_train_loss= 0.00116
+Epoch: 1284 AE_train_loss= 0.13924 SE_train_loss= 0.00098
+Epoch: 1285 AE_train_loss= 0.13890 SE_train_loss= 0.00087
+Epoch: 1286 AE_train_loss= 0.13858 SE_train_loss= 0.00080
+Epoch: 1287 AE_train_loss= 0.13828 SE_train_loss= 0.00074
+Epoch: 1288 AE_train_loss= 0.13800 SE_train_loss= 0.00069
+Epoch: 1289 AE_train_loss= 0.13773 SE_train_loss= 0.00066
+Epoch: 1290 AE_train_loss= 0.13746 SE_train_loss= 0.00063
+Epoch: 1291 AE_train_loss= 0.14246 SE_train_loss= 0.00141
+Epoch: 1292 AE_train_loss= 0.14198 SE_train_loss= 0.00081
+Epoch: 1293 AE_train_loss= 0.14159 SE_train_loss= 0.00056
+Epoch: 1294 AE_train_loss= 0.14122 SE_train_loss= 0.00042
+Epoch: 1295 AE_train_loss= 0.14089 SE_train_loss= 0.00034
+Epoch: 1296 AE_train_loss= 0.14059 SE_train_loss= 0.00028
+Epoch: 1297 AE_train_loss= 0.14030 SE_train_loss= 0.00024
+Epoch: 1298 AE_train_loss= 0.14002 SE_train_loss= 0.00021
+Epoch: 1299 AE_train_loss= 0.13976 SE_train_loss= 0.00019
+Epoch: 1300 AE_train_loss= 0.13950 SE_train_loss= 0.00018
+Epoch: 1301 AE_train_loss= 0.13896 SE_train_loss= 0.00186
+Epoch: 1302 AE_train_loss= 0.13842 SE_train_loss= 0.00127
+Epoch: 1303 AE_train_loss= 0.13799 SE_train_loss= 0.00101
+Epoch: 1304 AE_train_loss= 0.13761 SE_train_loss= 0.00083
+Epoch: 1305 AE_train_loss= 0.13726 SE_train_loss= 0.00071
+Epoch: 1306 AE_train_loss= 0.13694 SE_train_loss= 0.00063
+Epoch: 1307 AE_train_loss= 0.13662 SE_train_loss= 0.00056
+Epoch: 1308 AE_train_loss= 0.13633 SE_train_loss= 0.00051
+Epoch: 1309 AE_train_loss= 0.13604 SE_train_loss= 0.00047
+Epoch: 1310 AE_train_loss= 0.13577 SE_train_loss= 0.00044
+Epoch: 1311 AE_train_loss= 0.14380 SE_train_loss= 0.00272
+Epoch: 1312 AE_train_loss= 0.14332 SE_train_loss= 0.00204
+Epoch: 1313 AE_train_loss= 0.14293 SE_train_loss= 0.00170
+Epoch: 1314 AE_train_loss= 0.14258 SE_train_loss= 0.00149
+Epoch: 1315 AE_train_loss= 0.14225 SE_train_loss= 0.00134
+Epoch: 1316 AE_train_loss= 0.14195 SE_train_loss= 0.00123
+Epoch: 1317 AE_train_loss= 0.14165 SE_train_loss= 0.00114
+Epoch: 1318 AE_train_loss= 0.14137 SE_train_loss= 0.00107
+Epoch: 1319 AE_train_loss= 0.14111 SE_train_loss= 0.00101
+Epoch: 1320 AE_train_loss= 0.14085 SE_train_loss= 0.00096
+Epoch: 1321 AE_train_loss= 0.13633 SE_train_loss= 0.00223
+Epoch: 1322 AE_train_loss= 0.13587 SE_train_loss= 0.00157
+Epoch: 1323 AE_train_loss= 0.13551 SE_train_loss= 0.00127
+Epoch: 1324 AE_train_loss= 0.13518 SE_train_loss= 0.00106
+Epoch: 1325 AE_train_loss= 0.13487 SE_train_loss= 0.00092
+Epoch: 1326 AE_train_loss= 0.13458 SE_train_loss= 0.00081
+Epoch: 1327 AE_train_loss= 0.13431 SE_train_loss= 0.00072
+Epoch: 1328 AE_train_loss= 0.13404 SE_train_loss= 0.00064
+Epoch: 1329 AE_train_loss= 0.13379 SE_train_loss= 0.00057
+Epoch: 1330 AE_train_loss= 0.13355 SE_train_loss= 0.00052
+Epoch: 1331 AE_train_loss= 0.13796 SE_train_loss= 0.00204
+Epoch: 1332 AE_train_loss= 0.13745 SE_train_loss= 0.00141
+Epoch: 1333 AE_train_loss= 0.13704 SE_train_loss= 0.00113
+Epoch: 1334 AE_train_loss= 0.13666 SE_train_loss= 0.00095
+Epoch: 1335 AE_train_loss= 0.13632 SE_train_loss= 0.00081
+Epoch: 1336 AE_train_loss= 0.13601 SE_train_loss= 0.00072
+Epoch: 1337 AE_train_loss= 0.13571 SE_train_loss= 0.00064
+Epoch: 1338 AE_train_loss= 0.13544 SE_train_loss= 0.00058
+Epoch: 1339 AE_train_loss= 0.13517 SE_train_loss= 0.00053
+Epoch: 1340 AE_train_loss= 0.13491 SE_train_loss= 0.00049
+Epoch: 1341 AE_train_loss= 0.14357 SE_train_loss= 0.00230
+Epoch: 1342 AE_train_loss= 0.14303 SE_train_loss= 0.00156
+Epoch: 1343 AE_train_loss= 0.14260 SE_train_loss= 0.00128
+Epoch: 1344 AE_train_loss= 0.14221 SE_train_loss= 0.00112
+Epoch: 1345 AE_train_loss= 0.14184 SE_train_loss= 0.00101
+Epoch: 1346 AE_train_loss= 0.14151 SE_train_loss= 0.00092
+Epoch: 1347 AE_train_loss= 0.14120 SE_train_loss= 0.00084
+Epoch: 1348 AE_train_loss= 0.14090 SE_train_loss= 0.00079
+Epoch: 1349 AE_train_loss= 0.14061 SE_train_loss= 0.00074
+Epoch: 1350 AE_train_loss= 0.14034 SE_train_loss= 0.00070
+Epoch: 1351 AE_train_loss= 0.13432 SE_train_loss= 0.00181
+Epoch: 1352 AE_train_loss= 0.13384 SE_train_loss= 0.00123
+Epoch: 1353 AE_train_loss= 0.13346 SE_train_loss= 0.00096
+Epoch: 1354 AE_train_loss= 0.13313 SE_train_loss= 0.00082
+Epoch: 1355 AE_train_loss= 0.13282 SE_train_loss= 0.00073
+Epoch: 1356 AE_train_loss= 0.13253 SE_train_loss= 0.00066
+Epoch: 1357 AE_train_loss= 0.13225 SE_train_loss= 0.00061
+Epoch: 1358 AE_train_loss= 0.13199 SE_train_loss= 0.00056
+Epoch: 1359 AE_train_loss= 0.13175 SE_train_loss= 0.00052
+Epoch: 1360 AE_train_loss= 0.13151 SE_train_loss= 0.00049
+Epoch: 1361 AE_train_loss= 0.13306 SE_train_loss= 0.00205
+Epoch: 1362 AE_train_loss= 0.13259 SE_train_loss= 0.00145
+Epoch: 1363 AE_train_loss= 0.13220 SE_train_loss= 0.00117
+Epoch: 1364 AE_train_loss= 0.13185 SE_train_loss= 0.00103
+Epoch: 1365 AE_train_loss= 0.13153 SE_train_loss= 0.00093
+Epoch: 1366 AE_train_loss= 0.13123 SE_train_loss= 0.00086
+Epoch: 1367 AE_train_loss= 0.13094 SE_train_loss= 0.00080
+Epoch: 1368 AE_train_loss= 0.13067 SE_train_loss= 0.00076
+Epoch: 1369 AE_train_loss= 0.13041 SE_train_loss= 0.00071
+Epoch: 1370 AE_train_loss= 0.13016 SE_train_loss= 0.00067
+Epoch: 1371 AE_train_loss= 0.13497 SE_train_loss= 0.00212
+Epoch: 1372 AE_train_loss= 0.13447 SE_train_loss= 0.00150
+Epoch: 1373 AE_train_loss= 0.13408 SE_train_loss= 0.00125
+Epoch: 1374 AE_train_loss= 0.13374 SE_train_loss= 0.00111
+Epoch: 1375 AE_train_loss= 0.13343 SE_train_loss= 0.00100
+Epoch: 1376 AE_train_loss= 0.13313 SE_train_loss= 0.00092
+Epoch: 1377 AE_train_loss= 0.13286 SE_train_loss= 0.00085
+Epoch: 1378 AE_train_loss= 0.13260 SE_train_loss= 0.00080
+Epoch: 1379 AE_train_loss= 0.13234 SE_train_loss= 0.00076
+Epoch: 1380 AE_train_loss= 0.13208 SE_train_loss= 0.00073
+Epoch: 1381 AE_train_loss= 0.13997 SE_train_loss= 0.00201
+Epoch: 1382 AE_train_loss= 0.13945 SE_train_loss= 0.00138
+Epoch: 1383 AE_train_loss= 0.13904 SE_train_loss= 0.00107
+Epoch: 1384 AE_train_loss= 0.13867 SE_train_loss= 0.00090
+Epoch: 1385 AE_train_loss= 0.13833 SE_train_loss= 0.00079
+Epoch: 1386 AE_train_loss= 0.13799 SE_train_loss= 0.00071
+Epoch: 1387 AE_train_loss= 0.13768 SE_train_loss= 0.00065
+Epoch: 1388 AE_train_loss= 0.13739 SE_train_loss= 0.00060
+Epoch: 1389 AE_train_loss= 0.13711 SE_train_loss= 0.00057
+Epoch: 1390 AE_train_loss= 0.13683 SE_train_loss= 0.00053
+Epoch: 1391 AE_train_loss= 0.13781 SE_train_loss= 0.00301
+Epoch: 1392 AE_train_loss= 0.13730 SE_train_loss= 0.00223
+Epoch: 1393 AE_train_loss= 0.13689 SE_train_loss= 0.00187
+Epoch: 1394 AE_train_loss= 0.13652 SE_train_loss= 0.00164
+Epoch: 1395 AE_train_loss= 0.13619 SE_train_loss= 0.00147
+Epoch: 1396 AE_train_loss= 0.13588 SE_train_loss= 0.00134
+Epoch: 1397 AE_train_loss= 0.13559 SE_train_loss= 0.00123
+Epoch: 1398 AE_train_loss= 0.13532 SE_train_loss= 0.00113
+Epoch: 1399 AE_train_loss= 0.13506 SE_train_loss= 0.00105
+Epoch: 1400 AE_train_loss= 0.13481 SE_train_loss= 0.00100
+Epoch: 1401 AE_train_loss= 0.13897 SE_train_loss= 0.00206
+Epoch: 1402 AE_train_loss= 0.13848 SE_train_loss= 0.00144
+Epoch: 1403 AE_train_loss= 0.13806 SE_train_loss= 0.00117
+Epoch: 1404 AE_train_loss= 0.13768 SE_train_loss= 0.00101
+Epoch: 1405 AE_train_loss= 0.13733 SE_train_loss= 0.00089
+Epoch: 1406 AE_train_loss= 0.13700 SE_train_loss= 0.00081
+Epoch: 1407 AE_train_loss= 0.13670 SE_train_loss= 0.00075
+Epoch: 1408 AE_train_loss= 0.13640 SE_train_loss= 0.00070
+Epoch: 1409 AE_train_loss= 0.13613 SE_train_loss= 0.00065
+Epoch: 1410 AE_train_loss= 0.13585 SE_train_loss= 0.00062
+Epoch: 1411 AE_train_loss= 0.13150 SE_train_loss= 0.00185
+Epoch: 1412 AE_train_loss= 0.13102 SE_train_loss= 0.00124
+Epoch: 1413 AE_train_loss= 0.13060 SE_train_loss= 0.00098
+Epoch: 1414 AE_train_loss= 0.13023 SE_train_loss= 0.00085
+Epoch: 1415 AE_train_loss= 0.12989 SE_train_loss= 0.00077
+Epoch: 1416 AE_train_loss= 0.12957 SE_train_loss= 0.00071
+Epoch: 1417 AE_train_loss= 0.12927 SE_train_loss= 0.00066
+Epoch: 1418 AE_train_loss= 0.12898 SE_train_loss= 0.00061
+Epoch: 1419 AE_train_loss= 0.12870 SE_train_loss= 0.00058
+Epoch: 1420 AE_train_loss= 0.12844 SE_train_loss= 0.00055
+Epoch: 1421 AE_train_loss= 0.13157 SE_train_loss= 0.00203
+Epoch: 1422 AE_train_loss= 0.13106 SE_train_loss= 0.00148
+Epoch: 1423 AE_train_loss= 0.13064 SE_train_loss= 0.00122
+Epoch: 1424 AE_train_loss= 0.13027 SE_train_loss= 0.00107
+Epoch: 1425 AE_train_loss= 0.12993 SE_train_loss= 0.00096
+Epoch: 1426 AE_train_loss= 0.12961 SE_train_loss= 0.00089
+Epoch: 1427 AE_train_loss= 0.12931 SE_train_loss= 0.00083
+Epoch: 1428 AE_train_loss= 0.12902 SE_train_loss= 0.00079
+Epoch: 1429 AE_train_loss= 0.12875 SE_train_loss= 0.00076
+Epoch: 1430 AE_train_loss= 0.12849 SE_train_loss= 0.00073
+Epoch: 1431 AE_train_loss= 0.13384 SE_train_loss= 0.00180
+Epoch: 1432 AE_train_loss= 0.13337 SE_train_loss= 0.00117
+Epoch: 1433 AE_train_loss= 0.13297 SE_train_loss= 0.00090
+Epoch: 1434 AE_train_loss= 0.13261 SE_train_loss= 0.00072
+Epoch: 1435 AE_train_loss= 0.13229 SE_train_loss= 0.00059
+Epoch: 1436 AE_train_loss= 0.13198 SE_train_loss= 0.00050
+Epoch: 1437 AE_train_loss= 0.13169 SE_train_loss= 0.00043
+Epoch: 1438 AE_train_loss= 0.13142 SE_train_loss= 0.00038
+Epoch: 1439 AE_train_loss= 0.13115 SE_train_loss= 0.00032
+Epoch: 1440 AE_train_loss= 0.13090 SE_train_loss= 0.00028
+Epoch: 1441 AE_train_loss= 0.13461 SE_train_loss= 0.00201
+Epoch: 1442 AE_train_loss= 0.13410 SE_train_loss= 0.00137
+Epoch: 1443 AE_train_loss= 0.13367 SE_train_loss= 0.00103
+Epoch: 1444 AE_train_loss= 0.13328 SE_train_loss= 0.00084
+Epoch: 1445 AE_train_loss= 0.13293 SE_train_loss= 0.00071
+Epoch: 1446 AE_train_loss= 0.13260 SE_train_loss= 0.00063
+Epoch: 1447 AE_train_loss= 0.13228 SE_train_loss= 0.00057
+Epoch: 1448 AE_train_loss= 0.13199 SE_train_loss= 0.00052
+Epoch: 1449 AE_train_loss= 0.13171 SE_train_loss= 0.00047
+Epoch: 1450 AE_train_loss= 0.13145 SE_train_loss= 0.00044
+Epoch: 1451 AE_train_loss= 0.13050 SE_train_loss= 0.00190
+Epoch: 1452 AE_train_loss= 0.12999 SE_train_loss= 0.00130
+Epoch: 1453 AE_train_loss= 0.12959 SE_train_loss= 0.00103
+Epoch: 1454 AE_train_loss= 0.12922 SE_train_loss= 0.00086
+Epoch: 1455 AE_train_loss= 0.12887 SE_train_loss= 0.00074
+Epoch: 1456 AE_train_loss= 0.12855 SE_train_loss= 0.00065
+Epoch: 1457 AE_train_loss= 0.12826 SE_train_loss= 0.00058
+Epoch: 1458 AE_train_loss= 0.12798 SE_train_loss= 0.00053
+Epoch: 1459 AE_train_loss= 0.12771 SE_train_loss= 0.00049
+Epoch: 1460 AE_train_loss= 0.12745 SE_train_loss= 0.00046
+Epoch: 1461 AE_train_loss= 0.12958 SE_train_loss= 0.00186
+Epoch: 1462 AE_train_loss= 0.12907 SE_train_loss= 0.00130
+Epoch: 1463 AE_train_loss= 0.12866 SE_train_loss= 0.00107
+Epoch: 1464 AE_train_loss= 0.12830 SE_train_loss= 0.00093
+Epoch: 1465 AE_train_loss= 0.12797 SE_train_loss= 0.00084
+Epoch: 1466 AE_train_loss= 0.12766 SE_train_loss= 0.00077
+Epoch: 1467 AE_train_loss= 0.12735 SE_train_loss= 0.00072
+Epoch: 1468 AE_train_loss= 0.12707 SE_train_loss= 0.00067
+Epoch: 1469 AE_train_loss= 0.12679 SE_train_loss= 0.00064
+Epoch: 1470 AE_train_loss= 0.12653 SE_train_loss= 0.00060
+Epoch: 1471 AE_train_loss= 0.13325 SE_train_loss= 0.00215
+Epoch: 1472 AE_train_loss= 0.13277 SE_train_loss= 0.00148
+Epoch: 1473 AE_train_loss= 0.13237 SE_train_loss= 0.00120
+Epoch: 1474 AE_train_loss= 0.13201 SE_train_loss= 0.00103
+Epoch: 1475 AE_train_loss= 0.13169 SE_train_loss= 0.00091
+Epoch: 1476 AE_train_loss= 0.13138 SE_train_loss= 0.00082
+Epoch: 1477 AE_train_loss= 0.13110 SE_train_loss= 0.00074
+Epoch: 1478 AE_train_loss= 0.13084 SE_train_loss= 0.00067
+Epoch: 1479 AE_train_loss= 0.13059 SE_train_loss= 0.00062
+Epoch: 1480 AE_train_loss= 0.13034 SE_train_loss= 0.00058
+Epoch: 1481 AE_train_loss= 0.13408 SE_train_loss= 0.00218
+Epoch: 1482 AE_train_loss= 0.13361 SE_train_loss= 0.00150
+Epoch: 1483 AE_train_loss= 0.13321 SE_train_loss= 0.00116
+Epoch: 1484 AE_train_loss= 0.13285 SE_train_loss= 0.00096
+Epoch: 1485 AE_train_loss= 0.13253 SE_train_loss= 0.00083
+Epoch: 1486 AE_train_loss= 0.13221 SE_train_loss= 0.00075
+Epoch: 1487 AE_train_loss= 0.13191 SE_train_loss= 0.00068
+Epoch: 1488 AE_train_loss= 0.13162 SE_train_loss= 0.00063
+Epoch: 1489 AE_train_loss= 0.13134 SE_train_loss= 0.00058
+Epoch: 1490 AE_train_loss= 0.13107 SE_train_loss= 0.00054
+Epoch: 1491 AE_train_loss= 0.13193 SE_train_loss= 0.00223
+Epoch: 1492 AE_train_loss= 0.13146 SE_train_loss= 0.00155
+Epoch: 1493 AE_train_loss= 0.13106 SE_train_loss= 0.00126
+Epoch: 1494 AE_train_loss= 0.13071 SE_train_loss= 0.00108
+Epoch: 1495 AE_train_loss= 0.13038 SE_train_loss= 0.00095
+Epoch: 1496 AE_train_loss= 0.13008 SE_train_loss= 0.00085
+Epoch: 1497 AE_train_loss= 0.12979 SE_train_loss= 0.00078
+Epoch: 1498 AE_train_loss= 0.12953 SE_train_loss= 0.00072
+Epoch: 1499 AE_train_loss= 0.12927 SE_train_loss= 0.00067
+Epoch: 1500 AE_train_loss= 0.12903 SE_train_loss= 0.00063
+Epoch: 1501 AE_train_loss= 0.12496 SE_train_loss= 0.00204
+Epoch: 1502 AE_train_loss= 0.12451 SE_train_loss= 0.00142
+Epoch: 1503 AE_train_loss= 0.12413 SE_train_loss= 0.00112
+Epoch: 1504 AE_train_loss= 0.12380 SE_train_loss= 0.00094
+Epoch: 1505 AE_train_loss= 0.12349 SE_train_loss= 0.00080
+Epoch: 1506 AE_train_loss= 0.12319 SE_train_loss= 0.00071
+Epoch: 1507 AE_train_loss= 0.12290 SE_train_loss= 0.00065
+Epoch: 1508 AE_train_loss= 0.12263 SE_train_loss= 0.00059
+Epoch: 1509 AE_train_loss= 0.12238 SE_train_loss= 0.00054
+Epoch: 1510 AE_train_loss= 0.12213 SE_train_loss= 0.00049
+Epoch: 1511 AE_train_loss= 0.12712 SE_train_loss= 0.00252
+Epoch: 1512 AE_train_loss= 0.12664 SE_train_loss= 0.00184
+Epoch: 1513 AE_train_loss= 0.12626 SE_train_loss= 0.00152
+Epoch: 1514 AE_train_loss= 0.12591 SE_train_loss= 0.00134
+Epoch: 1515 AE_train_loss= 0.12560 SE_train_loss= 0.00120
+Epoch: 1516 AE_train_loss= 0.12531 SE_train_loss= 0.00108
+Epoch: 1517 AE_train_loss= 0.12503 SE_train_loss= 0.00100
+Epoch: 1518 AE_train_loss= 0.12476 SE_train_loss= 0.00093
+Epoch: 1519 AE_train_loss= 0.12452 SE_train_loss= 0.00087
+Epoch: 1520 AE_train_loss= 0.12427 SE_train_loss= 0.00081
+Epoch: 1521 AE_train_loss= 0.12364 SE_train_loss= 0.00218
+Epoch: 1522 AE_train_loss= 0.12318 SE_train_loss= 0.00152
+Epoch: 1523 AE_train_loss= 0.12280 SE_train_loss= 0.00119
+Epoch: 1524 AE_train_loss= 0.12247 SE_train_loss= 0.00099
+Epoch: 1525 AE_train_loss= 0.12217 SE_train_loss= 0.00085
+Epoch: 1526 AE_train_loss= 0.12188 SE_train_loss= 0.00075
+Epoch: 1527 AE_train_loss= 0.12161 SE_train_loss= 0.00067
+Epoch: 1528 AE_train_loss= 0.12135 SE_train_loss= 0.00060
+Epoch: 1529 AE_train_loss= 0.12111 SE_train_loss= 0.00055
+Epoch: 1530 AE_train_loss= 0.12086 SE_train_loss= 0.00051
+Epoch: 1531 AE_train_loss= 0.13426 SE_train_loss= 0.00188
+Epoch: 1532 AE_train_loss= 0.13376 SE_train_loss= 0.00118
+Epoch: 1533 AE_train_loss= 0.13334 SE_train_loss= 0.00091
+Epoch: 1534 AE_train_loss= 0.13297 SE_train_loss= 0.00076
+Epoch: 1535 AE_train_loss= 0.13262 SE_train_loss= 0.00067
+Epoch: 1536 AE_train_loss= 0.13230 SE_train_loss= 0.00060
+Epoch: 1537 AE_train_loss= 0.13200 SE_train_loss= 0.00055
+Epoch: 1538 AE_train_loss= 0.13171 SE_train_loss= 0.00052
+Epoch: 1539 AE_train_loss= 0.13144 SE_train_loss= 0.00049
+Epoch: 1540 AE_train_loss= 0.13117 SE_train_loss= 0.00046
+Epoch: 1541 AE_train_loss= 0.12973 SE_train_loss= 0.00174
+Epoch: 1542 AE_train_loss= 0.12926 SE_train_loss= 0.00122
+Epoch: 1543 AE_train_loss= 0.12887 SE_train_loss= 0.00101
+Epoch: 1544 AE_train_loss= 0.12854 SE_train_loss= 0.00088
+Epoch: 1545 AE_train_loss= 0.12823 SE_train_loss= 0.00079
+Epoch: 1546 AE_train_loss= 0.12794 SE_train_loss= 0.00072
+Epoch: 1547 AE_train_loss= 0.12767 SE_train_loss= 0.00066
+Epoch: 1548 AE_train_loss= 0.12741 SE_train_loss= 0.00061
+Epoch: 1549 AE_train_loss= 0.12716 SE_train_loss= 0.00057
+Epoch: 1550 AE_train_loss= 0.12690 SE_train_loss= 0.00054
+Epoch: 1551 AE_train_loss= 0.12403 SE_train_loss= 0.00177
+Epoch: 1552 AE_train_loss= 0.12355 SE_train_loss= 0.00118
+Epoch: 1553 AE_train_loss= 0.12315 SE_train_loss= 0.00093
+Epoch: 1554 AE_train_loss= 0.12279 SE_train_loss= 0.00078
+Epoch: 1555 AE_train_loss= 0.12247 SE_train_loss= 0.00066
+Epoch: 1556 AE_train_loss= 0.12217 SE_train_loss= 0.00059
+Epoch: 1557 AE_train_loss= 0.12190 SE_train_loss= 0.00053
+Epoch: 1558 AE_train_loss= 0.12163 SE_train_loss= 0.00048
+Epoch: 1559 AE_train_loss= 0.12138 SE_train_loss= 0.00044
+Epoch: 1560 AE_train_loss= 0.12113 SE_train_loss= 0.00041
+Epoch: 1561 AE_train_loss= 0.12051 SE_train_loss= 0.00137
+Epoch: 1562 AE_train_loss= 0.12007 SE_train_loss= 0.00091
+Epoch: 1563 AE_train_loss= 0.11972 SE_train_loss= 0.00071
+Epoch: 1564 AE_train_loss= 0.11941 SE_train_loss= 0.00060
+Epoch: 1565 AE_train_loss= 0.11911 SE_train_loss= 0.00054
+Epoch: 1566 AE_train_loss= 0.11884 SE_train_loss= 0.00049
+Epoch: 1567 AE_train_loss= 0.11858 SE_train_loss= 0.00045
+Epoch: 1568 AE_train_loss= 0.11833 SE_train_loss= 0.00042
+Epoch: 1569 AE_train_loss= 0.11810 SE_train_loss= 0.00039
+Epoch: 1570 AE_train_loss= 0.11787 SE_train_loss= 0.00037
+Epoch: 1571 AE_train_loss= 0.13155 SE_train_loss= 0.00185
+Epoch: 1572 AE_train_loss= 0.13106 SE_train_loss= 0.00122
+Epoch: 1573 AE_train_loss= 0.13064 SE_train_loss= 0.00095
+Epoch: 1574 AE_train_loss= 0.13028 SE_train_loss= 0.00079
+Epoch: 1575 AE_train_loss= 0.12994 SE_train_loss= 0.00069
+Epoch: 1576 AE_train_loss= 0.12963 SE_train_loss= 0.00061
+Epoch: 1577 AE_train_loss= 0.12934 SE_train_loss= 0.00055
+Epoch: 1578 AE_train_loss= 0.12906 SE_train_loss= 0.00049
+Epoch: 1579 AE_train_loss= 0.12880 SE_train_loss= 0.00045
+Epoch: 1580 AE_train_loss= 0.12855 SE_train_loss= 0.00042
+Epoch: 1581 AE_train_loss= 0.12282 SE_train_loss= 0.00204
+Epoch: 1582 AE_train_loss= 0.12234 SE_train_loss= 0.00144
+Epoch: 1583 AE_train_loss= 0.12194 SE_train_loss= 0.00116
+Epoch: 1584 AE_train_loss= 0.12159 SE_train_loss= 0.00098
+Epoch: 1585 AE_train_loss= 0.12127 SE_train_loss= 0.00087
+Epoch: 1586 AE_train_loss= 0.12098 SE_train_loss= 0.00078
+Epoch: 1587 AE_train_loss= 0.12069 SE_train_loss= 0.00071
+Epoch: 1588 AE_train_loss= 0.12043 SE_train_loss= 0.00066
+Epoch: 1589 AE_train_loss= 0.12018 SE_train_loss= 0.00061
+Epoch: 1590 AE_train_loss= 0.11996 SE_train_loss= 0.00057
+Epoch: 1591 AE_train_loss= 0.12631 SE_train_loss= 0.00179
+Epoch: 1592 AE_train_loss= 0.12584 SE_train_loss= 0.00122
+Epoch: 1593 AE_train_loss= 0.12547 SE_train_loss= 0.00099
+Epoch: 1594 AE_train_loss= 0.12514 SE_train_loss= 0.00084
+Epoch: 1595 AE_train_loss= 0.12483 SE_train_loss= 0.00074
+Epoch: 1596 AE_train_loss= 0.12455 SE_train_loss= 0.00068
+Epoch: 1597 AE_train_loss= 0.12429 SE_train_loss= 0.00062
+Epoch: 1598 AE_train_loss= 0.12403 SE_train_loss= 0.00058
+Epoch: 1599 AE_train_loss= 0.12379 SE_train_loss= 0.00054
+Epoch: 1600 AE_train_loss= 0.12355 SE_train_loss= 0.00051
+Epoch: 1601 AE_train_loss= 0.12733 SE_train_loss= 0.00212
+Epoch: 1602 AE_train_loss= 0.12681 SE_train_loss= 0.00141
+Epoch: 1603 AE_train_loss= 0.12640 SE_train_loss= 0.00110
+Epoch: 1604 AE_train_loss= 0.12605 SE_train_loss= 0.00093
+Epoch: 1605 AE_train_loss= 0.12573 SE_train_loss= 0.00084
+Epoch: 1606 AE_train_loss= 0.12544 SE_train_loss= 0.00076
+Epoch: 1607 AE_train_loss= 0.12515 SE_train_loss= 0.00070
+Epoch: 1608 AE_train_loss= 0.12489 SE_train_loss= 0.00065
+Epoch: 1609 AE_train_loss= 0.12463 SE_train_loss= 0.00060
+Epoch: 1610 AE_train_loss= 0.12440 SE_train_loss= 0.00056
+Epoch: 1611 AE_train_loss= 0.12094 SE_train_loss= 0.00157
+Epoch: 1612 AE_train_loss= 0.12050 SE_train_loss= 0.00101
+Epoch: 1613 AE_train_loss= 0.12015 SE_train_loss= 0.00076
+Epoch: 1614 AE_train_loss= 0.11984 SE_train_loss= 0.00061
+Epoch: 1615 AE_train_loss= 0.11955 SE_train_loss= 0.00054
+Epoch: 1616 AE_train_loss= 0.11929 SE_train_loss= 0.00048
+Epoch: 1617 AE_train_loss= 0.11903 SE_train_loss= 0.00044
+Epoch: 1618 AE_train_loss= 0.11879 SE_train_loss= 0.00041
+Epoch: 1619 AE_train_loss= 0.11857 SE_train_loss= 0.00038
+Epoch: 1620 AE_train_loss= 0.11834 SE_train_loss= 0.00036
+Epoch: 1621 AE_train_loss= 0.12610 SE_train_loss= 0.00186
+Epoch: 1622 AE_train_loss= 0.12568 SE_train_loss= 0.00128
+Epoch: 1623 AE_train_loss= 0.12532 SE_train_loss= 0.00103
+Epoch: 1624 AE_train_loss= 0.12501 SE_train_loss= 0.00090
+Epoch: 1625 AE_train_loss= 0.12472 SE_train_loss= 0.00082
+Epoch: 1626 AE_train_loss= 0.12444 SE_train_loss= 0.00075
+Epoch: 1627 AE_train_loss= 0.12418 SE_train_loss= 0.00070
+Epoch: 1628 AE_train_loss= 0.12394 SE_train_loss= 0.00065
+Epoch: 1629 AE_train_loss= 0.12371 SE_train_loss= 0.00062
+Epoch: 1630 AE_train_loss= 0.12348 SE_train_loss= 0.00058
+Epoch: 1631 AE_train_loss= 0.12277 SE_train_loss= 0.00138
+Epoch: 1632 AE_train_loss= 0.12230 SE_train_loss= 0.00084
+Epoch: 1633 AE_train_loss= 0.12191 SE_train_loss= 0.00062
+Epoch: 1634 AE_train_loss= 0.12157 SE_train_loss= 0.00051
+Epoch: 1635 AE_train_loss= 0.12126 SE_train_loss= 0.00043
+Epoch: 1636 AE_train_loss= 0.12097 SE_train_loss= 0.00037
+Epoch: 1637 AE_train_loss= 0.12069 SE_train_loss= 0.00033
+Epoch: 1638 AE_train_loss= 0.12043 SE_train_loss= 0.00030
+Epoch: 1639 AE_train_loss= 0.12018 SE_train_loss= 0.00027
+Epoch: 1640 AE_train_loss= 0.11993 SE_train_loss= 0.00025
+Epoch: 1641 AE_train_loss= 0.12402 SE_train_loss= 0.00201
+Epoch: 1642 AE_train_loss= 0.12358 SE_train_loss= 0.00141
+Epoch: 1643 AE_train_loss= 0.12321 SE_train_loss= 0.00115
+Epoch: 1644 AE_train_loss= 0.12288 SE_train_loss= 0.00101
+Epoch: 1645 AE_train_loss= 0.12258 SE_train_loss= 0.00092
+Epoch: 1646 AE_train_loss= 0.12231 SE_train_loss= 0.00085
+Epoch: 1647 AE_train_loss= 0.12204 SE_train_loss= 0.00080
+Epoch: 1648 AE_train_loss= 0.12180 SE_train_loss= 0.00075
+Epoch: 1649 AE_train_loss= 0.12156 SE_train_loss= 0.00072
+Epoch: 1650 AE_train_loss= 0.12134 SE_train_loss= 0.00069
+Epoch: 1651 AE_train_loss= 0.12055 SE_train_loss= 0.00215
+Epoch: 1652 AE_train_loss= 0.12009 SE_train_loss= 0.00149
+Epoch: 1653 AE_train_loss= 0.11970 SE_train_loss= 0.00122
+Epoch: 1654 AE_train_loss= 0.11936 SE_train_loss= 0.00107
+Epoch: 1655 AE_train_loss= 0.11906 SE_train_loss= 0.00096
+Epoch: 1656 AE_train_loss= 0.11877 SE_train_loss= 0.00088
+Epoch: 1657 AE_train_loss= 0.11851 SE_train_loss= 0.00082
+Epoch: 1658 AE_train_loss= 0.11825 SE_train_loss= 0.00076
+Epoch: 1659 AE_train_loss= 0.11801 SE_train_loss= 0.00072
+Epoch: 1660 AE_train_loss= 0.11777 SE_train_loss= 0.00069
+Epoch: 1661 AE_train_loss= 0.11715 SE_train_loss= 0.00214
+Epoch: 1662 AE_train_loss= 0.11665 SE_train_loss= 0.00162
+Epoch: 1663 AE_train_loss= 0.11628 SE_train_loss= 0.00140
+Epoch: 1664 AE_train_loss= 0.11595 SE_train_loss= 0.00125
+Epoch: 1665 AE_train_loss= 0.11567 SE_train_loss= 0.00115
+Epoch: 1666 AE_train_loss= 0.11540 SE_train_loss= 0.00107
+Epoch: 1667 AE_train_loss= 0.11515 SE_train_loss= 0.00100
+Epoch: 1668 AE_train_loss= 0.11492 SE_train_loss= 0.00095
+Epoch: 1669 AE_train_loss= 0.11469 SE_train_loss= 0.00091
+Epoch: 1670 AE_train_loss= 0.11448 SE_train_loss= 0.00088
+Epoch: 1671 AE_train_loss= 0.12567 SE_train_loss= 0.00180
+Epoch: 1672 AE_train_loss= 0.12519 SE_train_loss= 0.00121
+Epoch: 1673 AE_train_loss= 0.12483 SE_train_loss= 0.00094
+Epoch: 1674 AE_train_loss= 0.12451 SE_train_loss= 0.00078
+Epoch: 1675 AE_train_loss= 0.12421 SE_train_loss= 0.00067
+Epoch: 1676 AE_train_loss= 0.12394 SE_train_loss= 0.00059
+Epoch: 1677 AE_train_loss= 0.12368 SE_train_loss= 0.00053
+Epoch: 1678 AE_train_loss= 0.12344 SE_train_loss= 0.00048
+Epoch: 1679 AE_train_loss= 0.12321 SE_train_loss= 0.00044
+Epoch: 1680 AE_train_loss= 0.12299 SE_train_loss= 0.00041
+Epoch: 1681 AE_train_loss= 0.12442 SE_train_loss= 0.00181
+Epoch: 1682 AE_train_loss= 0.12394 SE_train_loss= 0.00118
+Epoch: 1683 AE_train_loss= 0.12354 SE_train_loss= 0.00089
+Epoch: 1684 AE_train_loss= 0.12320 SE_train_loss= 0.00072
+Epoch: 1685 AE_train_loss= 0.12289 SE_train_loss= 0.00060
+Epoch: 1686 AE_train_loss= 0.12260 SE_train_loss= 0.00051
+Epoch: 1687 AE_train_loss= 0.12233 SE_train_loss= 0.00045
+Epoch: 1688 AE_train_loss= 0.12208 SE_train_loss= 0.00041
+Epoch: 1689 AE_train_loss= 0.12183 SE_train_loss= 0.00038
+Epoch: 1690 AE_train_loss= 0.12160 SE_train_loss= 0.00035
+Epoch: 1691 AE_train_loss= 0.12258 SE_train_loss= 0.00190
+Epoch: 1692 AE_train_loss= 0.12213 SE_train_loss= 0.00130
+Epoch: 1693 AE_train_loss= 0.12176 SE_train_loss= 0.00100
+Epoch: 1694 AE_train_loss= 0.12143 SE_train_loss= 0.00083
+Epoch: 1695 AE_train_loss= 0.12113 SE_train_loss= 0.00071
+Epoch: 1696 AE_train_loss= 0.12085 SE_train_loss= 0.00063
+Epoch: 1697 AE_train_loss= 0.12058 SE_train_loss= 0.00056
+Epoch: 1698 AE_train_loss= 0.12033 SE_train_loss= 0.00051
+Epoch: 1699 AE_train_loss= 0.12009 SE_train_loss= 0.00047
+Epoch: 1700 AE_train_loss= 0.11985 SE_train_loss= 0.00044
+Epoch: 1701 AE_train_loss= 0.12268 SE_train_loss= 0.00210
+Epoch: 1702 AE_train_loss= 0.12224 SE_train_loss= 0.00150
+Epoch: 1703 AE_train_loss= 0.12186 SE_train_loss= 0.00123
+Epoch: 1704 AE_train_loss= 0.12153 SE_train_loss= 0.00109
+Epoch: 1705 AE_train_loss= 0.12122 SE_train_loss= 0.00099
+Epoch: 1706 AE_train_loss= 0.12093 SE_train_loss= 0.00091
+Epoch: 1707 AE_train_loss= 0.12065 SE_train_loss= 0.00086
+Epoch: 1708 AE_train_loss= 0.12039 SE_train_loss= 0.00081
+Epoch: 1709 AE_train_loss= 0.12014 SE_train_loss= 0.00076
+Epoch: 1710 AE_train_loss= 0.11990 SE_train_loss= 0.00072
+Epoch: 1711 AE_train_loss= 0.11744 SE_train_loss= 0.00143
+Epoch: 1712 AE_train_loss= 0.11699 SE_train_loss= 0.00101
+Epoch: 1713 AE_train_loss= 0.11664 SE_train_loss= 0.00085
+Epoch: 1714 AE_train_loss= 0.11631 SE_train_loss= 0.00075
+Epoch: 1715 AE_train_loss= 0.11602 SE_train_loss= 0.00068
+Epoch: 1716 AE_train_loss= 0.11574 SE_train_loss= 0.00063
+Epoch: 1717 AE_train_loss= 0.11549 SE_train_loss= 0.00059
+Epoch: 1718 AE_train_loss= 0.11525 SE_train_loss= 0.00056
+Epoch: 1719 AE_train_loss= 0.11502 SE_train_loss= 0.00053
+Epoch: 1720 AE_train_loss= 0.11479 SE_train_loss= 0.00051
+Epoch: 1721 AE_train_loss= 0.12250 SE_train_loss= 0.00186
+Epoch: 1722 AE_train_loss= 0.12204 SE_train_loss= 0.00127
+Epoch: 1723 AE_train_loss= 0.12166 SE_train_loss= 0.00101
+Epoch: 1724 AE_train_loss= 0.12133 SE_train_loss= 0.00084
+Epoch: 1725 AE_train_loss= 0.12102 SE_train_loss= 0.00072
+Epoch: 1726 AE_train_loss= 0.12073 SE_train_loss= 0.00064
+Epoch: 1727 AE_train_loss= 0.12046 SE_train_loss= 0.00059
+Epoch: 1728 AE_train_loss= 0.12021 SE_train_loss= 0.00055
+Epoch: 1729 AE_train_loss= 0.11997 SE_train_loss= 0.00052
+Epoch: 1730 AE_train_loss= 0.11973 SE_train_loss= 0.00050
+Epoch: 1731 AE_train_loss= 0.12257 SE_train_loss= 0.00157
+Epoch: 1732 AE_train_loss= 0.12212 SE_train_loss= 0.00102
+Epoch: 1733 AE_train_loss= 0.12174 SE_train_loss= 0.00077
+Epoch: 1734 AE_train_loss= 0.12140 SE_train_loss= 0.00062
+Epoch: 1735 AE_train_loss= 0.12109 SE_train_loss= 0.00051
+Epoch: 1736 AE_train_loss= 0.12079 SE_train_loss= 0.00043
+Epoch: 1737 AE_train_loss= 0.12051 SE_train_loss= 0.00037
+Epoch: 1738 AE_train_loss= 0.12025 SE_train_loss= 0.00032
+Epoch: 1739 AE_train_loss= 0.11999 SE_train_loss= 0.00029
+Epoch: 1740 AE_train_loss= 0.11975 SE_train_loss= 0.00027
+Epoch: 1741 AE_train_loss= 0.11475 SE_train_loss= 0.00163
+Epoch: 1742 AE_train_loss= 0.11434 SE_train_loss= 0.00109
+Epoch: 1743 AE_train_loss= 0.11398 SE_train_loss= 0.00085
+Epoch: 1744 AE_train_loss= 0.11367 SE_train_loss= 0.00072
+Epoch: 1745 AE_train_loss= 0.11338 SE_train_loss= 0.00063
+Epoch: 1746 AE_train_loss= 0.11311 SE_train_loss= 0.00057
+Epoch: 1747 AE_train_loss= 0.11285 SE_train_loss= 0.00052
+Epoch: 1748 AE_train_loss= 0.11260 SE_train_loss= 0.00048
+Epoch: 1749 AE_train_loss= 0.11237 SE_train_loss= 0.00045
+Epoch: 1750 AE_train_loss= 0.11215 SE_train_loss= 0.00042
+Epoch: 1751 AE_train_loss= 0.11778 SE_train_loss= 0.00173
+Epoch: 1752 AE_train_loss= 0.11730 SE_train_loss= 0.00119
+Epoch: 1753 AE_train_loss= 0.11692 SE_train_loss= 0.00094
+Epoch: 1754 AE_train_loss= 0.11656 SE_train_loss= 0.00079
+Epoch: 1755 AE_train_loss= 0.11624 SE_train_loss= 0.00068
+Epoch: 1756 AE_train_loss= 0.11594 SE_train_loss= 0.00060
+Epoch: 1757 AE_train_loss= 0.11567 SE_train_loss= 0.00054
+Epoch: 1758 AE_train_loss= 0.11540 SE_train_loss= 0.00049
+Epoch: 1759 AE_train_loss= 0.11515 SE_train_loss= 0.00044
+Epoch: 1760 AE_train_loss= 0.11492 SE_train_loss= 0.00040
+Epoch: 1761 AE_train_loss= 0.11207 SE_train_loss= 0.00183
+Epoch: 1762 AE_train_loss= 0.11157 SE_train_loss= 0.00124
+Epoch: 1763 AE_train_loss= 0.11117 SE_train_loss= 0.00096
+Epoch: 1764 AE_train_loss= 0.11083 SE_train_loss= 0.00079
+Epoch: 1765 AE_train_loss= 0.11051 SE_train_loss= 0.00067
+Epoch: 1766 AE_train_loss= 0.11023 SE_train_loss= 0.00060
+Epoch: 1767 AE_train_loss= 0.10996 SE_train_loss= 0.00055
+Epoch: 1768 AE_train_loss= 0.10972 SE_train_loss= 0.00049
+Epoch: 1769 AE_train_loss= 0.10949 SE_train_loss= 0.00045
+Epoch: 1770 AE_train_loss= 0.10927 SE_train_loss= 0.00042
+Epoch: 1771 AE_train_loss= 0.11851 SE_train_loss= 0.00192
+Epoch: 1772 AE_train_loss= 0.11803 SE_train_loss= 0.00127
+Epoch: 1773 AE_train_loss= 0.11764 SE_train_loss= 0.00097
+Epoch: 1774 AE_train_loss= 0.11730 SE_train_loss= 0.00079
+Epoch: 1775 AE_train_loss= 0.11699 SE_train_loss= 0.00066
+Epoch: 1776 AE_train_loss= 0.11669 SE_train_loss= 0.00057
+Epoch: 1777 AE_train_loss= 0.11642 SE_train_loss= 0.00049
+Epoch: 1778 AE_train_loss= 0.11617 SE_train_loss= 0.00044
+Epoch: 1779 AE_train_loss= 0.11592 SE_train_loss= 0.00040
+Epoch: 1780 AE_train_loss= 0.11568 SE_train_loss= 0.00036
+Epoch: 1781 AE_train_loss= 0.11695 SE_train_loss= 0.00200
+Epoch: 1782 AE_train_loss= 0.11651 SE_train_loss= 0.00138
+Epoch: 1783 AE_train_loss= 0.11615 SE_train_loss= 0.00109
+Epoch: 1784 AE_train_loss= 0.11584 SE_train_loss= 0.00091
+Epoch: 1785 AE_train_loss= 0.11555 SE_train_loss= 0.00080
+Epoch: 1786 AE_train_loss= 0.11527 SE_train_loss= 0.00071
+Epoch: 1787 AE_train_loss= 0.11502 SE_train_loss= 0.00064
+Epoch: 1788 AE_train_loss= 0.11478 SE_train_loss= 0.00059
+Epoch: 1789 AE_train_loss= 0.11455 SE_train_loss= 0.00054
+Epoch: 1790 AE_train_loss= 0.11433 SE_train_loss= 0.00051
+Epoch: 1791 AE_train_loss= 0.11841 SE_train_loss= 0.00193
+Epoch: 1792 AE_train_loss= 0.11801 SE_train_loss= 0.00133
+Epoch: 1793 AE_train_loss= 0.11769 SE_train_loss= 0.00107
+Epoch: 1794 AE_train_loss= 0.11739 SE_train_loss= 0.00092
+Epoch: 1795 AE_train_loss= 0.11711 SE_train_loss= 0.00082
+Epoch: 1796 AE_train_loss= 0.11685 SE_train_loss= 0.00074
+Epoch: 1797 AE_train_loss= 0.11660 SE_train_loss= 0.00068
+Epoch: 1798 AE_train_loss= 0.11636 SE_train_loss= 0.00063
+Epoch: 1799 AE_train_loss= 0.11613 SE_train_loss= 0.00059
+Epoch: 1800 AE_train_loss= 0.11591 SE_train_loss= 0.00055
+Epoch: 1801 AE_train_loss= 0.11680 SE_train_loss= 0.00210
+Epoch: 1802 AE_train_loss= 0.11633 SE_train_loss= 0.00151
+Epoch: 1803 AE_train_loss= 0.11594 SE_train_loss= 0.00122
+Epoch: 1804 AE_train_loss= 0.11561 SE_train_loss= 0.00106
+Epoch: 1805 AE_train_loss= 0.11530 SE_train_loss= 0.00094
+Epoch: 1806 AE_train_loss= 0.11502 SE_train_loss= 0.00084
+Epoch: 1807 AE_train_loss= 0.11475 SE_train_loss= 0.00077
+Epoch: 1808 AE_train_loss= 0.11450 SE_train_loss= 0.00071
+Epoch: 1809 AE_train_loss= 0.11427 SE_train_loss= 0.00067
+Epoch: 1810 AE_train_loss= 0.11404 SE_train_loss= 0.00062
+Epoch: 1811 AE_train_loss= 0.11701 SE_train_loss= 0.00161
+Epoch: 1812 AE_train_loss= 0.11654 SE_train_loss= 0.00105
+Epoch: 1813 AE_train_loss= 0.11616 SE_train_loss= 0.00083
+Epoch: 1814 AE_train_loss= 0.11583 SE_train_loss= 0.00070
+Epoch: 1815 AE_train_loss= 0.11552 SE_train_loss= 0.00061
+Epoch: 1816 AE_train_loss= 0.11525 SE_train_loss= 0.00054
+Epoch: 1817 AE_train_loss= 0.11500 SE_train_loss= 0.00049
+Epoch: 1818 AE_train_loss= 0.11476 SE_train_loss= 0.00045
+Epoch: 1819 AE_train_loss= 0.11453 SE_train_loss= 0.00041
+Epoch: 1820 AE_train_loss= 0.11431 SE_train_loss= 0.00037
+Epoch: 1821 AE_train_loss= 0.11512 SE_train_loss= 0.00152
+Epoch: 1822 AE_train_loss= 0.11468 SE_train_loss= 0.00100
+Epoch: 1823 AE_train_loss= 0.11434 SE_train_loss= 0.00074
+Epoch: 1824 AE_train_loss= 0.11404 SE_train_loss= 0.00060
+Epoch: 1825 AE_train_loss= 0.11376 SE_train_loss= 0.00050
+Epoch: 1826 AE_train_loss= 0.11350 SE_train_loss= 0.00044
+Epoch: 1827 AE_train_loss= 0.11326 SE_train_loss= 0.00039
+Epoch: 1828 AE_train_loss= 0.11303 SE_train_loss= 0.00036
+Epoch: 1829 AE_train_loss= 0.11281 SE_train_loss= 0.00033
+Epoch: 1830 AE_train_loss= 0.11260 SE_train_loss= 0.00032
+Epoch: 1831 AE_train_loss= 0.11374 SE_train_loss= 0.00180
+Epoch: 1832 AE_train_loss= 0.11334 SE_train_loss= 0.00120
+Epoch: 1833 AE_train_loss= 0.11300 SE_train_loss= 0.00094
+Epoch: 1834 AE_train_loss= 0.11270 SE_train_loss= 0.00081
+Epoch: 1835 AE_train_loss= 0.11242 SE_train_loss= 0.00072
+Epoch: 1836 AE_train_loss= 0.11216 SE_train_loss= 0.00066
+Epoch: 1837 AE_train_loss= 0.11191 SE_train_loss= 0.00061
+Epoch: 1838 AE_train_loss= 0.11168 SE_train_loss= 0.00057
+Epoch: 1839 AE_train_loss= 0.11146 SE_train_loss= 0.00054
+Epoch: 1840 AE_train_loss= 0.11125 SE_train_loss= 0.00051
+Epoch: 1841 AE_train_loss= 0.11706 SE_train_loss= 0.00152
+Epoch: 1842 AE_train_loss= 0.11664 SE_train_loss= 0.00099
+Epoch: 1843 AE_train_loss= 0.11628 SE_train_loss= 0.00079
+Epoch: 1844 AE_train_loss= 0.11595 SE_train_loss= 0.00067
+Epoch: 1845 AE_train_loss= 0.11566 SE_train_loss= 0.00059
+Epoch: 1846 AE_train_loss= 0.11539 SE_train_loss= 0.00053
+Epoch: 1847 AE_train_loss= 0.11513 SE_train_loss= 0.00050
+Epoch: 1848 AE_train_loss= 0.11490 SE_train_loss= 0.00046
+Epoch: 1849 AE_train_loss= 0.11467 SE_train_loss= 0.00043
+Epoch: 1850 AE_train_loss= 0.11444 SE_train_loss= 0.00041
+Epoch: 1851 AE_train_loss= 0.11938 SE_train_loss= 0.00177
+Epoch: 1852 AE_train_loss= 0.11888 SE_train_loss= 0.00122
+Epoch: 1853 AE_train_loss= 0.11851 SE_train_loss= 0.00094
+Epoch: 1854 AE_train_loss= 0.11818 SE_train_loss= 0.00078
+Epoch: 1855 AE_train_loss= 0.11787 SE_train_loss= 0.00067
+Epoch: 1856 AE_train_loss= 0.11759 SE_train_loss= 0.00059
+Epoch: 1857 AE_train_loss= 0.11732 SE_train_loss= 0.00052
+Epoch: 1858 AE_train_loss= 0.11707 SE_train_loss= 0.00047
+Epoch: 1859 AE_train_loss= 0.11682 SE_train_loss= 0.00042
+Epoch: 1860 AE_train_loss= 0.11659 SE_train_loss= 0.00038
+Epoch: 1861 AE_train_loss= 0.11503 SE_train_loss= 0.00187
+Epoch: 1862 AE_train_loss= 0.11458 SE_train_loss= 0.00128
+Epoch: 1863 AE_train_loss= 0.11423 SE_train_loss= 0.00105
+Epoch: 1864 AE_train_loss= 0.11391 SE_train_loss= 0.00091
+Epoch: 1865 AE_train_loss= 0.11361 SE_train_loss= 0.00080
+Epoch: 1866 AE_train_loss= 0.11333 SE_train_loss= 0.00072
+Epoch: 1867 AE_train_loss= 0.11307 SE_train_loss= 0.00065
+Epoch: 1868 AE_train_loss= 0.11282 SE_train_loss= 0.00059
+Epoch: 1869 AE_train_loss= 0.11259 SE_train_loss= 0.00055
+Epoch: 1870 AE_train_loss= 0.11236 SE_train_loss= 0.00051
+Epoch: 1871 AE_train_loss= 0.11677 SE_train_loss= 0.00166
+Epoch: 1872 AE_train_loss= 0.11631 SE_train_loss= 0.00110
+Epoch: 1873 AE_train_loss= 0.11596 SE_train_loss= 0.00085
+Epoch: 1874 AE_train_loss= 0.11564 SE_train_loss= 0.00071
+Epoch: 1875 AE_train_loss= 0.11535 SE_train_loss= 0.00061
+Epoch: 1876 AE_train_loss= 0.11507 SE_train_loss= 0.00054
+Epoch: 1877 AE_train_loss= 0.11481 SE_train_loss= 0.00048
+Epoch: 1878 AE_train_loss= 0.11457 SE_train_loss= 0.00043
+Epoch: 1879 AE_train_loss= 0.11433 SE_train_loss= 0.00040
+Epoch: 1880 AE_train_loss= 0.11410 SE_train_loss= 0.00037
+Epoch: 1881 AE_train_loss= 0.11256 SE_train_loss= 0.00158
+Epoch: 1882 AE_train_loss= 0.11215 SE_train_loss= 0.00102
+Epoch: 1883 AE_train_loss= 0.11180 SE_train_loss= 0.00079
+Epoch: 1884 AE_train_loss= 0.11149 SE_train_loss= 0.00066
+Epoch: 1885 AE_train_loss= 0.11121 SE_train_loss= 0.00057
+Epoch: 1886 AE_train_loss= 0.11094 SE_train_loss= 0.00051
+Epoch: 1887 AE_train_loss= 0.11070 SE_train_loss= 0.00047
+Epoch: 1888 AE_train_loss= 0.11047 SE_train_loss= 0.00043
+Epoch: 1889 AE_train_loss= 0.11024 SE_train_loss= 0.00041
+Epoch: 1890 AE_train_loss= 0.11003 SE_train_loss= 0.00038
+Epoch: 1891 AE_train_loss= 0.11025 SE_train_loss= 0.00173
+Epoch: 1892 AE_train_loss= 0.10987 SE_train_loss= 0.00119
+Epoch: 1893 AE_train_loss= 0.10955 SE_train_loss= 0.00097
+Epoch: 1894 AE_train_loss= 0.10926 SE_train_loss= 0.00083
+Epoch: 1895 AE_train_loss= 0.10899 SE_train_loss= 0.00072
+Epoch: 1896 AE_train_loss= 0.10874 SE_train_loss= 0.00065
+Epoch: 1897 AE_train_loss= 0.10851 SE_train_loss= 0.00059
+Epoch: 1898 AE_train_loss= 0.10828 SE_train_loss= 0.00054
+Epoch: 1899 AE_train_loss= 0.10807 SE_train_loss= 0.00050
+Epoch: 1900 AE_train_loss= 0.10786 SE_train_loss= 0.00046
+Epoch: 1901 AE_train_loss= 0.11792 SE_train_loss= 0.00171
+Epoch: 1902 AE_train_loss= 0.11752 SE_train_loss= 0.00116
+Epoch: 1903 AE_train_loss= 0.11718 SE_train_loss= 0.00094
+Epoch: 1904 AE_train_loss= 0.11687 SE_train_loss= 0.00081
+Epoch: 1905 AE_train_loss= 0.11658 SE_train_loss= 0.00071
+Epoch: 1906 AE_train_loss= 0.11631 SE_train_loss= 0.00065
+Epoch: 1907 AE_train_loss= 0.11605 SE_train_loss= 0.00059
+Epoch: 1908 AE_train_loss= 0.11581 SE_train_loss= 0.00055
+Epoch: 1909 AE_train_loss= 0.11558 SE_train_loss= 0.00051
+Epoch: 1910 AE_train_loss= 0.11535 SE_train_loss= 0.00048
+Epoch: 1911 AE_train_loss= 0.10922 SE_train_loss= 0.00161
+Epoch: 1912 AE_train_loss= 0.10876 SE_train_loss= 0.00108
+Epoch: 1913 AE_train_loss= 0.10838 SE_train_loss= 0.00084
+Epoch: 1914 AE_train_loss= 0.10804 SE_train_loss= 0.00070
+Epoch: 1915 AE_train_loss= 0.10774 SE_train_loss= 0.00060
+Epoch: 1916 AE_train_loss= 0.10746 SE_train_loss= 0.00053
+Epoch: 1917 AE_train_loss= 0.10719 SE_train_loss= 0.00048
+Epoch: 1918 AE_train_loss= 0.10696 SE_train_loss= 0.00044
+Epoch: 1919 AE_train_loss= 0.10673 SE_train_loss= 0.00041
+Epoch: 1920 AE_train_loss= 0.10651 SE_train_loss= 0.00038
+Epoch: 1921 AE_train_loss= 0.10963 SE_train_loss= 0.00206
+Epoch: 1922 AE_train_loss= 0.10913 SE_train_loss= 0.00148
+Epoch: 1923 AE_train_loss= 0.10872 SE_train_loss= 0.00116
+Epoch: 1924 AE_train_loss= 0.10835 SE_train_loss= 0.00097
+Epoch: 1925 AE_train_loss= 0.10803 SE_train_loss= 0.00085
+Epoch: 1926 AE_train_loss= 0.10773 SE_train_loss= 0.00076
+Epoch: 1927 AE_train_loss= 0.10745 SE_train_loss= 0.00070
+Epoch: 1928 AE_train_loss= 0.10719 SE_train_loss= 0.00065
+Epoch: 1929 AE_train_loss= 0.10695 SE_train_loss= 0.00060
+Epoch: 1930 AE_train_loss= 0.10672 SE_train_loss= 0.00056
+Epoch: 1931 AE_train_loss= 0.11282 SE_train_loss= 0.00184
+Epoch: 1932 AE_train_loss= 0.11239 SE_train_loss= 0.00132
+Epoch: 1933 AE_train_loss= 0.11203 SE_train_loss= 0.00108
+Epoch: 1934 AE_train_loss= 0.11172 SE_train_loss= 0.00091
+Epoch: 1935 AE_train_loss= 0.11143 SE_train_loss= 0.00078
+Epoch: 1936 AE_train_loss= 0.11116 SE_train_loss= 0.00069
+Epoch: 1937 AE_train_loss= 0.11091 SE_train_loss= 0.00062
+Epoch: 1938 AE_train_loss= 0.11068 SE_train_loss= 0.00057
+Epoch: 1939 AE_train_loss= 0.11047 SE_train_loss= 0.00054
+Epoch: 1940 AE_train_loss= 0.11026 SE_train_loss= 0.00051
+Epoch: 1941 AE_train_loss= 0.11432 SE_train_loss= 0.00180
+Epoch: 1942 AE_train_loss= 0.11380 SE_train_loss= 0.00135
+Epoch: 1943 AE_train_loss= 0.11338 SE_train_loss= 0.00111
+Epoch: 1944 AE_train_loss= 0.11303 SE_train_loss= 0.00096
+Epoch: 1945 AE_train_loss= 0.11270 SE_train_loss= 0.00084
+Epoch: 1946 AE_train_loss= 0.11240 SE_train_loss= 0.00075
+Epoch: 1947 AE_train_loss= 0.11213 SE_train_loss= 0.00068
+Epoch: 1948 AE_train_loss= 0.11186 SE_train_loss= 0.00062
+Epoch: 1949 AE_train_loss= 0.11162 SE_train_loss= 0.00058
+Epoch: 1950 AE_train_loss= 0.11137 SE_train_loss= 0.00054
+Epoch: 1951 AE_train_loss= 0.10884 SE_train_loss= 0.00177
+Epoch: 1952 AE_train_loss= 0.10839 SE_train_loss= 0.00125
+Epoch: 1953 AE_train_loss= 0.10805 SE_train_loss= 0.00103
+Epoch: 1954 AE_train_loss= 0.10775 SE_train_loss= 0.00091
+Epoch: 1955 AE_train_loss= 0.10748 SE_train_loss= 0.00081
+Epoch: 1956 AE_train_loss= 0.10723 SE_train_loss= 0.00074
+Epoch: 1957 AE_train_loss= 0.10699 SE_train_loss= 0.00068
+Epoch: 1958 AE_train_loss= 0.10676 SE_train_loss= 0.00063
+Epoch: 1959 AE_train_loss= 0.10654 SE_train_loss= 0.00060
+Epoch: 1960 AE_train_loss= 0.10634 SE_train_loss= 0.00056
+Epoch: 1961 AE_train_loss= 0.11242 SE_train_loss= 0.00175
+Epoch: 1962 AE_train_loss= 0.11199 SE_train_loss= 0.00122
+Epoch: 1963 AE_train_loss= 0.11165 SE_train_loss= 0.00100
+Epoch: 1964 AE_train_loss= 0.11135 SE_train_loss= 0.00086
+Epoch: 1965 AE_train_loss= 0.11107 SE_train_loss= 0.00076
+Epoch: 1966 AE_train_loss= 0.11081 SE_train_loss= 0.00069
+Epoch: 1967 AE_train_loss= 0.11057 SE_train_loss= 0.00065
+Epoch: 1968 AE_train_loss= 0.11034 SE_train_loss= 0.00061
+Epoch: 1969 AE_train_loss= 0.11012 SE_train_loss= 0.00058
+Epoch: 1970 AE_train_loss= 0.10991 SE_train_loss= 0.00055
+Epoch: 1971 AE_train_loss= 0.11519 SE_train_loss= 0.00173
+Epoch: 1972 AE_train_loss= 0.11467 SE_train_loss= 0.00115
+Epoch: 1973 AE_train_loss= 0.11429 SE_train_loss= 0.00092
+Epoch: 1974 AE_train_loss= 0.11396 SE_train_loss= 0.00077
+Epoch: 1975 AE_train_loss= 0.11367 SE_train_loss= 0.00068
+Epoch: 1976 AE_train_loss= 0.11339 SE_train_loss= 0.00061
+Epoch: 1977 AE_train_loss= 0.11314 SE_train_loss= 0.00057
+Epoch: 1978 AE_train_loss= 0.11290 SE_train_loss= 0.00053
+Epoch: 1979 AE_train_loss= 0.11267 SE_train_loss= 0.00051
+Epoch: 1980 AE_train_loss= 0.11246 SE_train_loss= 0.00049
+Epoch: 1981 AE_train_loss= 0.11089 SE_train_loss= 0.00184
+Epoch: 1982 AE_train_loss= 0.11041 SE_train_loss= 0.00130
+Epoch: 1983 AE_train_loss= 0.11002 SE_train_loss= 0.00107
+Epoch: 1984 AE_train_loss= 0.10968 SE_train_loss= 0.00094
+Epoch: 1985 AE_train_loss= 0.10937 SE_train_loss= 0.00085
+Epoch: 1986 AE_train_loss= 0.10909 SE_train_loss= 0.00077
+Epoch: 1987 AE_train_loss= 0.10883 SE_train_loss= 0.00071
+Epoch: 1988 AE_train_loss= 0.10859 SE_train_loss= 0.00065
+Epoch: 1989 AE_train_loss= 0.10836 SE_train_loss= 0.00061
+Epoch: 1990 AE_train_loss= 0.10813 SE_train_loss= 0.00057
+Epoch: 1991 AE_train_loss= 0.10835 SE_train_loss= 0.00146
+Epoch: 1992 AE_train_loss= 0.10792 SE_train_loss= 0.00090
+Epoch: 1993 AE_train_loss= 0.10757 SE_train_loss= 0.00070
+Epoch: 1994 AE_train_loss= 0.10726 SE_train_loss= 0.00057
+Epoch: 1995 AE_train_loss= 0.10698 SE_train_loss= 0.00049
+Epoch: 1996 AE_train_loss= 0.10672 SE_train_loss= 0.00043
+Epoch: 1997 AE_train_loss= 0.10648 SE_train_loss= 0.00039
+Epoch: 1998 AE_train_loss= 0.10624 SE_train_loss= 0.00036
+Epoch: 1999 AE_train_loss= 0.10603 SE_train_loss= 0.00034
+Epoch: 2000 AE_train_loss= 0.10582 SE_train_loss= 0.00032
+Optimization Finished!
+SE
+For each left:
+Mean Rank: 390.97219047619046
+Hits@1: 42.73%
+Hits@10: 75.63%
+Hits@50: 84.61%
+Hits@100: 86.81%
+For each right:
+Mean Rank: 504.819619047619
+Hits@1: 40.59%
+Hits@10: 72.51%
+Hits@50: 82.15%
+Hits@100: 84.60%
+SE+AE
+For each left:
+Mean Rank: 152.05933333333334
+Hits@1: 45.10%
+Hits@10: 78.34%
+Hits@50: 88.57%
+Hits@100: 91.09%
+For each right:
+Mean Rank: 238.45780952380952
+Hits@1: 42.62%
+Hits@10: 75.41%
+Hits@50: 86.62%
+Hits@100: 89.20%
+Result of GCN+TransE
+For each left:
+Mean Rank: 59.817142857142855
+Hits@1: 52.02%
+Hits@10: 82.52%
+Hits@50: 92.00%
+Hits@100: 94.50%
+For each right:
+Mean Rank: 105.66295238095238
+Hits@1: 49.28%
+Hits@10: 78.67%
+Hits@50: 89.30%
+Hits@100: 92.34%

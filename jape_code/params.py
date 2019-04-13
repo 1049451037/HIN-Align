@@ -1,6 +1,6 @@
 batch_size = 10000
 embed_size = 200
-num_epochs = 100
+num_epochs = 200
 learning_rate = 0.01
 alpha = 0
 print_validation = 10

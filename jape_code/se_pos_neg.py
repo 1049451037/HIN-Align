@@ -63,7 +63,7 @@ def structure_embedding(folder):
                 end = time.time()
                 print("{}/{}, relation_loss = {:.3f}, time = {:.3f} s".format(epoch, num_epochs, pos_loss, end - start))
                 # if (epoch % print_validation == 0 or epoch == num_epochs - 1) and epoch >= 200:
-                if epoch % print_validation == 0 or epoch == num_epochs - 1:
+                if False and (epoch % print_validation == 0 or epoch == num_epochs - 1):
                     early_stop_flag1, early_stop_flag2, hits = valid(ent_embeddings, references_s, references_t_list,
                                                                      references_t, references_s_list, early_stop_flag1,
                                                                      early_stop_flag2, hits)
