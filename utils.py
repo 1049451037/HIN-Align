@@ -78,7 +78,7 @@ def chebyshev_polynomials(adj, k):
     return sparse_to_tuple(t_k)
 
 
-def loadfile(fn, num, ent2id):
+def loadfile(fn, num, ent2id=None):
     """Load a file and return a list of tuple containing $num integers in each line."""
     ret = []
     with open(fn, encoding='utf-8') as f:
@@ -86,7 +86,10 @@ def loadfile(fn, num, ent2id):
             th = line.strip().split('\t')
             x = []
             for i in range(num):
-                x.append(ent2id[th[i]])
+                if ent2id is None:
+                    x.append(int(th[i]))
+                else:
+                    x.append(ent2id[th[i]])
             ret.append(tuple(x))
     return ret
 
@@ -237,6 +240,39 @@ def load_KG(Rs):
                     e += 1
                 KG[i].append((ent2id[th[0]], rel2id[th[1]], ent2id[th[2]]))
     return ent2id, ent2id_div, KG
+
+
+def load_sn_data():
+    names = [['foursquare', 'twitter'], ['link']]
+    for fns in names:
+        for i in range(len(fns)):
+            fns[i] = 'IONE_data/'+fns[i]
+    Rs, ill = names
+    ill = ill[0]
+    HIN = [loadfile(Rs[0], 2), loadfile(Rs[1], 2)]
+    link = loadfile(ill, 1)
+    ids0 = set()
+    for x, y in HIN[0]:
+        ids0.add(x)
+        ids0.add(y)
+    ids1 = set()
+    for x, y in HIN[1]:
+        ids1.add(x)
+        ids1.add(y)
+    KG = [[], []]
+    ILL = []
+    for i in range(2):
+        for x, y in HIN[i]:
+            KG[i].append((x+i*len(ids0), i, y+i*len(ids0)))
+    for x in link:
+        ILL.append((x[0], x[0]+len(ids0)))
+    e = len(ids0) + len(ids1)
+    illL = len(ILL)
+    np.random.shuffle(ILL)
+    train = np.array(ILL[:illL // 10 * FLAGS.seed])
+    test = ILL[illL // 10 * FLAGS.seed:]
+    adj = get_weighted_adj(e, KG[0]+KG[1]) # nx.adjacency_matrix(nx.from_dict_of_lists(get_dic_list(e, KG[0]+KG[1])))
+    return adj, train, test, KG, e
 
 
 def load_data(dataset_str):

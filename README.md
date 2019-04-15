@@ -2,6 +2,8 @@
 
 Bachelor degree research on heterogeneous information network alignment. Extended work of [GCN-Align](https://github.com/1049451037/GCN-Align).
 
+Datasets are from [JAPE](https://github.com/nju-websoft/JAPE) and [IONE](https://github.com/ColaLL/IONE).
+
 # Environment
 
 * python>=3.5
@@ -18,6 +20,12 @@ chmod +x test.sh
 
 The pre-trained results are in the *res/* folder. If you don't want to train by yourself, just see the files in it.
 
+For social network, run:
+
+```
+python train_sn.py --seed 5
+```
+
 # Citation
 
 Please politely cite our work as follows:
@@ -29,7 +37,7 @@ Please politely cite our work as follows:
 - [x] Change a\_ij to sigmoid(a\_ij)
 - [x] Combine with TransE (KG) or DeepWalk (SN)
 - [ ] Combine with MT
-- [ ] Social Network Alignment
+- [x] Social Network Alignment
 - [ ] Iterative or Bootstrapping
 - [ ] Use [faiss](https://github.com/facebookresearch/faiss) to improve evaluation speed
 - [ ] Dimension Reduction or other ways of combination
