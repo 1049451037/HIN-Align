@@ -41,6 +41,6 @@ Please politely cite our work as follows:
 - [ ] Iterative or Bootstrapping
 - [ ] Use [faiss](https://github.com/facebookresearch/faiss) to improve evaluation speed
 - [ ] Dimension Reduction or other ways of combination
-- [ ] Automatic training for hybrid weights
+- [x] Automatic training for hybrid weights
 - [ ] Batched training for GCN
 - [ ] Try other GNN models
