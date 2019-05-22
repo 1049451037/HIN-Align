@@ -1,6 +1,6 @@
 # HIN-Align
 
-Bachelor degree research on heterogeneous information network alignment. Extended work of [GCN-Align](https://github.com/1049451037/GCN-Align).
+Bachelor degree research on heterogeneous information network alignment. Extended work of [GCN-Align](https://github.com/1049451037/GCN-Align). More extended work of this repo can be found at [MEA](https://github.com/shizhediao/MEA).
 
 Datasets are from [JAPE](https://github.com/nju-websoft/JAPE) and [IONE](https://github.com/ColaLL/IONE).
 
@@ -24,6 +24,12 @@ For social network, run:
 
 ```
 python train_sn.py --seed 5
+```
+
+For automatically train weights:
+
+```
+python train_auto.py
 ```
 
 # Citation
