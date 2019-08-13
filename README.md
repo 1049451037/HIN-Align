@@ -1,6 +1,6 @@
 # HIN-Align
 
-Bachelor degree research on heterogeneous information network alignment. Extended work of [GCN-Align](https://github.com/1049451037/GCN-Align). More extended work of this repo can be found at [MEA](https://github.com/shizhediao/MEA).
+Bachelor degree research on heterogeneous information network alignment. Extended work of [GCN-Align](https://github.com/1049451037/GCN-Align).
 
 Datasets are from [JAPE](https://github.com/nju-websoft/JAPE) and [IONE](https://github.com/ColaLL/IONE).
 
@@ -14,6 +14,7 @@ Datasets are from [JAPE](https://github.com/nju-websoft/JAPE) and [IONE](https:/
 # Test
 
 ```
+unzip dbp15k.zip
 chmod +x test.sh
 ./test.sh
 ```
